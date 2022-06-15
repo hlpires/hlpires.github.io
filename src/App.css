@@ -38,6 +38,9 @@
     position: relative;
     margin-left: 20%;
 }
+h3{
+    align-self: center;
+}
 .button:hover{
     border: 2px solid red;
     transition: 1s;

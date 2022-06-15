@@ -10,7 +10,7 @@ const Header = () => {
             
         </div>
         <div className ='button'>
-          Sobre Mim
+          <h3>Sobre Mim</h3>
 
         </div>
         </div>
