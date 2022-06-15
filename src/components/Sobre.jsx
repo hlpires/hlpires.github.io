@@ -3,7 +3,10 @@ import React from 'react'
 const Sobre = () => {
   return (
     <div className = 'sobre'>
+      
+    <div><h3>sobre</h3></div>
      <div className = 'posicionarConteudo'>
+     
       <div className = 'conteudo'></div>
       <div className = 'conteudo'></div>
       <div className = 'conteudo'></div>

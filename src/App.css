@@ -101,24 +101,20 @@ h2{
     display:flex;
     position: relative;
     justify-content: center;
-
-
 }
 .posicionarConteudo{
-    height: 50vh;
+    height: 60vh;
     width: 100vw;
     border: 2px solid red;
     display:flex;
     position: relative;
     justify-content: center;
-
 }
 .conteudo{
+    top: 20%;
     width: 15%;
     background-color: blue;
-    height: 80%;
+    height: 60%;
     margin: 4%;
-   
     position: relative;
-   
 }
