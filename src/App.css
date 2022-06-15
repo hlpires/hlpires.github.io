@@ -105,7 +105,7 @@ h2{
 
 }
 .posicionarConteudo{
-    height: 100vh;
+    height: 50vh;
     width: 100vw;
     border: 2px solid red;
     display:flex;
@@ -116,7 +116,7 @@ h2{
 .conteudo{
     width: 15%;
     background-color: blue;
-    height: 40%;
+    height: 80%;
     margin: 4%;
    
     position: relative;
