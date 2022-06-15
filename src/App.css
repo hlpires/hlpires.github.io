@@ -91,7 +91,25 @@ h2{
     font-weight: bolder;
     align-self: center;
     display: block;
-    
+     
+}
 
-  
+.sobre{
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid red;
+    display:inline-block;
+    position: relative;
+    justify-content: center;
+
+
+}
+.conteudo{
+    width: 30%;
+    background-color: blue;
+    height: 40%;
+    margin: 2%;
+    position: relative;
+    left: 0;
+    float: left;
 }
