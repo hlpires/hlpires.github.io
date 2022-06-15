@@ -27,11 +27,11 @@
 
 .button{
     width: 60%;
-    height: 20%;
+    height: 30%;
     align-self: center;
     border: 2px solid white;
     cursor: pointer;
-    font-size:2.5vw;
+    font-size:2vw;
     display: flex;
     justify-content: center;
     color: white;
@@ -39,20 +39,23 @@
     margin-left: 20%;
 }
 .headerText{
-    background-color: red;
+   
     width: 100%;
-    height: 40%;
+    height: 25%;
     position: relative;
-    
-    
+    font-size:1.5vw;
+    text-align: center;
+    align-content: center;
+   color: white;
     
 }
 .set{
     width: 25%;
-    height: 40%;
-    background-color: black;
+    height: 20%;
+    font-weight: bolder;
+   
     align-self: center;
     display: block;
-    
+
   
 }
