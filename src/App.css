@@ -31,7 +31,7 @@
     align-self: center;
     border: 2px solid white;
     cursor: pointer;
-    font-size:1.8vw;
+    font-size:1.2vw;
     display: flex;
     justify-content: center;
     color: white;
@@ -112,7 +112,7 @@ justify-content: center;
     justify-content: center;
 }
 h3{
-    font-size: 40px;
+    font-size: 30px;
     border-bottom:solid blue ;
     font-weight: bolder;
     align-self: center;

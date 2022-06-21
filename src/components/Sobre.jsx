@@ -8,9 +8,16 @@ const Sobre = () => {
 
      <div className = 'sobre'>
      <div className = 'posicionarConteudo'>
-        <div className = 'conteudo'></div>
-        <div className = 'conteudo'></div>
-        <div className = 'conteudo'></div>
+        <div className = 'conteudo'>
+          <img className = 'conteudoimage'></img>
+          
+        </div>
+        <div className = 'conteudo'>
+          <img className = 'conteudoimage'></img>
+        </div>
+        <div className = 'conteudo'>
+          <img className = 'conteudoimage'></img>
+        </div>
       </div> 
      </div>
 
