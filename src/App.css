@@ -96,14 +96,20 @@ h2{
 .sobre{
 display: flex;
 justify-content: center;
+
 }
 
 .sobreTitle{
     height: 10vh;
     width: 100vw;
     display: flex;
-    justify-content: center;
+    justify-content: center;  
 
+}
+.all{
+    display:block;
+    position: relative;
+    justify-content: center;
 }
 h3{
     font-size: 40px;
@@ -112,7 +118,7 @@ h3{
     align-self: center;
 }
 .posicionarConteudo{
-    height: 60vh;
+    height: 500px;
     width:1350px;
     border: 2px solid red;
     display:flex;
@@ -122,10 +128,10 @@ h3{
     margin: 0;
 }
 .conteudo{
-    top: 20%;
-    width: 15%;
+    top:10%;
+    width: 20%;
     background-color: blue;
-    height: 60%;
+    height: 70%;
     margin: 4%;
     position: relative;
 }

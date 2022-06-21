@@ -3,7 +3,7 @@ import React from 'react'
 const Sobre = () => {
   return (
     
-    <div >
+    <div  className = 'all'>
      <div className = 'sobreTitle'><h3>Sobre</h3></div>
 
      <div className = 'sobre'>
