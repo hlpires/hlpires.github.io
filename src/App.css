@@ -93,22 +93,33 @@ h2{
     display: block;
      
 }
-
 .sobre{
-    height: 100vh;
+display: flex;
+justify-content: center;
+}
+
+.sobreTitle{
+    height: 10vh;
     width: 100vw;
-    border: 2px solid red;
-    display:flex;
-    position: relative;
+    display: flex;
     justify-content: center;
+
+}
+h3{
+    font-size: 40px;
+    border-bottom:solid blue ;
+    font-weight: bolder;
+    align-self: center;
 }
 .posicionarConteudo{
     height: 60vh;
-    width: 100vw;
+    width:1350px;
     border: 2px solid red;
     display:flex;
     position: relative;
     justify-content: center;
+    align-self: center;
+    margin: 0;
 }
 .conteudo{
     top: 20%;
