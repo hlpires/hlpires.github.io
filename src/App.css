@@ -130,8 +130,21 @@ h3{
 .conteudo{
     top:10%;
     width: 20%;
-    background-color: blue;
+   
     height: 70%;
     margin: 4%;
     position: relative;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 20px 20px 0 rgb(231 235 240), 0 0 0 1px #e6ecf8;
+}
+.conteudoimage{
+    margin-top: 30px;
+    width: 40%;
+    height: 30%;
+    background-color:rgb(221, 236, 255);
+    clip-path: circle();
+    background-size: 200px;
+   padding: 20px;
+   
 }

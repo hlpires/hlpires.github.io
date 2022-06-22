@@ -1,5 +1,7 @@
 import React from 'react'
-
+import curiosity from '../img/curiosity.png'
+import inovate from '../img/inovate.png'
+import criative from '../img/criative.png'
 const Sobre = () => {
   return (
     
@@ -9,14 +11,14 @@ const Sobre = () => {
      <div className = 'sobre'>
      <div className = 'posicionarConteudo'>
         <div className = 'conteudo'>
-          <img className = 'conteudoimage'></img>
+          <img className = 'conteudoimage' src = {criative}></img>
           
         </div>
         <div className = 'conteudo'>
-          <img className = 'conteudoimage'></img>
+          <img className = 'conteudoimage' src = {inovate}></img>
         </div>
         <div className = 'conteudo'>
-          <img className = 'conteudoimage'></img>
+          <img className = 'conteudoimage' src = {curiosity}></img>
         </div>
       </div> 
      </div>
