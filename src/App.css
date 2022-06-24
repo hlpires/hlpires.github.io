@@ -202,7 +202,11 @@ display: inline-block;
     height: 200px;
     margin: 50px;
     background-color: red;
+    display: flex;
+    justify-content: center;
 }
 .conhecimentosIMG{
-    width: 100%;
+    width: 60%;
+    height: 60%;
+    align-self: center;
 }
