@@ -190,3 +190,16 @@ display: inline-block;
     border:2px solid black;
     width: 100%;
 }
+
+.conhecimentos{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+}
+.conhecimentoBox{
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    background-color: red;
+}
