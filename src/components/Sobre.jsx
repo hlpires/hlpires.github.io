@@ -3,6 +3,8 @@ import curiosity from '../img/curiosity.png'
 import inovate from '../img/inovate.png'
 import criative from '../img/criative.png'
 import perfil from '../img/perfil.jpg'
+
+
 const Sobre = () => {
   return (
     
