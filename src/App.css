@@ -96,6 +96,10 @@ h2{
 .sobre{
 display: flex;
 justify-content: center;
+width:1350px;
+background-color: black;
+
+;
 
 }
 
@@ -107,7 +111,7 @@ justify-content: center;
 
 }
 .all{
-    display:block;
+    display:inline-block;
     position: relative;
     justify-content: center;
 }
@@ -119,9 +123,9 @@ h3{
 }
 .posicionarConteudo{
     height: 500px;
-    width:1350px;
-    
-    display:flex;
+    width: 50%;
+    border: 2PX SOLID black;
+    display:inline-block;
     position: relative;
     justify-content: center;
     align-self: center;
@@ -129,34 +133,27 @@ h3{
 }
 .conteudo{
     top:10%;
-    width: 20%;
    
-    height: 70%;
+    height: 20%;
     margin: 4%;
     position: relative;
-    display:inline-block;
+    display:flex;
     justify-content: center;
     box-shadow: 0 20px 20px 0 rgb(231 235 240), 0 0 0 1px #e6ecf8;
 }
 .conteudoimage{
-    margin: 0;
-    width: 50%;
-    height: 40%;
     background-color:rgb(221, 236, 255);
     clip-path: circle();
-    background-size: 200px;
-   padding: 30px;
-   margin-top: 20px;
+    padding: 20px;
+
  
-   margin-left:25%;
+
    
 }
 h5{
     width: 100%;
     height: 50%;
     padding: 10px;
-    
-
     font-size: 20px;
     text-align: center;
     font-size: 20px;
@@ -167,12 +164,12 @@ h6{
     margin-top: 10px;
  
     text-align: center;
-    font-size: 25px;
+    font-size: 5px;
     align-self: center;
 }
 .perfil{
-    width: 100%;
-    height: 400px;
+    width: 50%;
+    
     background-color: red;
     display: flex;
     justify-content: center;

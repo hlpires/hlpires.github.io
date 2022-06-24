@@ -6,10 +6,28 @@ import perfil from '../img/perfil.jpg'
 const Sobre = () => {
   return (
     
-    <div >
+    <div className= 'all' >
      <div className = 'sobreTitle'><h3>Sobre</h3></div>
 
      <div className = 'sobre'>
+
+     <div className = 'perfil'>
+       <div className = 'perfilcontent'>
+         <img className='perfilimg' src={perfil} alt="" />
+         <div className = 'mascaratext'>
+           <h8>Quem sou eu?</h8>
+           <h9>Sou um desenvolvedor Front-End independente, em São Paulo</h9>
+         </div>
+
+       </div>
+        
+
+      </div>
+
+
+
+
+
      <div className = 'posicionarConteudo'>
         <div className = 'conteudo'>
           <img className = 'conteudoimage' src = {criative}></img>
@@ -28,18 +46,7 @@ const Sobre = () => {
           <h5>Websites não precisam ser estaticos, amo dar vida a eles..</h5>
         </div>
       </div>
-      <div className = 'perfil'>
-       <div className = 'perfilcontent'>
-         <img className='perfilimg' src={perfil} alt="" />
-         <div className = 'mascaratext'>
-           <h8>Quem sou eu?</h8>
-           <h9>Sou um desenvolvedor Front-End independente, em São Paulo</h9>
-         </div>
-
-       </div>
-        
-
-      </div>
+   
     
      </div>
  
