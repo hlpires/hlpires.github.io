@@ -96,7 +96,7 @@ h2{
 .sobre{
 display: flex;
 justify-content: center;
-width:1350px;
+width:100vw;
 background-color: black;
 
 ;
@@ -123,7 +123,7 @@ h3{
 }
 .posicionarConteudo{
     height: 500px;
-    width: 50%;
+    width: 675px;
     border: 2PX SOLID black;
     display:inline-block;
     position: relative;
@@ -168,7 +168,7 @@ h6{
     align-self: center;
 }
 .perfil{
-    width: 50%;
+    width: 675px;
     
     background-color: red;
     display: flex;

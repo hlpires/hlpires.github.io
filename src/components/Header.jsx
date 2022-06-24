@@ -7,7 +7,7 @@ const Header = () => {
       <div className = 'set'>
       
          <div className = 'headerText'>
-          <h1>H</h1>igor<h1>L</h1> <h2>Pires front-end devoloper</h2>
+         <h1></h1><h1></h1> <h2></h2>
 
             
         </div>
