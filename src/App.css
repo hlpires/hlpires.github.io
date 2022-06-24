@@ -186,6 +186,8 @@ display: inline-block;
 .perfilimg{
     width: 80%;
     border:2px solid black;
+    clip-path: circle();
+    margin-left: 10%;
 }
 .mascaratext{
     border:2px solid black;

@@ -28,10 +28,7 @@ const Sobre = () => {
           <h5>Websites não precisam ser estaticos, amo dar vida a eles..</h5>
         </div>
       </div>
-      
-    
-     </div>
-     <div className = 'perfil'>
+      <div className = 'perfil'>
        <div className = 'perfilcontent'>
          <img className='perfilimg' src={perfil} alt="" />
          <div className = 'mascaratext'>
@@ -43,6 +40,9 @@ const Sobre = () => {
         
 
       </div>
+    
+     </div>
+ 
 
 
     </div>
