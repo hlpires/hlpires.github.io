@@ -1,7 +1,7 @@
 import React from 'react'
-import curiosity from '../img/curiosity.png'
-import inovate from '../img/inovate.png'
-import criative from '../img/criative.png'
+import reactimg from '../img/react.png'
+import javascript from '../img/javascript.png'
+import html from '../img/html.png'
 import perfil from '../img/perfil.jpg'
 
 
@@ -28,18 +28,18 @@ const Sobre = () => {
 
      <div className = 'posicionarConteudo'>
         <div className = 'conteudo'>
-          <img className = 'conteudoimage' src = {criative}></img>
+          <img className = 'conteudoimage' src = {reactimg}></img>
           
           <h5>Design Responsivo, minhas aplicações funcionam em mobile, pc e outros dispositivos</h5>
         </div>
         <div className = 'conteudo'>
-          <img className = 'conteudoimage' src = {inovate}></img>
+          <img className = 'conteudoimage' src = {javascript}></img>
           
           <h5>Sempre buscando por novas tecnologias e aplicando em meus projetos.</h5>
 
         </div>
         <div className = 'conteudo'>
-          <img className = 'conteudoimage' src = {curiosity}></img>
+          <img className = 'conteudoimage' src = {html}></img>
           
           <h5>Websites não precisam ser estaticos, amo dar vida a eles..</h5>
         </div>
