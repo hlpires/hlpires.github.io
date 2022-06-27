@@ -96,10 +96,8 @@ h2{
 .sobre{
 display: flex;
 justify-content: center;
-
 background-color: black;
 
-;
 
 }
 
@@ -208,9 +206,9 @@ display: inline-block;
    
 }
 .conhecimentoBox{
-    width: 200px;
+    width: 15%;
     height: 200px;
-    margin: 50px; 
+    margin: 5%; 
     background-color: rgb(221, 236, 255);
     float: left;
     display: flex;
