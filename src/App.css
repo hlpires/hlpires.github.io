@@ -193,18 +193,22 @@ display: inline-block;
 
 .conhecimentos{
     width: 100vw;
-    display: inline-block;
-    
+    display: flex;
+    align-self: center;
     justify-content: center;
     background-color: yellow;
+    
+}
+.position{
+    width: 1350px;
+    display: inline-block;
+   
 }
 .conhecimentoBox{
     width: 200px;
     height: 200px;
     margin: 50px;
     background-color: red;
-    left: 0;
-    position: relative;
     float: left;
     display: flex;
     justify-content: center;
