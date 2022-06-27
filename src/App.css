@@ -193,7 +193,8 @@ display: inline-block;
 
 .conhecimentos{
     width: 100vw;
-    display: flex;
+    display: inline-block;
+    
     justify-content: center;
     background-color: yellow;
 }
@@ -202,8 +203,12 @@ display: inline-block;
     height: 200px;
     margin: 50px;
     background-color: red;
+    left: 0;
+    position: relative;
+    float: left;
     display: flex;
     justify-content: center;
+   
 }
 .conhecimentosIMG{
     width: 60%;
