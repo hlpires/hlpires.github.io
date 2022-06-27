@@ -8,11 +8,10 @@ import perfil from '../img/perfil.jpg'
 const Sobre = () => {
   return (
     
-    <div className= 'all' >
+  <div className= 'sobreall' >
+   <div className = 'position'>
      <div className = 'sobreTitle'><h3>Sobre</h3></div>
-
      <div className = 'sobre'>
-
      <div className = 'perfil'>
        <div className = 'perfilcontent'>
          <img className='perfilimg' src={perfil} alt="" />
@@ -20,10 +19,7 @@ const Sobre = () => {
            <h8>Quem sou eu?</h8>
            <h9>Sou um desenvolvedor Front-End independente, em São Paulo</h9>
          </div>
-
        </div>
-        
-
       </div>
 
 
@@ -51,10 +47,11 @@ const Sobre = () => {
    
     
      </div>
+    
  
 
-
-    </div>
+     </div>
+  </div>
   )
 }
 

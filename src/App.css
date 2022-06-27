@@ -96,7 +96,7 @@ h2{
 .sobre{
 display: flex;
 justify-content: center;
-width:100vw;
+
 background-color: black;
 
 ;
@@ -105,14 +105,17 @@ background-color: black;
 
 .sobreTitle{
     height: 10vh;
-    width: 100vw;
+    width: 100%;
+    align-self: center;
+    border: 2px solid black;
     display: flex;
     justify-content: center;  
 
 }
-.all{
-    display:inline-block;
-    position: relative;
+.sobreall{
+    width: 100vw;
+    display: flex;
+    align-self: center;
     justify-content: center;
 }
 h3{
@@ -196,7 +199,7 @@ display: inline-block;
     display: flex;
     align-self: center;
     justify-content: center;
-    background-color: yellow;
+    
     
 }
 .position{
@@ -207,11 +210,12 @@ display: inline-block;
 .conhecimentoBox{
     width: 200px;
     height: 200px;
-    margin: 50px;
-    background-color: red;
+    margin: 50px; 
+    background-color: rgb(221, 236, 255);
     float: left;
     display: flex;
     justify-content: center;
+    box-shadow: 0 20px 20px 0 rgb(231, 235, 240), 0 0 0 1px #e6ecf8;
    
 }
 .conhecimentosIMG{
