@@ -233,3 +233,10 @@ display: inline-block;
     height: 60%;
     align-self: center;
 }
+.projetos{
+    width: 100vw;
+    justify-content: center;
+    display: flex;
+    height: 300px;
+    background-color: red;
+}
