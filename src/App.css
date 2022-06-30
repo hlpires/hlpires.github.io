@@ -123,22 +123,20 @@ h3{
     align-self: center;
 }
 .posicionarConteudo{
-    height: 500px;
-    width: 675px;
-    
+    margin-top: 40px;
+    height: 380px;
+    width: 40%;
+    border: 2px solid black;
     display:inline-block;
     position: relative;
     justify-content: center;
     align-self: center;
-    margin: 0;
+   
 }
 .conteudo{
-    width: 40%;
+    width: 50%;
     float: left;
-    height: 30%;
-    margin-top: 10%;
-    margin-left: 5%;
-    
+    height: 50%;
     display:inline-block;
     justify-content: center;
     box-shadow: 0 20px 20px 0 rgb(231 235 240), 0 0 0 1px #e6ecf8;
@@ -181,7 +179,7 @@ h6{
 .perfil{
     width: 675px;
     
-    border:2px solid black;
+    
     display: flex;
     justify-content: center;
 }
