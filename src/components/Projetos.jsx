@@ -1,5 +1,6 @@
 import React from 'react'
-import logoReino from '../img/reinoAnimalLogo.png'
+import animal from '../img/animal.png'
+import cruzeiro from '../img/cruzeiro.png'
 const Projetos = () => {
   return (
     <div  className = 'projetos'>
@@ -7,9 +8,11 @@ const Projetos = () => {
            <div className = 'sobreTitle'><h3>Projetos</h3></div>
            <div className = 'projetosPosition'>
            <div className = 'projetosBox'>
-             <img src={logoReino} className='projetosImg' alt="" />
+             <img src={animal} className='projetosImg' alt="" />
            </div>
-           <div className = 'projetosBox'></div>
+           <div className = 'projetosBox'>
+             <img src={cruzeiro} className='projetosImg' alt="" />
+           </div>
            </div>
         </div>
     </div>
