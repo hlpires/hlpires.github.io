@@ -237,8 +237,7 @@ display: inline-block;
     width: 100vw;
     justify-content: center;
     display: flex;
-    height: 300px;
-    background-color: red;
+    
 }
 .projetosPosition{
     display: flex;
