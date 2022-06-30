@@ -2,7 +2,11 @@ import React from 'react'
 
 const Rodape = () => {
   return (
-    <div>Rodape</div>
+    <div className = 'rodape'>
+        <div className = 'position'>
+
+        </div>
+    </div>
   )
 }
 

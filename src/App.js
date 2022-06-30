@@ -4,6 +4,7 @@ import Header from './components/Header'
 import Sobre from './components/Sobre'
 import Conhecimentos from './components/Conhecimentos'
 import Projetos from './components/Projetos'
+import Rodape from './components/Rodape'
 
 const something = () => {
   return (
@@ -12,6 +13,7 @@ const something = () => {
       <Sobre/>
       <Conhecimentos/>
       <Projetos/>
+      <Rodape/>
     </div>
   ) 
 }

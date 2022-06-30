@@ -181,16 +181,17 @@ h6{
 .perfil{
     width: 675px;
     
-    
+    border:2px solid black;
     display: flex;
     justify-content: center;
 }
 .perfilcontent{
-margin-top: 10%;
+
 width: 60%;
 height: 80%;
 border:2px solid black;
 display: inline-block;
+align-self: center;
 }
 .perfilimg{
     width: 80%;
@@ -242,11 +243,28 @@ display: inline-block;
 .projetosPosition{
     display: flex;
     justify-content: center;
-    background-color: black;
+    
 }
 .projetosBox{
     width: 40%;
-    height: 400px;
-   margin: 10%;
-    background-color: yellow;
+    height: 300px;
+    float: left;
+    margin: 5%;
+    background-color: black;
+    display: flex;
+    cursor: pointer;
+}
+.projetosBox :hover{
+    transition: 1.2s;
+    transform: scale(1.1)
+}
+.rodape{
+width: 100vw;
+height: 300px;
+background-color: black;
+}
+.projetosImg{
+width: 80%;
+align-self: center;
+margin: 10%;
 }
