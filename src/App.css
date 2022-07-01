@@ -23,7 +23,7 @@
 .header{
     width: 100vw;
     height: 100vh;
-    background-image: url(./img/2049.jpg);
+    background-color: white;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     display: flex;
@@ -171,7 +171,7 @@ h3{
     border-top:2px solid yellow;
 }
 #conteudo3{
-    border-top:2px solid orange;
+    border-top:2px solid #cc6d3d;
 }
 
 
