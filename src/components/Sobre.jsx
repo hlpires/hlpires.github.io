@@ -16,8 +16,10 @@ const Sobre = () => {
        <div className = 'perfilcontent'>
          <img className='perfilimg' src={perfil} alt="" />
          <div className = 'mascaratext'>
-           <h8>Quem sou eu?</h8>
-           <h9>Sou um desenvolvedor Front-End independente, em São Paulo</h9>
+           <h8>Oque estou aprendendo?</h8>
+           <h9>Mussum Ipsum, cacilds vidis litro abertis. Não sou faixa preta cumpadi, sou preto inteiris, 
+             inteiris.Casamentiss faiz malandris se pirulitá.Posuere libero varius.
+              Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi.Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo!</h9>
          </div>
        </div>
       </div>
