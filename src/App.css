@@ -6,8 +6,9 @@
    --light-blue: #e6f7ff;
    --border: #d9d9d9;
    overflow-x: hidden;
+   background-color: #393939;
+ ;
 }
-
 * {
     margin: 0;
     padding: 0;
@@ -42,6 +43,7 @@
 }
 h3{
     align-self: center;
+    color: white;
 }
 .button:hover{
     border: 2px solid red;
@@ -105,6 +107,8 @@ justify-content: center;
 
 
 
+
+
 }
 
 .sobreTitle{
@@ -118,13 +122,14 @@ justify-content: center;
 }
 .sobreall{
     width: 100vw;
+    padding-bottom: 200px;
     display: flex;
     align-self: center;
     justify-content: center;
 }
 h3{
     font-size: 30px;
-    
+    color: white;
     font-weight: bolder;
     align-self: center;
 }
@@ -144,8 +149,9 @@ h3{
     float: left;
     height: 50%;
     display:inline-block;
+    box-shadow: 0 20px 20px 0 rgb(41, 41, 41), 0 0 0 1px #2e2e2e;
     justify-content: center;
-    box-shadow: 0 20px 20px 0 rgb(231 235 240), 0 0 0 1px #e6ecf8;
+   
 }
 .conteudoimage{
     background-color:rgb(221, 236, 255);
@@ -164,19 +170,22 @@ h5{
     font-size: 20px;
     text-align: left;
     font-size: 20px;
-    border: 2px solid red;
+   
+    color: white;
 }
 
 h4{
     width: 100%;
-    border: 2px solid yellow;
+   
     height: 40%;
+    color: white;
 }
 
 h6{
     width: 100%;
     height: 13%;
     margin-top: 10px;
+    color: white;
  
     text-align: center;
     font-size: 5px;
@@ -207,14 +216,15 @@ align-self: center;
     border:2px solid black;
     width: 100%;
     height: 38%;
+    color: white;
 }
 
 .conhecimentos{
     width: 100vw;
     display: flex;
-    align-self: center;
+ 
     justify-content: center;
-    
+    background-color: white;
     
 }
 .position{
@@ -225,12 +235,14 @@ align-self: center;
 .conhecimentoBox{
     width: 15%;
     height: 200px;
-    margin: 5%; 
+    margin-top: -10%;
+    margin-left: 5%;
     background-color: rgb(221, 236, 255);
     float: left;
     display: flex;
     justify-content: center;
-    box-shadow: 0 20px 20px 0 rgb(231, 235, 240), 0 0 0 1px #e6ecf8;
+    
+ 
    
 }
 .conhecimentosIMG{
@@ -240,7 +252,8 @@ align-self: center;
 }
 .projetos{
     width: 100vw;
-    height: 600px;
+    height: 1000px;
+   background-color: white;
     justify-content: center;
     display: flex;
     
@@ -252,7 +265,7 @@ align-self: center;
 }
 .projetosBox{
     width: 45%;
-    height: 400px;
+    
     align-self: center;
     margin:0.5%;
     background-color: black;
