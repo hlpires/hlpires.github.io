@@ -98,7 +98,8 @@ h2{
     font-weight: bolder;
     align-self: center;
     display: block;
-    
+  
+   
      
 }
 .sobre{
@@ -135,8 +136,8 @@ h3{
 }
 .posicionarConteudo{
     margin-top: 40px;
-    height: 380px;
-    width: 40%;
+    height: 580px;
+    width: 30%;
     border: 2px solid black;
     display:inline-block;
     position: relative;
@@ -145,20 +146,20 @@ h3{
    
 }
 .conteudo{
-    width: 50%;
-    float: left;
-    height: 50%;
+    width: 100%;
+    margin-top: 4%;
+    height: 25%;
     display:inline-block;
     box-shadow: 0 20px 20px 0 rgb(41, 41, 41), 0 0 0 1px #2e2e2e;
     justify-content: center;
    
 }
 .conteudoimage{
-    background-color:rgb(221, 236, 255);
-    height: 30%;
-    margin: 3%;
-    padding: 08px;
-    clip-path: circle();
+    background-color:transparent;
+    height: 60%;
+   
+    
+    
     float: left;
    
    
@@ -222,6 +223,7 @@ align-self: center;
 .conhecimentos{
     width: 100vw;
     display: flex;
+    padding-bottom: 1000px;
  
     justify-content: center;
     background-color: white;
@@ -233,23 +235,42 @@ align-self: center;
    
 }
 .conhecimentoBox{
-    width: 15%;
-    height: 200px;
-    margin-top: -10%;
-    margin-left: 5%;
+    width: 12%;
+    height: 160px;
+    margin-top: -8%;
+    margin-left: 6%;
     background-color: rgb(221, 236, 255);
     float: left;
     display: flex;
     justify-content: center;
+    border-radius: 20%;
     
  
    
 }
 .conhecimentosIMG{
-    width: 60%;
-    height: 60%;
+    width: 80%;
+    height: 80%;
     align-self: center;
+    
 }
+#img1{
+    background-color: #333333;
+}
+#img2{
+    background-color: #f05134;
+}
+#img3{
+    background-color: #333333;
+}
+#img4{
+    background-color: #333333;
+}
+#img5{
+    background-color: #333333;
+}
+
+
 .projetos{
     width: 100vw;
     height: 1000px;
@@ -258,6 +279,7 @@ align-self: center;
     display: flex;
     
 }
+
 .projetosPosition{
     display: flex;
     justify-content: center;

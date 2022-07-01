@@ -12,17 +12,7 @@ const Sobre = () => {
    <div className = 'position'>
      <div className = 'sobreTitle'><h3>Sobre</h3></div>
      <div className = 'sobre'>
-     <div className = 'perfil'>
-       <div className = 'perfilcontent'>
-         <img className='perfilimg' src={perfil} alt="" />
-         <div className = 'mascaratext'>
-           <h8>Oque estou aprendendo?</h8>
-           <h9>Mussum Ipsum, cacilds vidis litro abertis. Não sou faixa preta cumpadi, sou preto inteiris, 
-             inteiris.Casamentiss faiz malandris se pirulitá.Posuere libero varius.
-              Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi.Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo!</h9>
-         </div>
-       </div>
-      </div>
+     
 
 
 
@@ -46,11 +36,7 @@ const Sobre = () => {
           <h4>Mussum Ipsum, cacilds vidis litro abertis</h4>
           <h5>Websites não precisam ser estaticos, amo dar vida a eles..</h5>
         </div>
-        <div className = 'conteudo'>
-          <img className = 'conteudoimage' src = {html}></img>
-          <h4>Mussum Ipsum, cacilds vidis litro abertis</h4>
-          <h5>Websites não precisam ser estaticos, amo dar vida a eles..</h5>
-        </div>
+      
       </div>
    
     
