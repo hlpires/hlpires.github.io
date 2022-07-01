@@ -26,13 +26,14 @@
 }
 
 .button{
+    
     width: 60%;
     height: 25%;
     align-self: center;
     border: 2px solid white;
     cursor: pointer;
     font-size:1.2vw;
-    display: flex;
+    display: none;
     justify-content: center;
     color: white;
     position: relative;
@@ -53,7 +54,7 @@ h3{
     font-size:1.5vw;
    align-content: center;
    color: white;
-   border: 2px solid yellow;
+
    display: flex;
    margin-left: 6%;
   
@@ -86,12 +87,12 @@ h2{
   
 }
 .set{
-    width: 25%;
+    width: 45%;
     height: 20%;
     font-weight: bolder;
     align-self: center;
     display: block;
-    border: 2px solid black;
+    
      
 }
 .sobre{
