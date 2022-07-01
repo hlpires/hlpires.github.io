@@ -1,5 +1,5 @@
 import React from 'react'
-
+import 'animate.css';
 const Header = () => {
   return (
     <div className = 'header'>
@@ -7,7 +7,7 @@ const Header = () => {
       <div className = 'set'>
       
          <div className = 'headerText'>
-         <h1></h1><h1></h1> <h2></h2>
+         <h1 className= 'animate__animated animate__lightSpeedInLeft'>TESTESTES</h1>
 
             
         </div>
