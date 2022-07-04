@@ -151,6 +151,17 @@ h3{
     align-self: center;
    
 }
+.sobreText{
+
+display: flex;
+justify-content: center;
+
+}
+.art{
+height: 50%;
+margin-right: 20%;
+margin-top: 06%;
+}
 .conteudo{
     width: 100%;
     margin-top: 8%;
