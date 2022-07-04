@@ -15,6 +15,15 @@ const Sobre = () => {
      <div className = 'sobre'>
        <div className = 'sobreText'>
          <img src={art}  className = 'art' alt="" />
+
+         <div className = 'text'>
+         <h3>Mussum Ipsum</h3>
+         <h2>cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor. 
+           Aenean aliquam molestie leo, vitae iaculis nisl.
+           Casamentiss faiz malandris se pirulitá.Delegadis gente finis, 
+           bibendum egestas augue arcu ut est.Praesent vel viverra nisi.
+            Mauris aliquet nunc non turpis scelerisque, eget. </h2>
+            </div>
        </div>
        
      
