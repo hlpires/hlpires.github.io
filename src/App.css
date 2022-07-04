@@ -193,9 +193,10 @@ margin-top: 15%;
   
 }
 h2{
-    width: 100%;
+    width: 90%;
     height: 30%;
     text-align: center;
+    margin-left: 5%;
     
    
     font-family: regular;
@@ -214,6 +215,24 @@ h3{
     color: white;
     margin-top: 5%;
     float: left;
+}
+.curriculo{
+background-color: rgb(206, 181, 38);
+width: 40%;
+height: 5%;
+margin-top: 2%;
+text-align: center;
+font-size: 30px;
+font-family: regular;
+font-weight: bolder;
+color: black;
+border: 2px solid black;
+cursor: pointer;
+
+}
+.curriculo:hover{
+    transform: scale(1.05);
+    transition: 1s;
 }
 .conteudo{
     width: 100%;
