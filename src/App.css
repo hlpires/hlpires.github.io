@@ -16,14 +16,14 @@
 }
 @font-face {
     font-family: regular;
-    src: url(./font/Montserrat-BlackItalic.ttf)
+    src: url(./font/Montserrat-Thin.ttf)
   }
   
 
 .header{
     width: 100vw;
     height: 100vh;
-    background-color: white;
+    background-image: url(./img/background.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     display: flex;
@@ -79,7 +79,7 @@ h1{
     font-size:3.5vw;
     text-align: center;
     align-content: center;
-    color:black;
+    color:white;
     
     align-self: center;
     font-family: regular;
