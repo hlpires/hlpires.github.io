@@ -138,7 +138,7 @@ justify-content: center;
 
 display: block;
 justify-content: center;
-border: 2px solid red;
+
 width: 50%;
 
 
@@ -146,34 +146,39 @@ width: 50%;
 .art{
 height: 40%;
 margin-left: 10%;
-margin-top: 10%;
+margin-top: 15%;
 
 }
 .text{
     display: inline-block;
-    width: 100%;
-    border: 2px solid blue;
+    width: 90%;
+    height: 30%;
+    box-shadow: 0 10px 10px 0 rgb(41, 41, 41), 0 0 0 1px #2e2e2e;
+    background-color: rgb(31, 29, 29);
+    margin-top: 05%;
   
 }
 h2{
-    width: 50%;
+    width: 90%;
     height: 30%;
     text-align: center;
-    border: 2px solid yellow;
-    padding-top: 10%;
+    
+   
+    font-family: regular;
     font-size:14px;
     display: flex;
     float: left;
-   
+    color: white;
+    
     
 }
 h3{
     width: 90%;
     margin-right: 10%;
-    height: 05%;
+    height: 30%;
     text-align: center;
-    
-    border: 2px solid green;
+    color: white;
+    margin-top: 5%;
     float: left;
 }
 .conteudo{
