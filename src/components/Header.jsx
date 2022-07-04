@@ -3,7 +3,9 @@ import 'animate.css';
 const Header = () => {
   return (
     <div className = 'header'>
-      
+      <div className = 'menu'>
+        <div className = 'menuText'>aaa</div>
+      </div>
       <div className = 'set'>
       
          <div className = 'headerText'>
