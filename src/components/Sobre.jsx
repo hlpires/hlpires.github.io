@@ -3,6 +3,7 @@ import reactimg from '../img/react.png'
 import javascript from '../img/javascript.png'
 import html from '../img/html.png'
 import perfil from '../img/perfil.jpg'
+import art from '../img/art.png'
 
 
 const Sobre = () => {
@@ -12,6 +13,10 @@ const Sobre = () => {
    <div className = 'position'>
      <div className = 'sobreTitle'><h3></h3></div>
      <div className = 'sobre'>
+       <div>
+         <img src={art}  className = 'art' alt="" />
+       </div>
+       
      
 
 
