@@ -4,7 +4,11 @@ const Header = () => {
   return (
     <div className = 'header'>
       <div className = 'menu'>
-        <div className = 'menuText'>aaa</div>
+        <div className = 'menuPosition'>
+        <div className = 'menuText'>Sobre</div>
+        <div className = 'menuText'>projetos</div>
+        <div className = 'menuText'>contato</div>
+        </div>
       </div>
       <div className = 'set'>
       
