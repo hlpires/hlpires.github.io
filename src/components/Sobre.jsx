@@ -11,7 +11,7 @@ const Sobre = () => {
     
   <div className= 'sobreall' >
    <div className = 'position'>
-     <div className = 'sobreTitle'><h3></h3></div>
+     <div className = 'sobreTitle'><h6>Sobre</h6></div>
      <div className = 'sobre'>
        <div className = 'sobreText'>
          <img src={art}  className = 'art' alt="" />
