@@ -478,14 +478,14 @@ align-self: center;
 
 
 .contato{
-    margin-top: 6%;
+    
     display: flex;
     justify-content: center;
     background-color: red;
-    height: 500px;
+    height: 600px;
 }
 .email{
-
+margin-top: 6%;
 width: 40%;
 display: block;
 height: 80%;
@@ -493,19 +493,29 @@ float: right;
 margin-right: 4%;
 }
 .nomeInput{
-    width: 250px;
+    width: 48%;
     
     height: 30px;
 }
 .emailInput{
-    width: 250px;
+    width: 47%;
     height: 30px;
     margin-left: 5%;
     margin-top: 04%;
 }
 .messageInput{
-   width:535px;
+   width: 100%;
    height: 200px;
    margin-top: 04%;
 }
 
+
+.telefones{
+    margin-top: 8%;
+width: 40%;
+display: block;
+height: 40%;
+float: left;
+margin-left: 4%;
+background-color: yellow;
+}
