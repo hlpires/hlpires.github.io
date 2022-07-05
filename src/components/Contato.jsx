@@ -28,19 +28,25 @@ const Contato = () => {
 
 
   return (
+
+
     <div className = 'contato'>
         <div className = 'position'>
           <div className = 'sobreTitle'><h6>Contato</h6></div>
-          
-    <form ref={form} onSubmit={sendEmail}>
+
+          <div className = 'email'>
+            <form ref={form} onSubmit={sendEmail}>
       
-      <input type="text" placeholder= 'Nome'name="user_name" />
+             <input className='nomeInput' type="text" placeholder= 'Nome'name="user_name" />
      
-      <input type="email" placeholder= 'Seu Email' name="user_email" />
+             <input className='emailInput' type="email" placeholder= 'Seu Email' name="user_email" />
       
-      <textarea name="message" placeholder= 'Menssagem' />
-      <input type="submit" value="Send" />
-    </form>
+             <textarea className='messageInput' name="message" placeholder= 'Menssagem' />
+             <input className='buttonInput' type="submit" value="Send" />
+             </form>
+           </div>
+
+           <div className = 'telefones'></div>
         </div>
         
     </div>

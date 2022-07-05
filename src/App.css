@@ -481,4 +481,31 @@ align-self: center;
     margin-top: 6%;
     display: flex;
     justify-content: center;
+    background-color: red;
+    height: 500px;
 }
+.email{
+
+width: 40%;
+display: block;
+height: 80%;
+float: right;
+margin-right: 4%;
+}
+.nomeInput{
+    width: 250px;
+    
+    height: 30px;
+}
+.emailInput{
+    width: 250px;
+    height: 30px;
+    margin-left: 5%;
+    margin-top: 04%;
+}
+.messageInput{
+   width:535px;
+   height: 200px;
+   margin-top: 04%;
+}
+
