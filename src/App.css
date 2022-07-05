@@ -356,6 +356,12 @@ align-self: center;
     border-radius: 10%;
 
 }
+.conhecimentoBackground:hover{
+    
+transform: scale(1.07);
+transition: 1s;
+
+}
 
 #background{
     background-image: linear-gradient(#134e5e,#71b280);
@@ -432,7 +438,7 @@ font-weight: bolder;
 .projetos{
     margin-top: 02%;
     width: 100vw;
-    height: 1000px;
+    height: 700px;
     background-color: #393939;
     justify-content: center;
     display: flex;
@@ -444,18 +450,21 @@ font-weight: bolder;
     display: flex;
     justify-content: center;
     
+    height: 70%;
+    
 }
 .projetosBox{
     width: 45%;
-    
+    height: 100%;
     align-self: center;
     margin:0.5%;
-    background-color: black;
+    
     display: flex;
     cursor: pointer;
 }
 
 .rodape{
+margin-top: 06%;
 width: 100vw;
 height: 300px;
 background-color: black;
@@ -465,4 +474,11 @@ width: 100%;
 height: 100%;
 align-self: center;
 
+}
+
+
+.contato{
+    margin-top: 6%;
+    display: flex;
+    justify-content: center;
 }
