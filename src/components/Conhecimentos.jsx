@@ -12,22 +12,33 @@ const Conhecimentos = () => {
       <div className = 'position'>
        <div className = 'conhecimentoBackground'>
          <div className = 'conhecimentosTittle'>Habilidades</div>
-        <div id = 'img1' className ='conhecimentoBox'> <img className = 'conhecimentosIMG' src={figma} alt="" /> <h9></h9></div>
-        <div id = 'img2' className ='conhecimentoBox'> <img className = 'conhecimentosIMG' src={git} alt="" /> <h9></h9></div>
-        <div id = 'img3' className ='conhecimentoBox'> <img className = 'conhecimentosIMG' src={github} alt="" /> <h9></h9></div>
-        <div id = 'img4' className ='conhecimentoBox'> <img className = 'conhecimentosIMG' src={visual} alt="" /> <h9></h9></div>
+        <div id = 'img1' className ='conhecimentoBox'> <img className = 'conhecimentosIMG' src={figma} alt="" /> <div className = 'conhecimentosText'>cacilds vidis litro abertis. Mauris nec dolo</div></div>
+        <div id = 'img2' className ='conhecimentoBox'> <img className = 'conhecimentosIMG' src={git} alt="" /> <div className = 'conhecimentosText'>cacilds vidis litro abertis. Mauris nec dolo</div></div>
+        <div id = 'img3' className ='conhecimentoBox'> <img className = 'conhecimentosIMG' src={github} alt="" /> <div className = 'conhecimentosText'>cacilds vidis litro abertis. Mauris nec dolo</div></div>
+        <div id = 'img4' className ='conhecimentoBox'> <img className = 'conhecimentosIMG' src={visual} alt="" /> <div className = 'conhecimentosText'>cacilds vidis litro abertis. Mauris nec dolo</div></div>
         <div id = 'img5' className ='conhecimentoBox'>  </div>
       </div>
       <div className = 'conhecimentoBackground'>
       <div className = 'conhecimentosTittle'>Habilidades</div>
-        <div id = 'img1' className ='conhecimentoBox'> <img className = 'conhecimentosIMG' src={figma} alt="" /> <h9></h9></div>
-        <div id = 'img2' className ='conhecimentoBox'> <img className = 'conhecimentosIMG' src={git} alt="" /> <h9></h9></div>
-        <div id = 'img3' className ='conhecimentoBox'> <img className = 'conhecimentosIMG' src={github} alt="" /> <h9></h9></div>
-        <div id = 'img4' className ='conhecimentoBox'> <img className = 'conhecimentosIMG' src={visual} alt="" /> <h9></h9></div>
+        <div id = 'img1' className ='conhecimentoBox'> <img className = 'conhecimentosIMG' src={figma} alt="" /> <div className = 'conhecimentosText'>cacilds vidis litro abertis. Mauris nec dolo</div></div>
+        <div id = 'img2' className ='conhecimentoBox'> <img className = 'conhecimentosIMG' src={git} alt="" /> <div className = 'conhecimentosText'>cacilds vidis litro abertis. Mauris nec dolo</div></div>
+        <div id = 'img3' className ='conhecimentoBox'> <img className = 'conhecimentosIMG' src={github} alt="" /> <div className = 'conhecimentosText'>cacilds vidis litro abertis. Mauris nec dolo</div></div>
+        <div id = 'img4' className ='conhecimentoBox'> <img className = 'conhecimentosIMG' src={visual} alt="" /> <div className = 'conhecimentosText'>cacilds vidis litro abertis. Mauris nec dolo</div></div>
+        <div id = 'img5' className ='conhecimentoBox'>  </div>
+      </div> 
+
+      <div className = 'conhecimentoBackground'>
+      <div className = 'conhecimentosTittle'>Habilidades</div>
+        <div id = 'img1' className ='conhecimentoBox'> <img className = 'conhecimentosIMG' src={figma} alt="" /> <div className = 'conhecimentosText'>cacilds vidis litro abertis. Mauris nec dolo</div></div>
+        <div id = 'img2' className ='conhecimentoBox'> <img className = 'conhecimentosIMG' src={git} alt="" /> <div className = 'conhecimentosText'>cacilds vidis litro abertis. Mauris nec dolo</div></div>
+        <div id = 'img3' className ='conhecimentoBox'> <img className = 'conhecimentosIMG' src={github} alt="" /> <div className = 'conhecimentosText'>cacilds vidis litro abertis. Mauris nec dolo</div></div>
+        <div id = 'img4' className ='conhecimentoBox'> <img className = 'conhecimentosIMG' src={visual} alt="" /> <div className = 'conhecimentosText'>cacilds vidis litro abertis. Mauris nec dolo</div></div>
         <div id = 'img5' className ='conhecimentoBox'>  </div>
       </div> 
         
       </div>
+      
+      
     </div>
   )
 }
