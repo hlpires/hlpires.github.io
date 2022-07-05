@@ -349,40 +349,39 @@ align-self: center;
    
 }
 .conhecimentoBox{
-    width: 10%;
+    width: 88%;
     height: 60px;
     align-self: center;
     margin-left: 6%;
     margin-top: 4%;
-    background-color: #393939;
+    background-color: yellow;
     
     display: flex;
-    justify-content: center;
-    border-radius: 20%;
     
- 
    
 }
+
+.conhecimentosTittle{
+width: 100%;
+text-align: center;
+color: white;
+margin-top: 4%;
+font-size: 20px;
+font-family: regular;
+font-weight: bolder;
+}
+
+
+
+
+
+
 .conhecimentosIMG{
-    width: 80%;
-    height: 80%;
+    width: 15%;
+    height: 100%;
     align-self: center;
+    float: left;
     
-}
-#img1{
-    background-color: #333333;
-}
-#img2{
-    background-color: #f05134;
-}
-#img3{
-    background-color: #333333;
-}
-#img4{
-    background-color: #333333;
-}
-#img5{
-    background-color: #333333;
 }
 
 
