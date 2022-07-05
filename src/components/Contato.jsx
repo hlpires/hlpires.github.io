@@ -14,7 +14,7 @@ const Contato = () => {
     const sendEmail = (e) => {
         e.preventDefault();
     
-        emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+        emailjs.sendForm('service_n2gylsj', 'template_d05z4jm', form.current, 'MTKoAO6h6Sg8k4bQP')
           .then((result) => {
               console.log(result.text);
           }, (error) => {
@@ -31,14 +31,14 @@ const Contato = () => {
     <div className = 'contato'>
         <div className = 'position'>
           <div className = 'sobreTitle'><h6>Contato</h6></div>
-          urn (
+          
     <form ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
+      
+      <input type="text" placeholder= 'Nome'name="user_name" />
+     
+      <input type="email" placeholder= 'Seu Email' name="user_email" />
+      
+      <textarea name="message" placeholder= 'Menssagem' />
       <input type="submit" value="Send" />
     </form>
         </div>
