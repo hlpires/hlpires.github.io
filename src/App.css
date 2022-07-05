@@ -551,3 +551,9 @@ color: white;
 .endereço{
     margin-top: 2%;
 }
+.wppButton{
+    margin-top: 4%;
+    width:60%;
+    height:20%;
+    background-color: red;
+}

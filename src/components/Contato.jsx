@@ -51,6 +51,7 @@ const Contato = () => {
                <div className ='celular'>11970127930</div>
                <div className = 'telefoneText'>Email:</div>
                <div className = 'endereço'>higorlpires2@gmail.com</div>
+               <div className ='wppButton'></div>
 
            </div>
         </div>
