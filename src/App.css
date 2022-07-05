@@ -114,9 +114,12 @@ h6{
     
     color: white;
     font-size: 35px;
-    margin-top: 15%;
+    float: left;
     align-self: center;
     font-family: regular;
+    margin-left: 5%;
+    font-weight: bolder;
+    border-bottom: 4px solid rgb(88, 15, 182);
 }
 
 
@@ -141,11 +144,14 @@ justify-content: center;
 
 .sobreTitle{
     height: 10vh;
+   margin-top: 10%;
     width: 100%;
     align-self: center;
+
+    
    
     display: flex;
-    justify-content: center;  
+    
 
 }
 .sobreall{
@@ -228,7 +234,7 @@ font-weight: bolder;
 
 border: 2px solid black;
 cursor: pointer;
-background-color: linear-gradient(#4a5b5f,#71b280);
+background-color: rgb(100, 0, 231);
 
 
 }
@@ -336,7 +342,7 @@ align-self: center;
     
 }
 .conhecimentoBackground{
-    background-image: linear-gradient(#134e5e,#71b280);
+    
     width: 28%;
     margin-left: 4%;
     float: left;
@@ -344,6 +350,24 @@ align-self: center;
     display: block;
     border-radius: 10%;
 
+}
+
+#background{
+    background-image: linear-gradient(#134e5e,#71b280);
+}
+#background1{
+    background-image: linear-gradient(
+        #59c173
+        , 
+        #a17fe0
+        ,
+        #5d26c1);
+}
+#background2{
+    background-image: linear-gradient(
+        #348f50
+        , 
+        #56b4d3);
 }
 .position{
     width: 1350px;
