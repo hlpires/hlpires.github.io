@@ -230,13 +230,13 @@ width: 40%;
 height: 5%;
 margin-top: 2%;
 text-align: center;
-font-size: 30px;
+font-size: 26px;
 font-family: regular;
 font-weight: bolder;
-
+color: white;
 border: 2px solid black;
 cursor: pointer;
-background-color: rgb(100, 0, 231);
+background-color: rgb(31, 29, 29);
 
 
 }
@@ -488,9 +488,10 @@ align-self: center;
 margin-top: 6%;
 width: 40%;
 display: block;
-height: 80%;
+height: 60%;
 float: right;
 margin-right: 4%;
+
 }
 .nomeInput{
     width: 48%;
@@ -519,7 +520,13 @@ margin-top: 04%;
 background-color: rgb(31, 29, 29);
 color: white;
 }
-
+.buttonInput{
+    background-color: rgb(31, 29, 29);
+ height: 35px;
+ width: 30%;
+ margin-top: 2%;
+ color: white;
+}
 
 .telefones{
     margin-top: 8%;
