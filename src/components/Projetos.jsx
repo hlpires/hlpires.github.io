@@ -5,7 +5,7 @@ const Projetos = () => {
   return (
     <div  className = 'projetos'>
         <div className = 'position'>
-        <div className = 'sobreTitle'><h6>Sobre</h6></div>
+        <div className = 'sobreTitle'><h6>Projetos</h6></div>
            <div className = 'projetosPosition'>
            <div className = 'projetosBox'>
              <img src={animal} className='projetosImg' alt="" />
