@@ -11,7 +11,7 @@ const Projetos = () => {
              <img src={animal} className='projetosImg' alt="" />
            </div>
            <div className = 'projetosBox'>
-             <img src={cruzeiro} className='projetosImg' alt="" />
+             <img src={cruzeiro} className='projetosImg' alt=""/>
            </div>
            </div>
         </div>
