@@ -15,7 +15,7 @@ const something = () => {
       <Conhecimentos/>
       <Projetos/>
       <Contato/>
-      <Rodape/>
+      
 
     </div>
   ) 

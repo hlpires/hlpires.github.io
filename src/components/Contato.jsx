@@ -46,7 +46,13 @@ const Contato = () => {
              </form>
            </div>
 
-           <div className = 'telefones'></div>
+           <div className = 'telefones'>
+               <div className = 'telefoneText'>Celular:</div>
+               <div className ='celular'>11970127930</div>
+               <div className = 'telefoneText'>Email:</div>
+               <div className = 'endereço'>higorlpires2@gmail.com</div>
+
+           </div>
         </div>
         
     </div>
