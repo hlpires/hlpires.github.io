@@ -666,11 +666,22 @@ color: white;
 .modalButton{
     position: fixed;
     background-color:transparent;
-    min-height: 5vh;
-    min-width:3vw ;
-   left: 31%;
-    z-index: 101;
+    min-height:100vh;
+    min-width:130vw;
+    z-index: 98;
+    top: 0%;
+}
+.modalButton1{
+    position: fixed;
+    background-color:transparent;
+    padding: 30px;
+    min-height:6vh;
+    min-width:4vw;
+    z-index: 98;
+    left: 30%;
     top: 5%;
-    
-
+    background-image: url(./img/X.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    border: none;
 }
