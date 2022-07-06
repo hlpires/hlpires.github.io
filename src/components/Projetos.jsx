@@ -4,6 +4,8 @@ import cruzeiro from '../img/cruzeiro.png'
 import js from '../img/javascript.png'
 import html from '../img/html.png'
 import css from '../img/css.png'
+import code from '../img/code.png'
+import play from '../img/play.png'
 const Projetos = () => {
   return (
     <div  className = 'projetos'>
@@ -31,13 +33,13 @@ const Projetos = () => {
                <img src={animal} className='projetosImg' alt=""/>
                <div className ='buttonImg'>
 
-               <img className = 'buttonIcon'></img>
+               <img className = 'buttonIcon' src = {code}></img>
                  <div className = 'buttonImgText'>
                    Codigo
                  </div>
                </div>
                <div className ='buttonImg1'>
-               <img className = 'buttonIcon'></img>
+               <img className = 'buttonIcon' src = {play}></img>
                  <div className = 'buttonImgText'>
                    Codigo
                  </div>
@@ -55,13 +57,13 @@ const Projetos = () => {
              <div className = 'imgButtonBox'>
                <img src={cruzeiro} className='projetosImg' alt=""/>
                <div className ='buttonImg'>
-                 <img className = 'buttonIcon'></img>
+                 <img className = 'buttonIcon' src = {code}></img>
                  <div className = 'buttonImgText'>
                    Codigo
                  </div>
                </div>
                <div className ='buttonImg1'>
-               <img className = 'buttonIcon'></img>
+               <img className = 'buttonIcon' src = {play}></img>
                  <div className = 'buttonImgText'>
                    Codigo
                  </div>
