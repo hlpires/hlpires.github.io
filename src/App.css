@@ -138,14 +138,11 @@ justify-content: center;
 margin-top:-5%;
 
 
-
-
-
-
 }
 
 .sobreTitle{
-    height: 10vh;
+    height: 50px;
+    
    
     width: 100%;
     align-self: center;
@@ -335,12 +332,12 @@ align-self: center;
 }
 
 .conhecimentos{
-    margin-top: 02%;
+   
     width: 100vw;
     display: flex;
     height: 700px;
     justify-content: center;
-   
+    background-color: rgb(31, 29, 29);
    
     
 
@@ -354,6 +351,7 @@ align-self: center;
     height: 60%;
     display: block;
     border-radius: 10%;
+   
 
 }
 .conhecimentoBackground:hover{
@@ -436,7 +434,7 @@ font-weight: bolder;
 
 
 .projetos{
-    margin-top: 02%;
+   
     width: 100vw;
     height: 700px;
     background-color: #393939;
@@ -555,7 +553,7 @@ height: 80%;
     
     display: flex;
     justify-content: center;
-    
+    background-color: rgba(0, 0, 0, 0.685);
     height: 600px;
 }
 .email{
