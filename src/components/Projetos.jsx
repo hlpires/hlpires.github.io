@@ -31,13 +31,13 @@ const Projetos = () => {
              
              <div className = 'imgButtonBox'>
                <img src={animal} className='projetosImg' alt=""/>
-               <div className ='buttonImg'>
+               <a href = 'https://github.com/hlpires/reinoAnimalProject'><div className ='buttonImg'>
 
                <img className = 'buttonIcon' src = {code}></img>
                  <div className = 'buttonImgText'>
                    Codigo
                  </div>
-               </div>
+               </div></a>
                <div className ='buttonImg1'>
                <img className = 'buttonIcon' src = {play}></img>
                  <div className = 'buttonImgText'>
@@ -56,12 +56,12 @@ const Projetos = () => {
              </div>
              <div className = 'imgButtonBox'>
                <img src={cruzeiro} className='projetosImg' alt=""/>
-               <div className ='buttonImg'>
-                 <img className = 'buttonIcon' src = {code}></img>
+               <a href = 'https://github.com/hlpires/reinoAnimalProject'><div className ='buttonImg'>
+                 <img className = 'buttonIcon'  src = {code}></img>
                  <div className = 'buttonImgText'>
                    Codigo
                  </div>
-               </div>
+               </div></a>
                <div className ='buttonImg1'>
                <img className = 'buttonIcon' src = {play}></img>
                  <div className = 'buttonImgText'>
