@@ -1,6 +1,9 @@
 import React from 'react'
 import animal from '../img/animal.png'
 import cruzeiro from '../img/cruzeiro.png'
+import js from '../img/javascript.png'
+import html from '../img/html.png'
+import css from '../img/css.png'
 const Projetos = () => {
   return (
     <div  className = 'projetos'>
@@ -10,11 +13,20 @@ const Projetos = () => {
            <div className = 'projetosBox'>
              <div className = 'projetosSkillsBox'>
                <div className = 'projetosSkills'>
-                 <img className = 'projetosSkillsImg'></img>
-                 <div className = 'projetosText'> </div>
-
+                 <img className = 'projetosSkillsImg' src ={js}></img>
+                 <div className = 'projetosText'>Javascript </div>
+               </div>
+               <div className = 'projetosSkills'>
+                 <img className = 'projetosSkillsImg' src ={html}></img>
+                 <div className = 'projetosText'>HTML</div>
+               </div>
+               <div className = 'projetosSkills'>
+                 <img className = 'projetosSkillsImg' src ={css}></img>
+                 <div className = 'projetosText'>CSS </div>
                </div>
              </div>
+             
+             
              <img src={animal} className='projetosImg' alt="" />
            </div>
            <div className = 'projetosBox'>

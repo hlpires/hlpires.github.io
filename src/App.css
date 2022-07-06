@@ -472,16 +472,22 @@ font-weight: bolder;
     width: 100%;
     background-color: green;
     height: 10%;
+    border: 1px solid black;
     display: flex;
 }
 .projetosSkillsImg{
-    width: 30%;
+    width:25%;
+    height: 70%;
+    margin-top: 5%;
+    margin-left: 5%;
     background-color: black;
 }
 .projetosText{
-    width: 70%;
+    width: 60%;
     background-color: blue;
-    height: 100%;
+    margin-top: 10%;
+    height: 60%;
+    margin-left: 5%;
 }
 
 .rodape{
