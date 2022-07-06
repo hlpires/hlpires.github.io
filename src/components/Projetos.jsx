@@ -27,7 +27,22 @@ const Projetos = () => {
              </div>
              
              
-             <img src={animal} className='projetosImg' alt="" />
+             <div className = 'imgButtonBox'>
+               <img src={animal} className='projetosImg' alt=""/>
+               <div className ='buttonImg'>
+
+               <img className = 'buttonIcon'></img>
+                 <div className = 'buttonImgText'>
+                   Codigo
+                 </div>
+               </div>
+               <div className ='buttonImg1'>
+               <img className = 'buttonIcon'></img>
+                 <div className = 'buttonImgText'>
+                   Codigo
+                 </div>
+               </div>
+             </div>
            </div>
            <div className = 'projetosBox'>
              <div className = 'projetosSkillsBox'>
@@ -37,7 +52,21 @@ const Projetos = () => {
 
                </div>
              </div>
-             <img src={animal} className='projetosImg' alt=""/>
+             <div className = 'imgButtonBox'>
+               <img src={cruzeiro} className='projetosImg' alt=""/>
+               <div className ='buttonImg'>
+                 <img className = 'buttonIcon'></img>
+                 <div className = 'buttonImgText'>
+                   Codigo
+                 </div>
+               </div>
+               <div className ='buttonImg1'>
+               <img className = 'buttonIcon'></img>
+                 <div className = 'buttonImgText'>
+                   Codigo
+                 </div>
+               </div>
+             </div>
            </div>
            </div>
         </div>

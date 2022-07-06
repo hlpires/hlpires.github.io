@@ -491,7 +491,39 @@ font-weight: bolder;
     color: white;
     font-family: regular;
 }
-
+.imgButtonBox{
+    display: inline-block;
+    
+}
+.buttonImg{
+    width: 30%;
+    background-color: rgb(31, 29, 29);
+    height:10%;
+    float: left;
+    margin-top:1%;
+    display: flex;
+}
+.buttonIcon{
+    width: 30%;
+    background-color: red;
+    height: 100%;
+}
+.buttonImg1{
+    width: 30%;
+    background-color: rgb(31, 29, 29);
+    height:10%;
+    margin-top:1% ;
+    float: left;
+    margin-left: 5%;
+    display: flex;
+}
+.buttonImgText{
+background-color: yellow;
+height: 45%;
+width: 50%;
+margin-left: 5%;
+margin-top: 08%;
+}
 .rodape{
 margin-top: 06%;
 width: 100vw;
@@ -499,7 +531,7 @@ height: 300px;
 background-color: black;
 }
 .projetosImg{
-width: 75%;
+width: 100%;
 height: 80%;
 
 
