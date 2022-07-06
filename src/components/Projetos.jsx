@@ -8,11 +8,23 @@ const Projetos = () => {
         <div className = 'sobreTitle'><h6>Projetos</h6></div>
            <div className = 'projetosPosition'>
            <div className = 'projetosBox'>
-             <div className = 'projetosSkills'></div>
+             <div className = 'projetosSkillsBox'>
+               <div className = 'projetosSkills'>
+                 <img className = 'projetosSkillsImg'></img>
+                 <div className = 'projetosText'> </div>
+
+               </div>
+             </div>
              <img src={animal} className='projetosImg' alt="" />
            </div>
            <div className = 'projetosBox'>
-             <div className = 'projetosSkills'></div>
+             <div className = 'projetosSkillsBox'>
+               <div className = 'projetosSkills'>
+                 <img className = 'projetosSkillsImg'></img>
+                 <div className = 'projetosText'> </div>
+
+               </div>
+             </div>
              <img src={animal} className='projetosImg' alt=""/>
            </div>
            </div>

@@ -462,13 +462,26 @@ font-weight: bolder;
     display: flex;
     cursor: pointer;
 }
-.projetosSkills{
+.projetosSkillsBox{
     background-color: yellow;
     width: 20%;
     float: left;
- 
-
+    height: 100%;
+}
+.projetosSkills{
+    width: 100%;
+    background-color: green;
     height: 10%;
+    display: flex;
+}
+.projetosSkillsImg{
+    width: 30%;
+    background-color: black;
+}
+.projetosText{
+    width: 70%;
+    background-color: blue;
+    height: 100%;
 }
 
 .rodape{
