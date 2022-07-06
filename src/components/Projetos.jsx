@@ -8,10 +8,12 @@ const Projetos = () => {
         <div className = 'sobreTitle'><h6>Projetos</h6></div>
            <div className = 'projetosPosition'>
            <div className = 'projetosBox'>
+             <div className = 'projetosSkills'></div>
              <img src={animal} className='projetosImg' alt="" />
            </div>
            <div className = 'projetosBox'>
-             <img src={cruzeiro} className='projetosImg' alt=""/>
+             <div className = 'projetosSkills'></div>
+             <img src={animal} className='projetosImg' alt=""/>
            </div>
            </div>
         </div>
