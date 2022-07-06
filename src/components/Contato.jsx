@@ -42,7 +42,7 @@ const Contato = () => {
              <input className='emailInput' type="email" placeholder= 'Seu Email' name="user_email" />
       
              <textarea className='messageInput' name="message" placeholder= 'Menssagem' />
-             <input className='buttonInput' type="submit" value="Send" />
+             <input className='buttonInput' type="submit" value="Enviar" />
              </form>
            </div>
 

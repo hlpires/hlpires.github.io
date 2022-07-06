@@ -7,6 +7,8 @@ import art from '../img/art.png'
 
 
 const Sobre = () => {
+
+  
   return (
     
   <div className= 'sobreall' id='sobre' >
