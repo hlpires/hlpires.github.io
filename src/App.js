@@ -1,6 +1,6 @@
-import React from 'react'
-
-import './App.css' 
+import React,{useState} from 'react'
+import './App.css'
+import Modal from './components/Modal'
 import Header from './components/Header'
 import Sobre from './components/Sobre'
 import Conhecimentos from './components/Conhecimentos'
@@ -9,11 +9,13 @@ import Rodape from './components/Rodape'
 import Contato from './components/Contato'
 
 
-const something = () => {
+function App () {
+  
   return (
     <div>
       <Header/>
-      <Sobre/>
+      <Sobre />
+      <Modal />
       <Conhecimentos/>
       <Projetos/>
       <Contato/>
@@ -23,4 +25,4 @@ const something = () => {
   ) 
 }
 
-export default something
+export default App

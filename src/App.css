@@ -648,3 +648,29 @@ color: white;
     transform: scale(1.1);
     transition: 1s;
 }
+.modalContainer{
+    justify-content: center;
+    display: flex;
+}
+.modalImg{
+    position: fixed;
+    background-color: red;
+    max-height: 90vh;
+    min-height: 90vh;
+   
+    z-index: 99;
+    top: 5%;
+    left: 35%;
+
+}
+.modalButton{
+    position: fixed;
+    background-color:transparent;
+    min-height: 5vh;
+    min-width:3vw ;
+   left: 31%;
+    z-index: 101;
+    top: 5%;
+    
+
+}

@@ -1,14 +1,15 @@
-import React from 'react'
+import React,{useState} from 'react'
 import reactimg from '../img/react.png'
 import javascript from '../img/javascript.png'
 import html from '../img/html.png'
 import perfil from '../img/perfil.jpg'
 import art from '../img/art.png'
-
+import Modal from './Modal'
 
 const Sobre = () => {
-
   
+  const [openModal,setOpenModal] = useState(false)
+
   return (
     
   <div className= 'sobreall' id='sobre' >
@@ -29,8 +30,8 @@ const Sobre = () => {
             
             
             </div>
-            <div className = 'curriculo'>Curriculo</div>
-            
+            <div className = 'curriculo' onClick = {() => setOpenModal(true)}>Curriculo</div>
+            <Modal open={openModal} onClose={() => setOpenModal(false)}/>
        </div>
        
      
