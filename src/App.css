@@ -142,7 +142,7 @@ margin-top:-5%;
 
 .sobreTitle{
     height: 50px;
-    
+    margin-top: 3%;
    
     width: 100%;
     align-self: center;
@@ -332,7 +332,7 @@ align-self: center;
 }
 
 .conhecimentos{
-   
+   margin-top: 2%;
     width: 100vw;
     display: flex;
     height: 700px;
@@ -344,7 +344,7 @@ align-self: center;
     
 }
 .conhecimentoBackground{
-    margin-top: 05%;
+    margin-top: 6%;
     width: 28%;
     margin-left: 4%;
     float: left;
@@ -444,7 +444,7 @@ font-weight: bolder;
 }
 
 .projetosPosition{
-    margin-top: 4%;
+    margin-top: 8%;
     display: flex;
     justify-content: center;
     
