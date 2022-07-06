@@ -1,13 +1,14 @@
 import React from 'react'
 import 'animate.css';
+import {Link} from 'react-scroll'
 const Header = () => {
   return (
     <div className = 'header'>
       <div className = 'menu'>
         <div className = 'menuPosition'>
-        <div className = 'menuText'>Sobre</div>
-        <div className = 'menuText'>projetos</div>
-        <div className = 'menuText'>contato</div>
+        <div className = 'menuText'><Link to="sobre" spy={true} smooth={true} offset={50} duration={500}>Sobre</Link></div>
+        <div className = 'menuText'><Link to="projetos" spy={true} smooth={true} offset={50} duration={500}>Projetos</Link></div>
+        <div className = 'menuText'><Link to="contato" spy={true} smooth={true} offset={50} duration={500}>Contato</Link></div>
         </div>
       </div>
       <div className = 'set'>

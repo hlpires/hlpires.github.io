@@ -9,7 +9,7 @@ import art from '../img/art.png'
 const Sobre = () => {
   return (
     
-  <div className= 'sobreall' >
+  <div className= 'sobreall' id='sobre' >
    <div className = 'position'>
      <div className = 'sobreTitle'><h6>Sobre</h6></div>
      <div className = 'sobre'>
