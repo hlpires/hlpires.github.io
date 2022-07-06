@@ -41,7 +41,7 @@ const Projetos = () => {
                <div className ='buttonImg1'>
                <img className = 'buttonIcon' src = {play}></img>
                  <div className = 'buttonImgText'>
-                   Codigo
+                   Demo
                  </div>
                </div>
              </div>
@@ -65,7 +65,7 @@ const Projetos = () => {
                <div className ='buttonImg1'>
                <img className = 'buttonIcon' src = {play}></img>
                  <div className = 'buttonImgText'>
-                   Codigo
+                    Demo
                  </div>
                </div>
              </div>
