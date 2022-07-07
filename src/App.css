@@ -670,6 +670,8 @@ color: white;
     min-width:130vw;
     z-index: 98;
     top: 0%;
+    background-color: black;
+    opacity: 60%;
 }
 .modalButton1{
     position: fixed;
@@ -684,4 +686,5 @@ color: white;
     background-size: 70%;
     background-repeat: no-repeat;
     border: none;
+
 }
