@@ -14,6 +14,7 @@ const Header = () => {
       <div className = 'set'>
       
          <div className = 'headerText'>
+         <h1 className= 'animate__animated animate__lightSpeedInLeft'>Higor Pires</h1>
          <h1 className= 'animate__animated animate__lightSpeedInLeft'>Full stack Devoloper</h1>
 
             
