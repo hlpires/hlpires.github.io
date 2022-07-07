@@ -22,7 +22,10 @@
     font-family: regular1;
     src: url(./font/Montserrat-ExtraBoldItalic.ttf)
   }
-
+  @font-face {
+    font-family: regular2;
+    src: url(./font/Montserrat-ExtraBold.ttf)
+  }
 .header{
     width: 100vw;
     height: 100vh;
@@ -125,7 +128,7 @@ h6{
     font-size: 35px!important;
     float: left;
     align-self: center;
-    font-family: regular;
+    font-family: regular2;
     margin-left: 5%;
     font-weight: bolder;
     border-bottom: 4px solid rgb(88, 15, 182);
@@ -153,15 +156,9 @@ margin-top:-5%!important;
 .sobreTitle{
     height: 50px!important;
     margin-top: 3%!important;
-   
     width: 100%;
     align-self: center;
-
-    
-   
     display: flex;
-    
-
 }
 .sobreall{
     width: 100vw;
@@ -230,6 +227,7 @@ h3{
     color: white;
     margin-top: 5%;
     float: left;
+    font-family: regular2;
 }
 .curriculo{
 
@@ -238,7 +236,7 @@ height: 5%;
 margin-top: 2%;
 text-align: center;
 font-size: 26px;
-font-family: regular;
+font-family: regular2;
 font-weight: bolder;
 color: white;
 border: 2px solid black;
@@ -307,7 +305,7 @@ h4{
     height: 40%;
     color: white;
     align-self: center;
-    font-family: regular;
+    font-family: regular2;
     font-size: 22px;
   
 }
@@ -416,7 +414,7 @@ text-align: center;
 color: white;
 margin-top: 6%;
 font-size: 20px;
-font-family: regular;
+font-family: regular2;
 font-weight: bolder;
 }
 
@@ -510,6 +508,7 @@ font-weight: bolder;
     float: left;
     margin-top:1%;
     display: flex;
+    font-family: regular2;
 }
 .buttonImg:hover{
     transform: scale(1.05);
@@ -531,6 +530,7 @@ font-weight: bolder;
     float: left;
     margin-left: 5%;
     display: flex;
+    font-family: regular2;
 }
 .buttonImg1:hover{
     transform: scale(1.05);
