@@ -35,7 +35,7 @@ const Contato = () => {
 
 
     <div className = 'contato'>
-        <div className = 'position'>
+        <div className ='position'>
           <div className = 'sobreTitle'><h6>Contato</h6></div>
 
           <div className = 'email'>

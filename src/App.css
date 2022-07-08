@@ -1516,15 +1516,7 @@ color: white;
     
     }
     
-    .sobreTitle{
-        height: 50px!important;
-        margin-top: 3%!important;
-        justify-content: center;
-       
-        width: 100%;
-        align-self: center;
-        display: flex;
-    }
+
     .sobreall{
         width: 100vw;
         margin-top: 06%!important;
@@ -1748,11 +1740,7 @@ color: white;
             #56b4d3);
             box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     }
-    .position{
-        width: 1350px;
-        display: inline-block;
-       
-    }
+
     .conhecimentoBox{
         width: 88%;
         height: 60px;
@@ -1932,19 +1920,25 @@ color: white;
         background-color: red;
         height: 1000px;
     }
-    .email{
-     
-    margin-top: 6%;
-    width: 50%;
-    display: block;
-    height: 60%;
-    float: left;
-    margin-right: 8%;
-    background-color: red;
-    
-    
-    
+    .sobreTitle{
+        height: 50px!important;
+        margin-top: 3%!important;
+        justify-content: center;
+      
+        width: 100%;
+        float: left;
+        align-self: center;
+        display: flex;
     }
+    .email{
+     background-color: yellow;
+    margin-top: 6%;
+    width: 100vw;
+    display: block;
+    height: 50%;
+    float: left;
+    }
+
     .nomeInput{
         width: 48%;
         border: 1px solid black;
@@ -1986,13 +1980,13 @@ color: white;
     }
     
     .telefones{
-        margin-top: 8%;
-    width: 40%;
+    margin-top: 28%;
+    width: 100%;
     display: block;
     height: 40%;
+    background-color: green;
     float: left;
-    margin-left: 12%;
-    
+   
     font-family: regular;
     color: white;
     }
