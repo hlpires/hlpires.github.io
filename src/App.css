@@ -7,6 +7,7 @@
    --border: #d9d9d9;
    overflow-x: hidden;
    background-color: #393939;
+   
  ;
 }
 * {
@@ -1928,17 +1929,20 @@ color: white;
         display: block;
 
         justify-content: center;
-        background-color: rgba(0, 0, 0, 0.685);
+        background-color: red;
         height: 1000px;
     }
     .email{
-        display: none;
+     
     margin-top: 6%;
-    width: 40%;
+    width: 50%;
     display: block;
     height: 60%;
-    float: right;
+    float: left;
     margin-right: 8%;
+    background-color: red;
+    
+    
     
     }
     .nomeInput{

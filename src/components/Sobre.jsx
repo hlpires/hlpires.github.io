@@ -44,19 +44,19 @@ const Sobre = () => {
         <div className = 'conteudo' id = 'conteudo1'>
           <img className = 'conteudoimage'  src = {reactimg}></img>
           <h4>React</h4>
-          <h5>Design Responsivo, minhas aplicações funcionam em mobile, pc e outros dispositivos</h5>
+          <h5>cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor</h5>
         </div>
         <div className = 'conteudo' id = 'conteudo2'>
           <img className = 'conteudoimage'  src = {javascript}></img>
           <h4>Javascript</h4>
-          <h5>Sempre buscando por novas tecnologias e aplicando em meus projetos.</h5>
+          <h5>cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor</h5>
          
 
         </div>
         <div className = 'conteudo' id = 'conteudo3'>
           <img className = 'conteudoimage' src = {html}></img>
           <h4>HTML / CSS</h4>
-          <h5>Websites não precisam ser estaticos, amo dar vida a eles..</h5>
+          <h5>cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor</h5>
         </div>
       
       </div>
