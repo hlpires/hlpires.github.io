@@ -842,6 +842,7 @@ color: white;
     .sobreTitle{
         height: 50px!important;
         margin-top: 3%!important;
+       
         width: 100%;
         align-self: center;
         display: flex;
@@ -872,16 +873,16 @@ color: white;
     display: block;
     justify-content: center;
     width: 100%;
-    height: 1200px;
+    height: 950px;
     
     
     
     }
     .art{
     height: 30%;
-    margin-left: 25%;
+    margin-left: 20%;
     margin-top: 15%;
-    width: 50%;
+    width: 60%;
     
     }
     .text{
@@ -987,7 +988,7 @@ color: white;
         width: 100%;
         height: 60%;
         padding: 10px;
-        font-size: 24px;
+        font-size: 20px;
         text-align: left;
         color: white;
     }
@@ -1022,22 +1023,23 @@ color: white;
        margin-top: 2%;
         width: 100vw;
         display: block;
-        height: 1300px;
+        height: 1500px;
         justify-content: center;
         background-color: rgb(31, 29, 29);
-       
+       display: none;
         
     
         
     }
     .conhecimentoBackground{
         margin-top: 6%;
-        width: 30%;
-        margin-left: 4%;
-        float: left;
-        height: 60%;
+        width: 40%;
+        margin-left: 10%;
+       
+        height: 450px;
         display: block;
         border-radius: 10%;
+        
        
     
     }
@@ -1123,8 +1125,8 @@ color: white;
     .projetos{
        
         width: 100vw;
-        height: 700px;
-        background-color: #393939;
+        height: 1400px;
+        background-color: rgb(31, 29, 29);
         justify-content: center;
         display: flex;
         
@@ -1132,17 +1134,19 @@ color: white;
     
     .projetosPosition{
         margin-top: 8%;
-        display: flex;
+        display: block;
         justify-content: center;
         
         height: 70%;
         
     }
     .projetosBox{
-        width: 45%;
-        height: 100%;
+        
+        width: 80%;
+        height: 50%;
         align-self: center;
-        margin:0.5%;
+        margin-top:10.5%;
+        margin-left: 08%;
         
         display: flex;
         cursor: pointer;
@@ -1188,6 +1192,7 @@ color: white;
         margin-top:1%;
         display: flex;
         font-family: regular2;
+        border: 1px solid white;
     }
     .buttonImg:hover{
         transform: scale(1.05);
@@ -1210,6 +1215,7 @@ color: white;
         margin-left: 5%;
         display: flex;
         font-family: regular2;
+        border: 1px solid white;
     }
     .buttonImg1:hover{
         transform: scale(1.05);
@@ -1220,7 +1226,7 @@ color: white;
     height: 45%;
     width: 50%;
     margin-left: 10%;
-    margin-top: 08%;
+    margin-top: 06%;
     color: white;
     font-size: 18px;
     }
