@@ -7,19 +7,23 @@ const Contato = () => {
 
     const form = useRef();
 
-
-
+    
 
 
     const sendEmail = (e) => {
         e.preventDefault();
+        
     
         emailjs.sendForm('service_n2gylsj', 'template_d05z4jm', form.current, 'MTKoAO6h6Sg8k4bQP')
           .then((result) => {
               console.log(result.text);
+              
+              
           }, (error) => {
               console.log(error.text);
-          });
+          }); e.target.reset()
+
+
       };
 
 
