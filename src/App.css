@@ -1146,7 +1146,7 @@ color: white;
         width: 80%;
         height: 50%;
         align-self: center;
-        margin-top:10.5%;
+        margin-top:15.5%;
         margin-left: 08%;
         
         display: flex;
@@ -1248,19 +1248,31 @@ color: white;
     .contato{
         
         display: flex;
+
         justify-content: center;
-        background-color: rgba(0, 0, 0, 0.685);
-        height: 600px;
+        
+        height: 900px;
+    }
+    .sobreTitle{
+        height: 50px!important;
+        margin-top: 3%!important;
+        justify-content: center;
+      
+        width: 100%;
+        float: left;
+        align-self: center;
+        display: flex;
     }
     .email{
-    margin-top: 6%;
-    width: 40%;
-    display: block;
-    height: 60%;
-    float: right;
-    margin-right: 8%;
     
+   margin-top: 10%;
+    width: 90%;
+    margin-left: 5%;
+    display: block;
+    height: 50%;
+    float: left;
     }
+
     .nomeInput{
         width: 48%;
         border: 1px solid black;
@@ -1302,13 +1314,13 @@ color: white;
     }
     
     .telefones{
-        margin-top: 8%;
-    width: 40%;
+    margin-top:-10%;
+    width: 90%;
     display: block;
-    height: 40%;
+    height: 35%;
+    margin-left: 5%;
     float: left;
-    margin-left: 12%;
-    
+   
     font-family: regular;
     color: white;
     }
@@ -1326,7 +1338,7 @@ color: white;
     }
     .wppButton{
         margin-top: 6%;
-        width:38%;
+        width:40%;
         height:20%;
         
       
