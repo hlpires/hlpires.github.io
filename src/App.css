@@ -1407,7 +1407,7 @@ color: white;
     }
     .menuPosition{
         display: flex;
-        background-color: red;
+        
         width: 100%;
         margin-left: 0%;
         justify-content: center;
@@ -1416,9 +1416,10 @@ color: white;
     }
     .menuText{
     
-   
-    margin-right:5% ;
-    height: 30%;
+  
+   text-align: center;
+    width: 20%;
+    height: 50%;
     align-self: center;
     font-family: regular;
     color: white;
@@ -1426,7 +1427,7 @@ color: white;
     }
     
     .menuText:hover{
-        border-bottom: 1px solid white;
+        
         cursor: pointer;
     }
     
