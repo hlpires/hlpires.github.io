@@ -22,7 +22,7 @@ const Sobre = () => {
          <div className = 'text'>
            
          <h3>Olá eu sou Higor</h3>
-         <h2>Sou um Full Stack Devoloper </h2>
+         <h2>Sou um Full Stack Devoloper, atuo no desenvolvimento web desde 2019. Sempre estou aprendendo tecnologias novas e aplicando em meus projetos </h2>
             
             
             </div>
