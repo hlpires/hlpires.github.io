@@ -1126,7 +1126,7 @@ color: white;
     .projetos{
        
         width: 100vw;
-        height: 1000px;
+        height: 1200px;
         background-color: rgb(31, 29, 29);
         justify-content: center;
         display: flex;
@@ -1138,7 +1138,7 @@ color: white;
         display: block;
         justify-content: center;
         
-        height: 80%;
+        height: 75%;
         
     }
     .projetosBox{
@@ -1159,16 +1159,16 @@ color: white;
         height: 120%;
     }
     .projetosSkills{
-        width: 100%;
+       
         background-color: rgb(31, 29, 29);
-        height: 10%;
+        height: 12%;
         border: 1px solid black;
         display: flex;
     }
     .projetosSkillsImg{
         width:70%;
         height: 80%;
-        margin-top: 5%;
+        margin-top: 10%;
         margin-left: 15%;
         
     }
@@ -1817,7 +1817,7 @@ color: white;
     }
     
     .projetosPosition{
-        margin-top: 8%;
+        margin-top: 30%;
         display: block;
         justify-content: center;
         
@@ -1829,7 +1829,7 @@ color: white;
         width: 90%;
         height: 50%;
         align-self: center;
-        margin-top:20.5%;
+        margin-top:10.5%;
         margin-left: 05%;
         
         display: flex;
