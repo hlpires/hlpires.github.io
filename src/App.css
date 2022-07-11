@@ -1937,7 +1937,7 @@ color: white;
         display: flex;
     }
     .email{
-    background-color: yellow;
+    
    
     width: 90%;
     margin-left: 5%;
@@ -1987,13 +1987,13 @@ color: white;
     }
     
     .telefones{
-    margin-top: 10%;
+    margin-top: 15%;
     width: 90%;
     display: block;
-    height: 40%;
+    height: 35%;
     margin-left: 5%;
     float: left;
-   background-color: green;
+   
     font-family: regular;
     color: white;
     }
@@ -2011,7 +2011,7 @@ color: white;
     }
     .wppButton{
         margin-top: 6%;
-        width:38%;
+        width:40%;
         height:20%;
         
       
