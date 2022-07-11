@@ -1920,7 +1920,7 @@ color: white;
     
     .contato{
         
-        display: block;
+        display: flex;
 
         justify-content: center;
         
@@ -1937,12 +1937,12 @@ color: white;
         display: flex;
     }
     .email{
-    
-    margin-top: 6%;
+    background-color: yellow;
+   
     width: 90%;
     margin-left: 5%;
     display: block;
-    height: 50%;
+    height: 40%;
     float: left;
     }
 
@@ -1987,13 +1987,13 @@ color: white;
     }
     
     .telefones{
-    margin-top: 18%;
+    margin-top: 10%;
     width: 90%;
     display: block;
     height: 40%;
     margin-left: 5%;
     float: left;
-   
+   background-color: green;
     font-family: regular;
     color: white;
     }
