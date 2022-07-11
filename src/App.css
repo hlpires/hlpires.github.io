@@ -1407,16 +1407,17 @@ color: white;
     }
     .menuPosition{
         display: flex;
-        
-        width: 60%;
+        background-color: red;
+        width: 100%;
         margin-left: 0%;
+        justify-content: center;
     
     
     }
     .menuText{
     
-    margin-left: 8%;
-    
+   
+    margin-right:5% ;
     height: 30%;
     align-self: center;
     font-family: regular;
