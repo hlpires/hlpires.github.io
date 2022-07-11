@@ -1543,7 +1543,8 @@ color: white;
     display: block;
     justify-content: center;
     width: 100%;
-    height: 950px;
+    height: 800px;
+    
     
     
     
@@ -1559,7 +1560,7 @@ color: white;
         display: inline-block;
         width: 100%;
         
-        height: 500px;
+        height: 350px;
      
         box-shadow: 0 10px 10px 0 rgb(41, 41, 41), 0 0 0 1px #2e2e2e;
         background-color: rgb(31, 29, 29);
@@ -1617,8 +1618,8 @@ color: white;
         transition: 1s;
     }
     .conteudo{
-        width: 90%;
-        margin-left: 5%;
+        width: 100%;
+        
         margin-top: 4%;
         height: 30%;
         display:inline-block;
@@ -1631,13 +1632,16 @@ color: white;
     
     
     #conteudo1{
-        border:2px solid #81D8F7;
+        border-top:2px solid #81D8F7;
+        border-bottom:2px solid #81D8F7;
     }
     #conteudo2{
         border-top:2px solid yellow;
+        border-bottom:2px solid yellow;
     }
     #conteudo3{
         border-top:2px solid #cc6d3d;
+        border-bottom:2px solid #cc6d3d;
     }
     
     
@@ -1808,11 +1812,11 @@ color: white;
     }
     .projetosBox{
         
-        width: 80%;
+        width: 90%;
         height: 50%;
         align-self: center;
-        margin-top:10.5%;
-        margin-left: 10%;
+        margin-top:20.5%;
+        margin-left: 05%;
         
         display: flex;
         cursor: pointer;
@@ -1855,7 +1859,7 @@ color: white;
         width: 40%;
         margin-left: 08%;
        
-        height:10%;
+        height:12%;
         float: left;
         margin-top:1%;
         display: flex;
@@ -1869,15 +1873,15 @@ color: white;
     .buttonIcon{
         width: 20%;
         margin-left: 05%;
-        margin-top: 6%;
+        margin-top: 1%;
         
-        height: 60%;
+        height: 90%;
     }
     
     .buttonImg1{
         width: 40%;
         background-color: rgb(31, 29, 29);
-        height:10%;
+        height:12%;
         margin-top:1% ;
         float: left;
         margin-left: 5%;
@@ -1890,7 +1894,7 @@ color: white;
         transition: 0.5s;
     }
     .buttonImgText{
-    
+    margin-top: 1%;
     height: 45%;
     width: 50%;
     margin-left: 10%;
@@ -1917,8 +1921,8 @@ color: white;
         display: block;
 
         justify-content: center;
-        background-color: red;
-        height: 1000px;
+        
+        height: 700px;
     }
     .sobreTitle{
         height: 50px!important;
@@ -1931,9 +1935,10 @@ color: white;
         display: flex;
     }
     .email{
-     background-color: yellow;
+    
     margin-top: 6%;
-    width: 100vw;
+    width: 90%;
+    margin-left: 5%;
     display: block;
     height: 50%;
     float: left;
@@ -1980,11 +1985,11 @@ color: white;
     }
     
     .telefones{
-    margin-top: 28%;
-    width: 100%;
+    margin-top: 18%;
+    width: 90%;
     display: block;
     height: 40%;
-    background-color: green;
+    margin-left: 5%;
     float: left;
    
     font-family: regular;
