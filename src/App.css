@@ -1550,9 +1550,9 @@ color: white;
     }
     .art{
     height: 25%;
-    margin-left: 25%;
+    margin-left: 10%;
     margin-top: 15%;
-    width: 50%;
+    width: 80%;
     
     }
     .text{
@@ -1568,10 +1568,10 @@ color: white;
       
     }
     h2{
-        width: 60%;
+        width: 90%;
         height: 60%;
         text-align: center;
-        margin-left: 20%;
+        margin-left: 05%;
         
         
         text-align: left;
@@ -1617,8 +1617,8 @@ color: white;
         transition: 1s;
     }
     .conteudo{
-        width: 64%;
-        margin-left: 18%;
+        width: 90%;
+        margin-left: 5%;
         margin-top: 4%;
         height: 30%;
         display:inline-block;
