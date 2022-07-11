@@ -38,12 +38,12 @@ const Projetos = () => {
                    Codigo
                  </div>
                </div></a>
-               <div className ='buttonImg1'>
+               <a href ='https://hlpires.github.io/reinoAnimalProject/'><div className ='buttonImg1'>
                <img className = 'buttonIcon' src = {play}></img>
                  <div className = 'buttonImgText'>
                    Demo
                  </div>
-               </div>
+               </div></a>
              </div>
            </div>
            <div className = 'projetosBox'>
