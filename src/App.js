@@ -16,7 +16,7 @@ function App () {
       <Header/>
       <Sobre />
       <Modal />
-      <Conhecimentos/>
+      
       <Projetos/>
       <Contato/>
       
