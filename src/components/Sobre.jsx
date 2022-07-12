@@ -40,19 +40,19 @@ const Sobre = () => {
         <div className = 'conteudo' id = 'conteudo1'>
           <img className = 'conteudoimage'  src = {reactimg}></img>
           <h4>Front-End</h4>
-          <h5>cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor</h5>
+          <h5>HTML, CSS, Javascript, React </h5>
         </div>
         <div className = 'conteudo' id = 'conteudo2'>
           <img className = 'conteudoimage'  src = {javascript}></img>
           <h4>Back-End</h4>
-          <h5>cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor</h5>
+          <h5>Node Js, MongoDB</h5>
          
 
         </div>
         <div className = 'conteudo' id = 'conteudo3'>
           <img className = 'conteudoimage' src = {html}></img>
           <h4>Ferramentas</h4>
-          <h5>cacilds vidis litro abertis. Mauris nec dolor in eros commodo tempor</h5>
+          <h5>Figma, Photoshop, Git, Github</h5>
         </div>
       
       </div>
