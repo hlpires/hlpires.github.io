@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
-import reactimg from '../img/react.png'
-import javascript from '../img/javascript.png'
-import html from '../img/html.png'
+import backend from '../img/backend.png'
+import frontend from '../img/frontend.png'
+import ferramentas from '../img/ferramentas.png'
 import perfil from '../img/perfil.jpg'
 import art from '../img/art.png'
 import Modal from './Modal'
@@ -38,19 +38,19 @@ const Sobre = () => {
 
      <div className = 'posicionarConteudo'>
         <div className = 'conteudo' id = 'conteudo1'>
-          <img className = 'conteudoimage'  src = {reactimg}></img>
+          <img className = 'conteudoimage'  src = {frontend}></img>
           <h4>Front-End</h4>
           <h5>HTML, CSS, Javascript, React </h5>
         </div>
         <div className = 'conteudo' id = 'conteudo2'>
-          <img className = 'conteudoimage'  src = {javascript}></img>
+          <img className = 'conteudoimage'  src = {backend}></img>
           <h4>Back-End</h4>
           <h5>Node Js, MongoDB</h5>
          
 
         </div>
         <div className = 'conteudo' id = 'conteudo3'>
-          <img className = 'conteudoimage' src = {html}></img>
+          <img className = 'conteudoimage' src = {ferramentas}></img>
           <h4>Ferramentas</h4>
           <h5>Figma, Photoshop, Git, Github</h5>
         </div>
