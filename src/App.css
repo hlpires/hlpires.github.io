@@ -511,6 +511,7 @@ font-weight: bolder;
     
 }
 .buttonImg{
+    border: 1px solid white;
     width: 30%;
     background-color: rgb(31, 29, 29);
     height:10%;
@@ -532,6 +533,7 @@ font-weight: bolder;
 }
 
 .buttonImg1{
+    border: 1px solid white;
     width: 30%;
     background-color: rgb(31, 29, 29);
     height:10%;

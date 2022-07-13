@@ -56,18 +56,18 @@ const Projetos = () => {
              </div>
              <div className = 'imgButtonBox'>
                <img src={cruzeiro} className='projetosImg' alt=""/>
-               <a href = 'https://github.com/hlpires/reinoAnimalProject'><div className ='buttonImg'>
+               <a href = 'https://github.com/hlpires/CsgoNews'><div className ='buttonImg'>
                  <img className = 'buttonIcon'  src = {code}></img>
                  <div className = 'buttonImgText'>
                    Codigo
                  </div>
                </div></a>
-               <div className ='buttonImg1'>
+               <a href ='https://hlpires.github.io/CsgoNews/'><div className ='buttonImg1'>
                <img className = 'buttonIcon' src = {play}></img>
                  <div className = 'buttonImgText'>
                     Demo
                  </div>
-               </div>
+               </div></a>
              </div>
            </div>
            </div>
