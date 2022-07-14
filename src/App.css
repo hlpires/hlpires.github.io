@@ -479,7 +479,7 @@ font-weight: bolder;
 }
 .projetosSkillsBox{
     
-    width: 8%;
+    width: 10%;
     float: left;
     height: 100%;
 }
@@ -487,7 +487,7 @@ font-weight: bolder;
     width: 100%;
     background-color: rgb(31, 29, 29);
     height: 10%;
-    border: 1px solid black;
+    
     display: flex;
 }
 .projetosSkillsImg{
