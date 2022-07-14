@@ -1168,7 +1168,7 @@ color: white;
        
         background-color: rgb(31, 29, 29);
         height: 12%;
-        border: 1px solid black;
+        
         display: flex;
     }
     .projetosSkillsImg{
@@ -1851,7 +1851,7 @@ color: white;
         width: 100%;
         background-color: rgb(31, 29, 29);
         height: 10%;
-        border: 1px solid black;
+        
         display: flex;
     }
     .projetosSkillsImg{
