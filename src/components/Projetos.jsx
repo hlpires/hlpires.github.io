@@ -7,6 +7,7 @@ import css from '../img/css.png'
 import code from '../img/code.png'
 import play from '../img/play.png'
 import api from '../img/api.png'
+import react from '../img/react.png'
 const Projetos = () => {
   return (
     <div  className = 'projetos'>
@@ -55,17 +56,17 @@ const Projetos = () => {
 
                </div>
                <div className = 'projetosSkills'>
-                 <img className = 'projetosSkillsImg' src ={api}></img>
+                 <img className = 'projetosSkillsImg' src ={react}></img>
                  <div className = 'projetosText'> </div>
 
                </div>
                <div className = 'projetosSkills'>
-                 <img className = 'projetosSkillsImg' src ={api}></img>
+                 <img className = 'projetosSkillsImg' src ={html}></img>
                  <div className = 'projetosText'> </div>
 
                </div>
                <div className = 'projetosSkills'>
-                 <img className = 'projetosSkillsImg' src ={api}></img>
+                 <img className = 'projetosSkillsImg' src ={css}></img>
                  <div className = 'projetosText'> </div>
 
                </div>
