@@ -499,6 +499,10 @@ font-weight: bolder;
     
     
 }
+#cssp{
+    height: 110%;
+   
+}
 .projetosText{
     width: 55%;
     
@@ -712,8 +716,16 @@ color: white;
     background-repeat: no-repeat;
     border: none;
     cursor: pointer;
-
    }
+.modalButtonPdf{
+    position: fixed;
+    min-height:6vh;
+    min-width:8vw;
+    background-color: red;
+    z-index: 99;
+    left: 70%;
+    top: 5%;
+}
 }
 
 @media (min-width: 600px) and (max-width:1099px){
@@ -1165,7 +1177,7 @@ color: white;
         height: 120%;
     }
     .projetosSkills{
-       
+       margin-bottom: 20%;
         background-color: rgb(31, 29, 29);
         height: 12%;
         
@@ -1177,6 +1189,10 @@ color: white;
         margin-top: 10%;
         margin-left: 15%;
         
+    }
+    #cssp{
+        height: 110%;
+       
     }
     .projetosText{
         width: 55%;
@@ -1861,6 +1877,7 @@ color: white;
         margin-left: 10%;
         
     }
+
     .projetosText{
         width: 55%;
         

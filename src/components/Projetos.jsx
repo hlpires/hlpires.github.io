@@ -8,6 +8,7 @@ import code from '../img/code.png'
 import play from '../img/play.png'
 import api from '../img/api.png'
 import react from '../img/react.png'
+import esports from '../img/cslogo.png'
 const Projetos = () => {
   return (
     <div  className = 'projetos'>
@@ -25,7 +26,7 @@ const Projetos = () => {
                  
                </div>
                <div className = 'projetosSkills'>
-                 <img className = 'projetosSkillsImg' src ={css}></img>
+                 <img className = 'projetosSkillsImg' id='cssp' src ={css}></img>
                  
                </div>
              </div>
@@ -66,13 +67,13 @@ const Projetos = () => {
 
                </div>
                <div className = 'projetosSkills'>
-                 <img className = 'projetosSkillsImg' src ={css}></img>
+                 <img className = 'projetosSkillsImg' id='cssp' src ={css}></img>
                 
 
                </div>
              </div>
              <div className = 'imgButtonBox'>
-               <img src={cruzeiro} className='projetosImg' alt=""/>
+               <img src={esports} className='projetosImg' alt=""/>
                <a href = 'https://github.com/hlpires/CsgoNews'><div className ='buttonImg'>
                  <img className = 'buttonIcon'  src = {code}></img>
                  <div className = 'buttonImgText'>

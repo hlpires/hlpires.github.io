@@ -10,6 +10,7 @@ const Modal = ({open,onClose}) => {
         <button  className ='modalButton'onClick = {onClose}></button>
         <button  className ='modalButton1'onClick = {onClose}></button>
         <img className = 'modalImg' src ={curriculo}></img>
+        <button className = 'modalButtonPdf'></button>
         </div>
     </div>
   )
