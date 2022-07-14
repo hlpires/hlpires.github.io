@@ -6,6 +6,7 @@ import html from '../img/html.png'
 import css from '../img/css.png'
 import code from '../img/code.png'
 import play from '../img/play.png'
+import api from '../img/api.png'
 const Projetos = () => {
   return (
     <div  className = 'projetos'>
@@ -49,7 +50,22 @@ const Projetos = () => {
            <div className = 'projetosBox'>
              <div className = 'projetosSkillsBox'>
                <div className = 'projetosSkills'>
-                 <img className = 'projetosSkillsImg'></img>
+                 <img className = 'projetosSkillsImg' src ={api}></img>
+                 <div className = 'projetosText'> </div>
+
+               </div>
+               <div className = 'projetosSkills'>
+                 <img className = 'projetosSkillsImg' src ={api}></img>
+                 <div className = 'projetosText'> </div>
+
+               </div>
+               <div className = 'projetosSkills'>
+                 <img className = 'projetosSkillsImg' src ={api}></img>
+                 <div className = 'projetosText'> </div>
+
+               </div>
+               <div className = 'projetosSkills'>
+                 <img className = 'projetosSkillsImg' src ={api}></img>
                  <div className = 'projetosText'> </div>
 
                </div>
