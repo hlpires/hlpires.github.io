@@ -473,7 +473,7 @@ font-weight: bolder;
     height: 100%;
     align-self: center;
     margin:0.5%;
-    background-color: green;
+    
     display: flex;
     cursor: pointer;
 }
@@ -487,15 +487,16 @@ font-weight: bolder;
     width: 100%;
     background-color: rgb(31, 29, 29);
     height: 10%;
-    background-color: red;
+    
     
     display: flex;
 }
 .projetosSkillsImg{
-    width:100%;
+    width:80%;
     height: 70%;
     margin-top: 5%;
     margin-left: 10%;
+    
     
 }
 .projetosText{
@@ -509,7 +510,7 @@ font-weight: bolder;
 }
 .imgButtonBox{
     display: inline-block;
-    background-color: red;
+    
     width: 90%;
     
 }

@@ -52,22 +52,22 @@ const Projetos = () => {
              <div className = 'projetosSkillsBox'>
                <div className = 'projetosSkills'>
                  <img className = 'projetosSkillsImg' src ={api}></img>
-                 <div className = 'projetosText'> </div>
+                 
 
                </div>
                <div className = 'projetosSkills'>
                  <img className = 'projetosSkillsImg' src ={react}></img>
-                 <div className = 'projetosText'> </div>
+                 
 
                </div>
                <div className = 'projetosSkills'>
                  <img className = 'projetosSkillsImg' src ={html}></img>
-                 <div className = 'projetosText'> </div>
+                 
 
                </div>
                <div className = 'projetosSkills'>
                  <img className = 'projetosSkillsImg' src ={css}></img>
-                 <div className = 'projetosText'> </div>
+                
 
                </div>
              </div>
