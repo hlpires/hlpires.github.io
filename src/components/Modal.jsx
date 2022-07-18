@@ -5,8 +5,8 @@ import jsPDF from 'jspdf'
 const Modal = ({open,onClose}) => {
 
    function geradorpdf(){
-     var doc =new jsPDF('landscape','px','a4','false');
-     doc.addImage(curriculo,'PNG',65,20,500,400)
+     var doc =new jsPDF();
+     doc.addImage(curriculo,'PNG',0,0,210,310)
      doc.save('Curriculo.pdf')
 
    }
