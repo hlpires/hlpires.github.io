@@ -725,6 +725,9 @@ color: white;
     z-index: 99;
     left: 72%;
     top: 5%;
+    background-image: url(./img/Download.png);
+    background-size: 100%;
+    cursor: pointer;
 }
 }
 
