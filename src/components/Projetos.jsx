@@ -92,81 +92,8 @@ const Projetos = () => {
 
 
 
-           <div className = 'projetosPosition'>
-           <div className = 'projetosBox'>
-             <div className = 'projetosSkillsBox'>
-               <div className = 'projetosSkills'>
-                 <img className = 'projetosSkillsImg' src ={js}></img>
-                
-               </div>
-               <div className = 'projetosSkills'>
-                 <img className = 'projetosSkillsImg' src ={html}></img>
-                 
-               </div>
-               <div className = 'projetosSkills'>
-                 <img className = 'projetosSkillsImg' id='cssp' src ={css}></img>
-                 
-               </div>
-             </div>
-             
-             
-             <div className = 'imgButtonBox'>
-               <img src={animal} className='projetosImg' alt=""/>
-               <a href = 'https://github.com/hlpires/reinoAnimalProject'><div className ='buttonImg'>
-
-               <img className = 'buttonIcon' src = {code}></img>
-                 <div className = 'buttonImgText'>
-                   Codigo
-                 </div>
-               </div></a>
-               <a href ='https://hlpires.github.io/reinoAnimalProject/'><div className ='buttonImg1'>
-               <img className = 'buttonIcon' src = {play}></img>
-                 <div className = 'buttonImgText'>
-                   Demo
-                 </div>
-               </div></a>
-             </div>
-           </div>
-           <div className = 'projetosBox'>
-             <div className = 'projetosSkillsBox'>
-               <div className = 'projetosSkills'>
-                 <img className = 'projetosSkillsImg' src ={api}></img>
-                 
-
-               </div>
-               <div className = 'projetosSkills'>
-                 <img className = 'projetosSkillsImg' src ={react}></img>
-                 
-
-               </div>
-               <div className = 'projetosSkills'>
-                 <img className = 'projetosSkillsImg' src ={html}></img>
-                 
-
-               </div>
-               <div className = 'projetosSkills'>
-                 <img className = 'projetosSkillsImg' id='cssp' src ={css}></img>
-                
-
-               </div>
-             </div>
-             <div className = 'imgButtonBox'>
-               <img src={esports} className='projetosImg' alt=""/>
-               <a href = 'https://github.com/hlpires/CsgoNews'><div className ='buttonImg'>
-                 <img className = 'buttonIcon'  src = {code}></img>
-                 <div className = 'buttonImgText'>
-                   Codigo
-                 </div>
-               </div></a>
-               <a href ='https://hlpires.github.io/CsgoNews/'><div className ='buttonImg1'>
-               <img className = 'buttonIcon' src = {play}></img>
-                 <div className = 'buttonImgText'>
-                    Demo
-                 </div>
-               </div></a>
-             </div>
-           </div>
-           </div>
+           
+           
         </div>
     </div>
   )
