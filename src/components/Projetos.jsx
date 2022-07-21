@@ -92,9 +92,7 @@ const Projetos = () => {
            </div>
            
            </div>
-           <div className = 'position'>
-              <div className ='mainProject'></div>
-           </div>
+
            
 
 

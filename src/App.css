@@ -453,7 +453,7 @@ font-weight: bolder;
 .projetos{
    
     width: 100vw;
-    height: 1200px;
+    height: 700px;
     background-color: rgb(31, 29, 29);
     justify-content: center;
     display: flex;
@@ -470,8 +470,8 @@ font-weight: bolder;
 }
 .projetosBox{
     width: 45%;
-    height: 50%;
-    
+    height: 100%;
+    align-self: center;
     margin:0.5%;
     
     display: flex;
@@ -728,11 +728,6 @@ color: white;
     background-image: url(./img/Download.png);
     background-size: 100%;
     cursor: pointer;
-}
-.mainProject{
-    width: 100px;
-    height: 700px;
-    background-color: red;
 }
 }
 
