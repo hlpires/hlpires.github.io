@@ -87,8 +87,15 @@ const Projetos = () => {
                  </div>
                </div></a>
              </div>
+
+             
            </div>
+           
            </div>
+           <div className = 'position'>
+              <div className ='mainProject'></div>
+           </div>
+           
 
 
 
