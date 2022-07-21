@@ -478,7 +478,7 @@ font-weight: bolder;
     cursor: pointer;
 }
 .projetosSkillsBox{
-    
+    display: none;
     width: 10%;
     float: left;
     height: 100%;
@@ -1174,7 +1174,7 @@ color: white;
         cursor: pointer;
     }
     .projetosSkillsBox{
-        
+        display: none;
         width: 15%;
         float: left;
         height: 120%;
