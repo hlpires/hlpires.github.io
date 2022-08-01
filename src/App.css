@@ -464,7 +464,7 @@ font-weight: bolder;
     margin-top: 4%;
     display: block;
     justify-content: center;
-    
+    margin-left: 10%;
     height: 100%;
     
 }
@@ -485,6 +485,7 @@ font-weight: bolder;
 
 
 .projetosBox1{
+    
     width: 90%;
     height: 39%;
     align-self: center;
