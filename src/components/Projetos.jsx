@@ -21,7 +21,7 @@ const Projetos = () => {
              
              <div className = 'imgButtonBox'>
              <img src={comercio} className='projetosImg' alt=""/>
-               <a href = 'https://github.com/hlpires/reinoAnimalProject'>
+               <a href = 'https://github.com/hlpires/ecommerceapp'>
                  <div className ='buttonImg'>
 
                <img className = 'buttonIcon' src = {code}></img>
@@ -29,7 +29,7 @@ const Projetos = () => {
                    Codigo
                  </div>
                </div></a>
-               <a href ='https://hlpires.github.io/reinoAnimalProject/'><div className ='buttonImg1'>
+               <a href ='https://ecommerceapp-bos4rkrtw-hlpires.vercel.app'><div className ='buttonImg1'>
                <img className = 'buttonIcon' src = {play}></img>
                  <div className = 'buttonImgText'>
                    Demo
