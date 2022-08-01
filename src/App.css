@@ -453,7 +453,7 @@ font-weight: bolder;
 .projetos{
    
     width: 100vw;
-    height: 700px;
+    height: 1100px;
     background-color: rgb(31, 29, 29);
     justify-content: center;
     display: flex;
@@ -462,50 +462,46 @@ font-weight: bolder;
 
 .projetosPosition{
     margin-top: 4%;
-    display: flex;
+    display: block;
     justify-content: center;
     
-    height: 70%;
+    height: 100%;
     
 }
 .projetosBox{
-    width: 45%;
-    height: 100%;
+    margin-top:30px;
+    width: 42.8%;
+    height: 40%;
     align-self: center;
-    margin:0.5%;
     
+    float: left;
     display: flex;
     cursor: pointer;
-}
-.projetosSkillsBox{
-    display: none;
-    width: 10%;
-    float: left;
-    height: 100%;
-}
-.projetosSkills{
-    width: 100%;
-    background-color: rgb(31, 29, 29);
-    height: 10%;
+    background-size: cover;
+    background-repeat: no-repeat;
     
-    
+}
+
+
+
+.projetosBox1{
+    width: 90%;
+    height: 39%;
+    align-self: center;
+    margin:0.5%;
+
     display: flex;
-}
-.projetosSkillsImg{
-    width:80%;
-    height: 70%;
-    margin-top: 5%;
-    margin-left: 10%;
+    cursor: pointer;
     
     
 }
+
 #cssp{
     height: 110%;
    
 }
 .projetosText{
     width: 55%;
-    
     margin-top: 10%;
     height: 60%;
     margin-left: 5%;
@@ -519,14 +515,19 @@ font-weight: bolder;
     
 }
 .buttonImg{
-    border: 1px solid white;
-    width: 30%;
-    background-color: rgb(31, 29, 29);
+    
+    width: 20%;
+    background-image: linear-gradient(
+        #8e2de2
+        , 
+        #4a00e0);
     height:10%;
     float: left;
-    margin-top:1%;
+    margin-top: 2.5%;
     display: flex;
     font-family: regular2;
+    
+    
 }
 .buttonImg:hover{
     transform: scale(1.05);
@@ -535,22 +536,68 @@ font-weight: bolder;
 .buttonIcon{
     width: 20%;
     margin-left: 05%;
-    margin-top: 6%;
+    margin-top: 4%;
     
-    height: 60%;
+    height: 70%;
 }
 
 .buttonImg1{
-    border: 1px solid white;
-    width: 30%;
-    background-color: rgb(31, 29, 29);
+    margin-top: 2.5%;
+    
+    width: 20%;
+    background-image: linear-gradient(
+        #8e2de2
+        , 
+        #4a00e0);
     height:10%;
-    margin-top:1% ;
+    float: left;
+    margin-left: 2%;
+    display: flex;
+    font-family: regular2;
+    
+}
+
+
+
+
+.buttonImg2{
+    border: 1px solid black;
+    width: 40%;
+    background-image: linear-gradient(
+        #8e2de2
+        , 
+        #4a00e0);
+    height:10%;
+    float: left;
+    margin-top: 1%;
+    display: flex;
+    font-family: regular2;
+   
+}
+.buttonImg2:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.buttonImg3:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.buttonImg3{
+    margin-top: 1%;
+    border: 1px solid black;
+    width: 40%;
+    background-image: linear-gradient(
+        #8e2de2
+        , 
+        #4a00e0);
+    height:10%;
     float: left;
     margin-left: 5%;
     display: flex;
     font-family: regular2;
 }
+
+
 .buttonImg1:hover{
     transform: scale(1.05);
     transition: 0.5s;
@@ -560,9 +607,10 @@ font-weight: bolder;
 height: 45%;
 width: 50%;
 margin-left: 10%;
-margin-top: 08%;
-color: white;
-font-size: 18px;
+margin-top: 03%;
+color: black;
+font-size: 22px;
+font-weight: bolder;
 }
 .rodape{
 margin-top: 06%;
@@ -576,10 +624,7 @@ height: 80%;
 
 
 }
-
-
 .contato{
-    
     display: flex;
     justify-content: center;
     background-color: #393939;
@@ -1147,7 +1192,7 @@ color: white;
     .projetos{
        
         width: 100vw;
-        height: 1200px;
+        height: 2000px;
         background-color: rgb(31, 29, 29);
         justify-content: center;
         display: flex;
@@ -1165,14 +1210,26 @@ color: white;
     .projetosBox{
         
         width: 75%;
-        height: 50%;
+        height: 38%;
+        align-self: center;
+        margin-top:2.5%;
+        margin-left: 11%;
+        
+        display: flex;
+        cursor: pointer;
+    }
+    .projetosBox1{
+        width: 75%;
+        height: 38%;
         align-self: center;
         margin-top:5.5%;
         margin-left: 11%;
         
         display: flex;
         cursor: pointer;
+        
     }
+    
     .projetosSkillsBox{
         display: none;
         width: 15%;
@@ -1211,38 +1268,76 @@ color: white;
         
     }
     .buttonImg{
-        width: 30%;
-        background-color: rgb(31, 29, 29);
-        height:10%;
+        width: 25%;
+        background-image: linear-gradient(
+            #8e2de2
+            , 
+            #4a00e0);
+        height: 8%;
         float: left;
         margin-top:1%;
         display: flex;
         font-family: regular2;
-        border: 1px solid white;
+        border: 1px solid black;
     }
-    .buttonImg:hover{
-        transform: scale(1.05);
-        transition: 0.5s;
-    }
+
     .buttonIcon{
         width: 20%;
         margin-left: 05%;
-        margin-top: 6%;
+        margin-top: 4%;
         
-        height: 60%;
+        height: 63%;
     }
     
     .buttonImg1{
-        width: 30%;
-        background-color: rgb(31, 29, 29);
-        height:10%;
+        width: 25%;
+        background-image: linear-gradient(
+            #8e2de2
+            , 
+            #4a00e0);
+        height: 8%;
         margin-top:1% ;
         float: left;
         margin-left: 5%;
         display: flex;
         font-family: regular2;
-        border: 1px solid white;
+        border: 1px solid black;
     }
+
+
+
+    .buttonImg2{
+        width: 25%;
+        background-image: linear-gradient(
+            #8e2de2
+            , 
+            #4a00e0);
+        height: 8%;
+        float: left;
+        margin-top:1%;
+        display: flex;
+        font-family: regular2;
+        border: 1px solid black;
+       
+    }
+
+    .buttonImg3{
+        width: 25%;
+        background-image: linear-gradient(
+            #8e2de2
+            , 
+            #4a00e0);
+        height: 8%;
+        margin-top:1% ;
+        float: left;
+        margin-left: 5%;
+        display: flex;
+        font-family: regular2;
+        border: 1px solid black;
+    }
+
+
+
     .buttonImg1:hover{
         transform: scale(1.05);
         transition: 0.5s;
@@ -1834,7 +1929,7 @@ color: white;
     .projetos{
        
         width: 100vw;
-        height: 700px;
+        height: 1400px;
         background-color: rgb(31, 29, 29);
         justify-content: center;
         display: flex;
@@ -1852,7 +1947,18 @@ color: white;
     .projetosBox{
         
         width: 90%;
-        height: 50%;
+        height: 33%;
+        align-self: center;
+        margin-top:15.5%;
+        margin-left: 05%;
+        
+        display: flex;
+        cursor: pointer;
+    }
+    .projetosBox1{
+        
+        width: 90%;
+        height: 33%;
         align-self: center;
         margin-top:10.5%;
         margin-left: 05%;
@@ -1897,14 +2003,16 @@ color: white;
     .buttonImg{
         
         width: 40%;
-        margin-left: 08%;
-       
+        background-image: linear-gradient(
+            #8e2de2
+            , 
+            #4a00e0);
         height:12%;
+        margin-top:1% ;
         float: left;
-        margin-top:1%;
         display: flex;
         font-family: regular2;
-        border: 1px solid white;
+        border: 1px solid black;
     }
     .buttonImg:hover{
         transform: scale(1.05);
@@ -1920,21 +2028,56 @@ color: white;
     
     .buttonImg1{
         width: 40%;
-        background-color: rgb(31, 29, 29);
+        margin-left: 08%;
+        background-image: linear-gradient(
+            #8e2de2
+            , 
+            #4a00e0);
         height:12%;
-        margin-top:1% ;
         float: left;
-        margin-left: 5%;
+        margin-top:1%;
         display: flex;
         font-family: regular2;
-        border: 1px solid white;
+        border: 1px solid black;
+        
     }
+
+    .buttonImg2{
+        width: 40%;
+        background-image: linear-gradient(
+            #8e2de2
+            , 
+            #4a00e0);
+        height: 12%;
+        float: left;
+        margin-top:1%;
+        display: flex;
+        font-family: regular2;
+        border: 1px solid black;
+       
+    }
+
+    .buttonImg3{
+        width: 40%;
+        margin-left: 08%;
+        background-image: linear-gradient(
+            #8e2de2
+            , 
+            #4a00e0);      
+        height:12%;
+        float: left;
+        margin-top:1%;
+        display: flex;
+        font-family: regular2;
+        border: 1px solid black;
+    }
+
     .buttonImg1:hover{
         transform: scale(1.05);
         transition: 0.5s;
     }
     .buttonImgText{
-    margin-top: 1%;
+    margin-top: 4%;
     height: 45%;
     width: 50%;
     margin-left: 10%;
