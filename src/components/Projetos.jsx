@@ -1,13 +1,7 @@
 import React from 'react'
 import animal from '../img/animal.png'
-import cruzeiro from '../img/cruzeiro.png'
-import js from '../img/javascript.png'
-import html from '../img/html.png'
-import css from '../img/css.png'
 import code from '../img/code.png'
 import play from '../img/play.png'
-import api from '../img/api.png'
-import react from '../img/react.png'
 import esports from '../img/cslogo.png'
 import comercio from '../img/comercio.png'
 const Projetos = () => {

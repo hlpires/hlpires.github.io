@@ -2,7 +2,6 @@ import React,{useState} from 'react'
 import backend from '../img/backend.png'
 import frontend from '../img/frontend.png'
 import ferramentas from '../img/ferramentas.png'
-import perfil from '../img/perfil.jpg'
 import art from '../img/art.png'
 import Modal from './Modal'
 

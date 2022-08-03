@@ -1,27 +1,34 @@
-import React,{useState} from 'react'
+import React,{useState,useEffect} from 'react'
 import './App.css'
 import Modal from './components/Modal'
 import Header from './components/Header'
 import Sobre from './components/Sobre'
-import Conhecimentos from './components/Conhecimentos'
 import Projetos from './components/Projetos'
-import Rodape from './components/Rodape'
 import Contato from './components/Contato'
 
 
 function App () {
-  
-  return (
-    <div>
-      <Header/>
-      <Sobre />
-      <Modal />
-      <Projetos/>
-      <Contato/>
-      
+  const [isLoading, setIsLoading] =useState(true);
 
-    </div>
-  ) 
+const handleLoading = () => {
+setIsLoading(false);
+}
+
+useEffect(()=>{
+window.addEventListener("load",handleLoading);
+return () => window.removeEventListener("load",handleLoading);
+},[])
+
+return !isLoading ? (
+  <div>
+  <Header/>
+  <Sobre />
+  <Modal />
+  <Projetos/>
+  <Contato/>
+  </div> 
+):(<div>loading</div>)
+
 }
 
 export default App
