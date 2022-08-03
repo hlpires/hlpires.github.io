@@ -29,7 +29,7 @@ const Projetos = () => {
                    Codigo
                  </div>
                </div></a>
-               <a href ='https://ecommerceapp-bos4rkrtw-hlpires.vercel.app'><div className ='buttonImg1'>
+               <a href ='https://ecommerceapp-9ong507ot-hlpires.vercel.app/'><div className ='buttonImg1'>
                <img className = 'buttonIcon' src = {play}></img>
                  <div className = 'buttonImgText'>
                    Demo
