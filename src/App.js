@@ -27,7 +27,7 @@ return !isLoading ? (
   <Projetos/>
   <Contato/>
   </div> 
-):(<div>loading</div>)
+):(<div id="loading"></div>  )
 
 }
 
