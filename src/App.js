@@ -8,26 +8,17 @@ import Contato from './components/Contato'
 
 
 function App () {
-  const [isLoading, setIsLoading] =useState(true);
 
-const handleLoading = () => {
-setIsLoading(false);
-}
 
-useEffect(()=>{
-window.addEventListener("load",handleLoading);
-return () => window.removeEventListener("load",handleLoading);
-},[])
-
-return !isLoading ? (
+return (
   <div>
   <Header/>
   <Sobre />
   <Modal />
   <Projetos/>
   <Contato/>
-  </div> 
-):(<div id="loading"></div>  )
+  </div>
+  )
 
 }
 
