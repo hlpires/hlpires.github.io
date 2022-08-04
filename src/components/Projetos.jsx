@@ -14,17 +14,17 @@ const Projetos = () => {
              
              
              <div className = 'imgButtonBox'>
-             <img src={comercio} className='projetosImg' alt=""/>
+             <img src={comercio} alt="" className='projetosImg' alt=""/>
                <a href = 'https://github.com/hlpires/ecommerceapp'>
                  <div className ='buttonImg'>
 
-               <img className = 'buttonIcon' src = {code}></img>
+               <img className = 'buttonIcon' alt=""  src = {code}></img>
                  <div className = 'buttonImgText'>
                    Codigo
                  </div>
                </div></a>
-               <a href ='https://ecommerceapp-9ong507ot-hlpires.vercel.app/'><div className ='buttonImg1'>
-               <img className = 'buttonIcon' src = {play}></img>
+               <a href ='https://ecommerceapp-oqwgwzjrz-hlpires.vercel.app/'><div className ='buttonImg1'>
+               <img className = 'buttonIcon' alt=""  src = {play}></img>
                  <div className = 'buttonImgText'>
                    Demo
                  </div>
@@ -33,15 +33,15 @@ const Projetos = () => {
            </div>
            <div className = 'projetosBox'>            
              <div className = 'imgButtonBox'>
-               <img src={esports} className='projetosImg' alt=""/>
+               <img src={esports} className='projetosImg' alt=""  alt=""/>
                <a href = 'https://github.com/hlpires/CsgoNews'><div className ='buttonImg2'>
-                 <img className = 'buttonIcon'  src = {code}></img>
+                 <img className = 'buttonIcon' alt=""   src = {code}></img>
                  <div className = 'buttonImgText'>
                    Codigo
                  </div>
                </div></a>
                <a href ='https://hlpires.github.io/CsgoNews/'><div className ='buttonImg3'>
-               <img className = 'buttonIcon' src = {play}></img>
+               <img className = 'buttonIcon' alt=""  src = {play}></img>
                  <div className = 'buttonImgText'>
                     Demo
                  </div>
@@ -53,16 +53,16 @@ const Projetos = () => {
            <div className = 'projetosBox'>
              
              <div className = 'imgButtonBox'>
-               <img src={animal} className='projetosImg' alt=""/>
+               <img src={animal} className='projetosImg' alt=""  alt=""/>
                <a href = 'https://github.com/hlpires/reinoAnimalProject'><div className ='buttonImg2'>
 
-               <img className = 'buttonIcon' src = {code}></img>
+               <img className = 'buttonIcon' alt=""  src = {code}></img>
                  <div className = 'buttonImgText'>
                    Codigo
                  </div>
                </div></a>
                <a href ='https://hlpires.github.io/reinoAnimalProject/'><div className ='buttonImg3'>
-               <img className = 'buttonIcon' src = {play}></img>
+               <img className = 'buttonIcon' alt=""  src = {play}></img>
                  <div className = 'buttonImgText'>
                    Demo
                  </div>
