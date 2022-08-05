@@ -7,17 +7,18 @@ import Projetos from './components/Projetos'
 import Contato from './components/Contato'
 import ReactGa from 'react-ga'
 
+
+
+ReactGa.initialize('G-LEXL8NFTK2')
+
+
 function App () {
-  
-  
-  
-useEffect(() => {
 
-  ReactGa.initialize('G-LEXL8NFTK2')
-  ReactGa.pageview('/')
+  useEffect(() => {
+    ReactGa.pageview(window.location.pathname)
+    
 
-  }, [])
-
+  })
 
 return (
   <div>
