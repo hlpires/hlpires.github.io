@@ -23,7 +23,7 @@ const Projetos = () => {
                    Codigo
                  </div>
                </div></a>
-               <a href ='https://ecommerceapp-3xt8zqvox-hlpires.vercel.app/'><div className ='buttonImg1'>
+               <a href ='https://ecommerceapp-7ux7sq1ve-hlpires.vercel.app/'><div className ='buttonImg1'>
                <img className = 'buttonIcon' alt=""  src = {play}></img>
                  <div className = 'buttonImgText'>
                    Demo
@@ -60,12 +60,7 @@ const Projetos = () => {
                    Codigo
                  </div>
                </div></a>
-               <a href ='https://hlpires.github.io/CsgoNews/'><div className ='buttonImg3'>
-               <img className = 'buttonIcon' alt=""  src = {play}></img>
-                 <div className = 'buttonImgText'>
-                    Demo
-                 </div>
-               </div></a>
+
              </div>
              
            </div>

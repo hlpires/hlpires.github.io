@@ -5,9 +5,18 @@ import Header from './components/Header'
 import Sobre from './components/Sobre'
 import Projetos from './components/Projetos'
 import Contato from './components/Contato'
-
+import ReactGa from 'react-ga'
 
 function App () {
+  
+  
+  
+useEffect(() => {
+
+  ReactGa.initialize('G-LEXL8NFTK2')
+  ReactGa.pageview('/')
+
+  }, [])
 
 
 return (
