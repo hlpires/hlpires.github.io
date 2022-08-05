@@ -23,7 +23,7 @@ const Projetos = () => {
                    Codigo
                  </div>
                </div></a>
-               <a href ='https://ecommerceapp-59ynwi49t-hlpires.vercel.app/'><div className ='buttonImg1'>
+               <a href ='https://ecommerceapp-3xt8zqvox-hlpires.vercel.app/'><div className ='buttonImg1'>
                <img className = 'buttonIcon' alt=""  src = {play}></img>
                  <div className = 'buttonImgText'>
                    Demo
@@ -31,6 +31,26 @@ const Projetos = () => {
                </div></a>
              </div>
            </div>
+           <div className = 'projetosBox'>
+             
+             <div className = 'imgButtonBox'>
+               <img src={animal} className='projetosImg' alt=""  alt=""/>
+               <a href = 'https://github.com/hlpires/reinoAnimalProject'><div className ='buttonImg2'>
+
+               <img className = 'buttonIcon' alt=""  src = {code}></img>
+                 <div className = 'buttonImgText'>
+                   Codigo
+                 </div>
+               </div></a>
+               <a href ='https://hlpires.github.io/reinoAnimalProject/'><div className ='buttonImg3'>
+               <img className = 'buttonIcon' alt=""  src = {play}></img>
+                 <div className = 'buttonImgText'>
+                   Demo
+                 </div>
+               </div></a>
+             </div>
+           </div> 
+            
            <div className = 'projetosBox'>            
              <div className = 'imgButtonBox'>
                <img src={esports} className='projetosImg' alt=""  alt=""/>
@@ -50,25 +70,7 @@ const Projetos = () => {
              
            </div>
 
-           <div className = 'projetosBox'>
-             
-             <div className = 'imgButtonBox'>
-               <img src={animal} className='projetosImg' alt=""  alt=""/>
-               <a href = 'https://github.com/hlpires/reinoAnimalProject'><div className ='buttonImg2'>
-
-               <img className = 'buttonIcon' alt=""  src = {code}></img>
-                 <div className = 'buttonImgText'>
-                   Codigo
-                 </div>
-               </div></a>
-               <a href ='https://hlpires.github.io/reinoAnimalProject/'><div className ='buttonImg3'>
-               <img className = 'buttonIcon' alt=""  src = {play}></img>
-                 <div className = 'buttonImgText'>
-                   Demo
-                 </div>
-               </div></a>
-             </div>
-           </div>  
+          
            
            </div>
 
