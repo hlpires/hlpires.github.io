@@ -472,28 +472,20 @@ font-weight: bolder;
     width: 42.8%;
     height: 40%;
     align-self: center;
-    
     float: left;
     display: flex;
-    cursor: pointer;
     background-size: cover;
     background-repeat: no-repeat;
-    
 }
 
 
 
 .projetosBox1{
-    
     width: 90%;
     height: 39%;
     align-self: center;
     margin:0.5%;
-
-    display: flex;
-    cursor: pointer;
-    
-    
+    display: flex; 
 }
 
 #cssp{
@@ -780,7 +772,7 @@ color: white;
 
     .header{
         width: 100vw;
-        height: 100vh;
+        height: 50vh;
         background-image: url(./img/background.png);
         background-size: 100% 100%;
         background-repeat: no-repeat;
@@ -940,8 +932,8 @@ color: white;
     display: block;
     justify-content: center;
     width: 100%;
-    height: 1050px;
-    
+    height: 950px;
+  
     
     
     }
@@ -956,7 +948,7 @@ color: white;
         display: inline-block;
         width: 80%;
         margin-left: 10%;
-        height: 400px;
+        height: 300px;
      
         box-shadow: 0 10px 10px 0 rgb(41, 41, 41), 0 0 0 1px #2e2e2e;
         background-color: rgb(31, 29, 29);
@@ -1216,7 +1208,7 @@ color: white;
         margin-left: 11%;
         
         display: flex;
-        cursor: pointer;
+       
     }
     .projetosBox1{
         width: 75%;
@@ -1226,7 +1218,7 @@ color: white;
         margin-left: 11%;
         
         display: flex;
-        cursor: pointer;
+        
         
     }
     
@@ -1280,6 +1272,10 @@ color: white;
         font-family: regular2;
         border: 1px solid black;
     }
+    .buttonImg:hover{
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
 
     .buttonIcon{
         width: 20%;
@@ -1320,6 +1316,10 @@ color: white;
         border: 1px solid black;
        
     }
+    .buttonImg2:hover{
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
 
     .buttonImg3{
         width: 25%;
@@ -1335,11 +1335,15 @@ color: white;
         font-family: regular2;
         border: 1px solid black;
     }
+    .buttonImg3:hover{
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
 
 
 
     .buttonImg1:hover{
-        transform: scale(1.05);
+        transform: scale(1.1);
         transition: 0.5s;
     }
     .buttonImgText{
@@ -1663,7 +1667,7 @@ color: white;
     
     .posicionarConteudo{
         margin-top: 0px;
-        height: 880px;
+        height: 680px;
         width: 100%;
         
         display:inline-block;
@@ -1684,18 +1688,17 @@ color: white;
     
     }
     .art{
-    height: 25%;
+    height: 40%;
     margin-left: 10%;
-    margin-top: 15%;
+    margin-top: 10%;
     width: 80%;
     
     }
     .text{
         display: inline-block;
-        width: 100%;
-        
-        height: 350px;
-     
+        margin-left: 5%;
+        width: 90%;
+        height: 250px;
         box-shadow: 0 10px 10px 0 rgb(41, 41, 41), 0 0 0 1px #2e2e2e;
         background-color: rgb(31, 29, 29);
         margin-top: 05%;
@@ -1752,14 +1755,13 @@ color: white;
         transition: 1s;
     }
     .conteudo{
-        width: 100%;
-        
-        margin-top: 4%;
-        height: 30%;
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 6%;
+        height: 22%;
         display:inline-block;
         box-shadow: 0 10px 10px 0 rgb(41, 41, 41), 0 0 0 1px #2e2e2e;
         justify-content: center;
-        font-size: 15px;
         font-family: regular;
         background-color: rgb(31, 29, 29);
     }
@@ -1784,10 +1786,10 @@ color: white;
     
     .conteudoimage{
         background-color:transparent;
-        height: 15%;
+        height: 40%;
         clip-path: circle();
         padding: 10px;
-        margin-top: 14px;
+        margin-top: 5px;
         float: left;
        
        
@@ -1796,7 +1798,7 @@ color: white;
         width: 100%;
         height: 60%;
         padding: 10px;
-        font-size: 20px;
+        font-size: 17px;
         text-align: left;
         color: white;
     }
@@ -1808,12 +1810,12 @@ color: white;
         
         
       
-        margin-top:06%;
+        margin-top:05%;
         height: 30%;
         color: white;
         align-self: center;
         font-family: regular2;
-        font-size: 30px;
+        font-size: 24px;
       
     }
     
@@ -1950,7 +1952,7 @@ color: white;
         height: 33%;
         align-self: center;
         margin-top:15.5%;
-        margin-left: 05%;
+        margin-left: 5%;
         
         display: flex;
         cursor: pointer;
