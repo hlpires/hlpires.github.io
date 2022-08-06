@@ -1,18 +1,26 @@
-import React, { useRef } from 'react';
+import React, { useRef,useState } from 'react';
 import emailjs from '@emailjs/browser';
 import wpp from '../img/wpp.png'
+import {Toaster,toast} from 'react-hot-toast'
 
 const Contato = () => {
 
 
     const form = useRef();
-
+    const [email, setEmail] = useState('');
+    
     
 
 
     const sendEmail = (e) => {
         e.preventDefault();
+        if(email.length === 0){
+        toast("Preencha os dados corretamente")
         
+        }else{
+        toast("Email - enviado")
+        
+        }
     
         emailjs.sendForm('service_n2gylsj', 'template_d05z4jm', form.current, 'MTKoAO6h6Sg8k4bQP')
           .then((result) => {
@@ -35,6 +43,7 @@ const Contato = () => {
 
 
     <div className = 'contato'>
+      
         <div className ='position'>
           <div className = 'sobreTitle'><h6>Contato</h6></div>
 
@@ -43,7 +52,7 @@ const Contato = () => {
       
              <input className='nomeInput' type="text" placeholder= 'Nome'name="user_name" />
      
-             <input className='emailInput' type="email" placeholder= 'Seu Email' name="user_email" />
+             <input className='emailInput' onChange = {event => setEmail(event.target.value)} type="email" placeholder= 'Seu Email' name="user_email" />
       
              <textarea className='messageInput' name="message" placeholder= 'Menssagem' />
              <input className='buttonInput' type="submit" value="Enviar" />
@@ -61,7 +70,7 @@ const Contato = () => {
 
            </div>
         </div>
-        
+        <Toaster/>
     </div>
   )
 }

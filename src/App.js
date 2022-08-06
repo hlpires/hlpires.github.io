@@ -14,21 +14,24 @@ ReactGa.initialize('G-LEXL8NFTK2')
 
 function App () {
 
+
+
   useEffect(() => {
     ReactGa.pageview(window.location.pathname)
-    
-
   })
 
-return (
-  <div>
-  <Header/>
-  <Sobre />
-  <Modal />
-  <Projetos/>
-  <Contato/>
-  </div>
-  )
+    
+    return (
+      <div>
+      <Header/>
+      <Sobre/>
+      <Modal/>
+      <Projetos/>
+      <Contato/>
+      </div>
+      )
+  
+
 
 }
 
