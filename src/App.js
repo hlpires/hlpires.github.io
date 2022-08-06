@@ -6,7 +6,7 @@ import Sobre from './components/Sobre'
 import Projetos from './components/Projetos'
 import Contato from './components/Contato'
 import ReactGa from 'react-ga'
-
+import ModalEcommerce from './components/ModalEcommerce'
 
 
 ReactGa.initialize('G-LEXL8NFTK2')
@@ -23,11 +23,12 @@ function App () {
     
     return (
       <div>
-      <Header/>
+        <Sobre/>
+        <Projetos/>
+      {/*<Header/>
       <Sobre/>
-      <Modal/>
       <Projetos/>
-      <Contato/>
+      <Contato/>*/}
       </div>
       )
   

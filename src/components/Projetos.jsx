@@ -1,20 +1,28 @@
-import React from 'react'
+import React,{useState}from 'react'
 import animal from '../img/animal.png'
 import code from '../img/code.png'
 import play from '../img/play.png'
 import esports from '../img/cslogo.png'
 import comercio from '../img/comercio.png'
+import ModalEcommerce from './ModalEcommerce'
+
+
 const Projetos = () => {
+
+  const[modalEcommerce,setModalEcommerce] = useState(false)
+
   return (
+    
     <div  className = 'projetos'>
+      
         <div className = 'position'>
         <div className = 'sobreTitle'><h6>Projetos</h6></div>
            <div className = 'projetosPosition'>
            <div className = 'projetosBox1'>
-             
+           
              
              <div className = 'imgButtonBox'>
-             <img src={comercio} alt="" className='projetosImg' alt=""/>
+             <img src={comercio} onClick = {() =>{setModalEcommerce(true)}} alt="" className='projetosImg' alt=""/>
                <a href = 'https://github.com/hlpires/ecommerceapp'>
                  <div className ='buttonImg'>
 
@@ -23,7 +31,7 @@ const Projetos = () => {
                    Codigo
                  </div>
                </div></a>
-               <a href ='https://ecommerceapp-7ux7sq1ve-hlpires.vercel.app/'><div className ='buttonImg1'>
+               <a href ='https://ecommerceapp-j6x585omo-hlpires.vercel.app/'><div className ='buttonImg1'>
                <img className = 'buttonIcon' alt=""  src = {play}></img>
                  <div className = 'buttonImgText'>
                    Demo
@@ -64,22 +72,9 @@ const Projetos = () => {
              </div>
              
            </div>
-
-          
-           
-           </div>
-
-
-
-           
-
-           
-
-
-
-           
-           
+           </div>         
         </div>
+        <ModalEcommerce open={modalEcommerce} onClose={() => setModalEcommerce(false)}/>
     </div>
   )
 }
