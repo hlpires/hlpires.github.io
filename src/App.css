@@ -990,7 +990,7 @@ color: white;
 }
 }
 
-@media (min-width: 600px) and (max-width:1099px){
+@media (min-width: 550px) and (max-width:1099px){
 
     .header{
         width: 100vw;
@@ -1184,8 +1184,9 @@ color: white;
     }
     .socialMedia{
         background-repeat: no-repeat;
-        margin-left: 3%;
-        width: 6%;
+        
+        margin-left: 1vw;
+        min-width:calc(20px + 4vw);
         border:1px solid white;
         float: left;
         height: 80%;
@@ -1797,7 +1798,7 @@ color: white;
     
        }
 }
-@media (max-width:599px){
+@media (max-width:549px){
 
     .header{
         width: 100vw;
@@ -2001,8 +2002,8 @@ color: white;
     }
     .socialMedia{
         background-repeat: no-repeat;
-        margin-left: 3%;
-        width: 12%;
+        margin-left: 1vw;
+        min-width:calc(20px + 4vw);
         border:1px solid white;
         float: left;
         height: 80%;
