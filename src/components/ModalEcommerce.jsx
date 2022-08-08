@@ -4,26 +4,19 @@ import ecommerceImg from '../img/modalEcommerce.png'
 
 const ModalEcommerce = ({open,onClose}) => {
 
-   
-
     if(!open) return null
 
   return (
     <div className ='modalEcommerce'>
         <div className = 'modalBox'>
             <div className = 'modalEcommerceImg'><img className ='EcommerceImgSize' src= {ecommerceImg}></img></div>
-            <div className = 'modalEcommerceText'><p className ='modalEcommerceTextP'>Mussum Ipsum, cacilds vidis litro abertis.
-             In elementis mé pra quem é amistosis quis leo.
-            Sapien in monti palavris qui num significa nadis i pareci latim.
-            Quem num gosta di mim que vai caçá sua turmis!Em pé sem cair, deitado sem dormir, 
-            sentado sem cochilar e fazendo pose
-            Sapien in monti palavris qui num significa nadis i pareci latim.
-            Quem num gosta di mim que vai caçá sua turmis!Em pé sem cair, deitado sem dormir, 
-            sentado sem cochilar e fazendo pose.</p>
+            <div className = 'modalEcommerceText'><p className ='modalEcommerceTextP'><span>Tecno Center</span> Aplicação Full-Stack de compra de produtos online, utilizando 
+             <span className = 'spanEco'> Sanity</span> como plataforma de inserção de novos
+            produtos pela loja, <span className = 'spanEco'>Stripe</span> para realização de pagamentos e <span className = 'spanEco'>Next.JS</span> com <span className = 'spanEco'>React</span> para a criação do Back-end e Front-end</p>
             
             <div className = 'modalButtonBox'>
-              <div className = 'modalButtonCode'><p className ='modalEcommerceTextP'>Codigo</p></div>
-              <div className = 'modalButtonDemo'><p className ='modalEcommerceTextP'>Demo</p></div>
+              <a href="https://github.com/hlpires/ecommerceapp"><div className = 'modalButtonCode'><p className ='modalEcommerceTextP'>Codigo</p></div></a>
+              <a href="https://ecommerceapp-j6x585omo-hlpires.vercel.app/"><div className = 'modalButtonDemo'><p className ='modalEcommerceTextP'>Demo</p></div></a>
             </div>
             
             </div>

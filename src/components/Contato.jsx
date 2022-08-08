@@ -1,9 +1,18 @@
-import React, { useRef,useState } from 'react';
+import React, { useRef,useState,useEffect } from 'react';
 import emailjs from '@emailjs/browser';
 import wpp from '../img/wpp.png'
 import {Toaster,toast} from 'react-hot-toast'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const Contato = () => {
+
+
+  useEffect(()=> {
+
+    Aos.init({ duration:1000})
+
+  },[])
 
 
     const form = useRef();
@@ -47,7 +56,7 @@ const Contato = () => {
         <div className ='position'>
           <div className = 'sobreTitle'><h6>Contato</h6></div>
 
-          <div className = 'email'>
+          <div data-aos = 'fade-right' className = 'email'>
             <form ref={form} onSubmit={sendEmail}>
       
              <input className='nomeInput' type="text" placeholder= 'Nome'name="user_name" />
@@ -59,7 +68,7 @@ const Contato = () => {
              </form>
            </div>
 
-           <div className = 'telefones'>
+           <div data-aos = 'fade-right' className = 'telefones'>
                <div className = 'telefoneText'>Celular:</div>
                <div className ='celular'>11970127930</div>
                <div className = 'telefoneText'>Email:</div>

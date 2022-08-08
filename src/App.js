@@ -23,12 +23,10 @@ function App () {
     
     return (
       <div>
-        <Sobre/>
-        <Projetos/>
-      {/*<Header/>
+      <Header/>
       <Sobre/>
       <Projetos/>
-      <Contato/>*/}
+      <Contato/>
       </div>
       )
   

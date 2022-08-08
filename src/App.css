@@ -74,7 +74,6 @@
 .modalEcommerceImg{
 width: 50%;
 height: 100%;
-background-color: yellow;
 float: left;
 z-index: 99;
 
@@ -113,10 +112,11 @@ z-index: 99;
 }
 .modalButtonCode{
     cursor: pointer;
-    width: 35%;
+    width: 120px;
+    min-width: 120px;
     height: 80%;
     background-color: #c75329;
-    margin-left: 20%;
+    margin-left: 80px;
     border-radius: 10px;
     text-align: center;
     z-index: 99;
@@ -127,10 +127,11 @@ z-index: 99;
     transition: 0.5s;
 }
 .modalButtonDemo{
-    width: 35%;
+    width: 120px;
     height: 80%;
     background-color: #c75329;
-    margin-left: 10%;
+    margin-left: 80px;
+    min-width: 120px;
     cursor: pointer;
     border-radius: 10px;
     text-align: center;
@@ -140,6 +141,7 @@ z-index: 99;
     transform: scale(1.1);
     transition: 0.5s;
 }
+
 .menu{
     width: 100%;
     height: 10%;
@@ -215,7 +217,7 @@ h1{
     text-align: left;
     font-size:2.5vw!important;
     text-align: center;
-    color: rgb(0, 255, 179);
+    color: rgb(197, 97, 14);
     align-content: center;
     align-self: center;
     font-family: regular1;
@@ -235,7 +237,7 @@ h6{
     font-family: regular2;
     margin-left: 5%;
     font-weight: bolder;
-    border-bottom: 4px solid rgb(88, 15, 182);
+    border-bottom: 4px solid rgb(197, 97, 14);
 }
 
 
@@ -252,7 +254,7 @@ h6{
 .sobre{
 display: flex;
 justify-content: center;
-margin-top:-5%!important;
+margin-top:-5%
 
 
 }
@@ -266,11 +268,18 @@ margin-top:-5%!important;
 }
 .sobreall{
     width: 100vw;
-    margin-top: 06%!important;
+    padding-top: 4%;
     display: flex;
     align-self: center;
     justify-content: center;
-    background-color: #393939;
+    background-color: #302f2f;
+    padding-bottom: 1%;
+}
+.spanReino{
+color: orange;
+}
+.spanEco{
+color: #0fb6e4;
 }
 
 .posicionarConteudo{
@@ -367,14 +376,17 @@ background-color: rgb(31, 29, 29);
 
 
 #conteudo1{
-    border-top:2px solid #81D8F7;
+    border-top:2px solid rgb(197, 97, 14);
+
 }
 #conteudo2{
-    border-top:2px solid yellow;
+    border-top:2px solid rgb(197, 97, 14);
 }
+
 #conteudo3{
-    border-top:2px solid #cc6d3d;
+    border-top:2px solid rgb(197, 97, 14);
 }
+
 
 
 
@@ -497,7 +509,8 @@ transition: 1s;
         box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .position{
-    width: 1350px;
+    width: 80vw;
+    max-width: 2000px;
     display: inline-block;
    
 }
@@ -556,34 +569,44 @@ font-weight: bolder;
     justify-content: center;
     display: flex;
     
+    
 }
 
 .projetosPosition{
     margin-top: 4%;
     display: block;
     justify-content: center;
-    margin-left: 10%;
-    height: 100%;
+    margin-left: 5%;
+    height: 75%;
+    
+   
+    width: 70%;
+    margin-left: 15%;
     
 }
 .projetosBox{
-    margin-top:30px;
-    width: 42.8%;
-    height: 40%;
+  
+    width: 49%;
+    height: 50%;
     align-self: center;
     float: left;
     display: flex;
     background-size: cover;
     background-repeat: no-repeat;
+   
+}
+#projetosbox{
+    margin-left: 2%;
 }
 
 
 
 .projetosBox1{
-    width: 90%;
-    height: 39%;
+    width: 100%;
+    height: 48%;
+    margin-bottom: 2%;
     align-self: center;
-    margin:0.5%;
+   
     display: flex; 
 }
 
@@ -602,7 +625,7 @@ font-weight: bolder;
 .imgButtonBox{
     display: inline-block;
     
-    width: 90%;
+    width: 100%;
     
 }
 .buttonImg{
@@ -616,10 +639,9 @@ font-weight: bolder;
     float: left;
     margin-top: 2.5%;
     display: flex;
-    font-family: regular2;
-    
-    
+    font-family: regular2;   
 }
+
 .buttonImg:hover{
     transform: scale(1.05);
     transition: 0.5s;
@@ -647,7 +669,6 @@ font-weight: bolder;
     font-family: regular2;
     
 }
-
 
 
 
@@ -711,14 +732,23 @@ background-color: black;
 }
 .projetosImg{
 width: 100%;
-height: 80%;
+height: 100%;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+cursor: pointer;
+filter: brightness(80%);
+border-radius: 15px;
 
 
+}
+.projetosImg:hover{
+    transform: scale(1.03);
+    transition: 0.5s;
+    filter: brightness(105%);
 }
 .contato{
     display: flex;
     justify-content: center;
-    background-color: #393939;
+    background-color: #302f2f;
     height: 600px;
 }
 .email{
@@ -728,6 +758,7 @@ display: block;
 height: 60%;
 float: right;
 margin-right: 8%;
+
 
 }
 .nomeInput{
@@ -771,33 +802,43 @@ color: white;
 }
 
 .telefones{
-    margin-top: 8%;
-width: 40%;
+border-radius: 15px;
+margin-top: 6%;
+width: 30%;
 display: block;
-height: 40%;
+height: 60%;
 float: left;
 margin-left: 12%;
-
+background-color: rgb(31, 29, 29);
+box-shadow: 0 10px 10px 0 rgb(41, 41, 41), 0 0 0 1px #2e2e2e;
 font-family: regular;
 color: white;
 }
 .telefoneText{
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 05%;
+
+    width: 80%;
+    margin-left: 10%;
     font-weight:bolder;
 }
 .celular{
     margin-top: 2%;
+    width: 80%;
+    margin-left: 10%;
 }
 
 .endereço{
     margin-top: 2%;
+    width: 80%;
+    margin-left: 10%;
 }
 .wppButton{
     margin-top: 6%;
     width:38%;
-    height:20%;
+    height:12%;
     
+    margin-left: 10%;
   
     background-repeat: no-repeat;
     
