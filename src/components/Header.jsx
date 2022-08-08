@@ -31,13 +31,16 @@ const Header = () => {
          <div className = 'headerText'>
          <h1 className= 'animate__animated animate__lightSpeedInLeft'>Higor Pires</h1>
          <h1 id='h1S' className= 'animate__animated animate__lightSpeedInLeft'>Full stack Devoloper</h1>
+         <div className = 'socialMediaBox'>
 
-            
-        </div>
-        <div className ='button'>
-          <h3>Sobre Mim</h3>
+          <div className = 'socialMedia' id = 'socialMedia1'></div>
+          <div className = 'socialMedia'></div>
+          <div className = 'socialMedia'></div>
 
+          </div>   
+ 
         </div>
+ 
         </div>
     </div>
   )
