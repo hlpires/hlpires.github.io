@@ -170,8 +170,9 @@ font-size: 1.2vw;
 }
 
 .menuText:hover{
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #ca6642;
     cursor: pointer;
+    color: #ca6642;
 }
 
 
@@ -222,11 +223,24 @@ font-size: 1.2vw;
     border:1px solid white;
     float: left;
     height: 50%;
-    
+    cursor: pointer;
+    background-size: 100% 90%;
+    border-radius: 5px;
+}
+.socialMedia:hover{
+    border:1px solid  #ca6642;
 }
 #socialMedia1{
     margin-left: -3%;
+    background-image: url(./img/socialmediagit.png);
+}
+#socialMedia2{
+    background-size: 100% 100%;
+    background-image: url(./img/socialmediasend.png);
+}
+#socialMedia3{
     
+    background-image: url(./img/socialmediain.png);
 }
 .animate__animated.animate__lightSpeedInLeft {
     --animate-duration: 1.2s;
@@ -876,6 +890,48 @@ color: white;
     transform: scale(1.1);
     transition: 1s;
 }
+
+
+
+.socialMediaBox1{
+    height: 30%;
+    margin-top: 5%;
+   
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.socialMedia1{
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 12%;
+    border:1px solid white;
+    float: left;
+    height: 50%;
+    cursor: pointer;
+    background-size: 100% 90%;
+    border-radius: 5px;
+}
+
+.socialMedia1:hover{
+    border:1px solid  #ca6642;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .modalContainer{
     justify-content: center;
     display: flex;

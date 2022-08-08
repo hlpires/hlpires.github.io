@@ -34,8 +34,8 @@ const Header = () => {
          <div className = 'socialMediaBox'>
 
           <div className = 'socialMedia' id = 'socialMedia1'></div>
-          <div className = 'socialMedia'></div>
-          <div className = 'socialMedia'></div>
+          <div className = 'socialMedia' id = 'socialMedia2'></div>
+          <div className = 'socialMedia' id = 'socialMedia3'></div>
 
           </div>   
  

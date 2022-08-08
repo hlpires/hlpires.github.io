@@ -76,13 +76,13 @@ const Contato = () => {
                <div className ='wppButton'>
                  <a href = 'https://api.whatsapp.com/send?phone=5511970127930'><img className = 'contatowpp'  src={wpp} alt="" /></a>
                </div>
-               <div className = 'socialMediaBox'>
+               <div className = 'socialMediaBox1'>
 
-              <div className = 'socialMedia' id = 'socialMedia1'></div>
-              <div className = 'socialMedia'></div>
-              <div className = 'socialMedia'></div>
+              <div className = 'socialMedia1' id = 'socialMedia1'></div>
+             {/*  <div className = 'socialMedia1' id = 'socialMedia2'></div> */}
+              <div className = 'socialMedia1' id = 'socialMedia3'></div>
 
-</div>   
+              </div>   
 
            </div>
         </div>
