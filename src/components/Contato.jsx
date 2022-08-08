@@ -51,7 +51,7 @@ const Contato = () => {
   return (
 
 
-    <div className = 'contato'>
+    <div className = 'contato' id = 'contato'>
       
         <div className ='position'>
           <div className = 'sobreTitle'><h6>Contato</h6></div>

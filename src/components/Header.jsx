@@ -33,9 +33,9 @@ const Header = () => {
          <h1 id='h1S' className= 'animate__animated animate__lightSpeedInLeft'>Full stack Devoloper</h1>
          <div className = 'socialMediaBox'>
 
-          <div className = 'socialMedia' id = 'socialMedia1'></div>
-          <div className = 'socialMedia' id = 'socialMedia2'></div>
-          <div className = 'socialMedia' id = 'socialMedia3'></div>
+         <Link  spy={true} smooth={true} offset={50} duration={500}><div className = 'socialMedia' id = 'socialMedia1'></div></Link>
+          <Link to="contato" spy={true} smooth={true} offset={500} duration={1100}> <div className = 'socialMedia' id = 'socialMedia2'> </div></Link>
+          <Link spy={true} smooth={true} offset={50} duration={500}><div className = 'socialMedia' id = 'socialMedia3'></div></Link>
 
           </div>   
  
