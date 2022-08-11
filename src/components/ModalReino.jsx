@@ -13,7 +13,7 @@ const ModalReino = ({open,onClose}) =>  {
     <div className ='modalEcommerce'>
         <div className = 'modalBox'>
             <div className = 'modalEcommerceImg'><img className ='EcommerceImgSize' src= {ecommerceImg}></img></div>
-            <div className = 'modalEcommerceText'><p className ='modalEcommerceTextP'>Website dinâmico para divulgação de serviços, mostrar resultados 
+            <div className = 'modalEcommerceText'><p className ='modalEcommerceTextP'>Website estático para divulgação de serviços, mostrar resultados 
             tecnologias usadas <span className = 'spanReino'> Javascript</span>, <span className = 'spanReino'>HTML</span>, <span className = 'spanReino'>CSS</span> e <span className = 'spanReino'>Jquery</span> 
           </p>
             

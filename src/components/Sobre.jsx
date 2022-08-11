@@ -47,7 +47,7 @@ const Sobre = () => {
         <div data-aos = 'fade-right' className = 'conteudo' id = 'conteudo1'>
           <img className = 'conteudoimage'  src = {frontend}></img>
           <h4>Front-End</h4>
-          <h5>HTML, CSS, Javascript, React </h5>
+          <h5>HTML, CSS, Javascript, React, Next.JS </h5>
         </div>
         <div data-aos = 'fade-right' className = 'conteudo' id = 'conteudo2'>
           <img className = 'conteudoimage'  src = {backend}></img>

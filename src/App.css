@@ -138,6 +138,7 @@ z-index: 99;
     border-radius: 10px;
     text-align: center;
     z-index: 99;
+    
 }
 .modalButtonDemo:hover{
     transform: scale(1.1);
@@ -775,7 +776,7 @@ width: 100%;
 height: 100%;
 box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 cursor: pointer;
-filter: brightness(80%);
+filter: brightness(60%);
 border-radius: 15px;
 
 
@@ -945,10 +946,13 @@ color: white;
     background-color: red;
     max-height: 90vh;
     min-height: 90vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
    
     z-index: 99;
-    top: 5%;
-    left: 35%;
+   
+   
 
 }
 .modalButton{
@@ -960,6 +964,7 @@ color: white;
     top: 0%;
     background-color: black;
     opacity: 60%;
+    
 }
 .modalButton1{
     position: fixed;
@@ -975,18 +980,27 @@ color: white;
     background-repeat: no-repeat;
     border: none;
     cursor: pointer;
+    
    }
 .modalButtonPdf{
     position: fixed;
     min-height:6vh;
     min-width:8vw;
-    background-color: red;
+    background-color: black;
     z-index: 99;
-    left: 72%;
     top: 5%;
+    left: 72%;
     background-image: url(./img/Download.png);
     background-size: 100%;
     cursor: pointer;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.modalButtonPdf:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+    filter: brightness(150%);
 }
 }
 

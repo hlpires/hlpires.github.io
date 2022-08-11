@@ -10,13 +10,13 @@ const ModalEsports = ({open,onClose}) =>  {
     <div className ='modalEcommerce'>
         <div className = 'modalBox'>
             <div className = 'modalEcommerceImg'><img className ='EcommerceImgSize' src= {ecommerceImg}></img></div>
-            <div className = 'modalEcommerceText'><p className ='modalEcommerceTextP'>Aplicação em desenvolvimento, website ira consumir uma API
-            gerar um banco de dados conforme o desempenho dos times e gerar Dados e graficos a serem consultados tecnologias que estão sendo usadas
-            <span className = 'spanEco'> MongoDb</span>,<span className = 'spanEco'> React</span>, <span className = 'spanEco'>HTML</span>,
-             <span className = 'spanEco'>CSS</span>, <span className = 'spanEco'>JS</span>, <span className = 'spanEco'>Node</span></p>
+            <div className = 'modalEcommerceText'><p className ='modalEcommerceTextP'> <span className = 'spanEco'> Em Desenvolvimento </span>Ecommerce de venda de Joías utilizando
+            <span className = 'spanEco'> MongoDb</span> como banco de dados,<span className = 'spanEco'> React</span> e <span className = 'spanEco'>NodeJS</span>, para o Front-End, website consome a API do banco de dados
+            para prencher os produtos, sistema de login para a inserção de novos produtos pelo usuario utilizando Request de <span className = 'spanEco'>API REST</span>, demais tecnologias usadas: 
+             <span className = 'spanEco'> CSS</span>, <span className = 'spanEco'> JS</span>,<span className = 'spanEco'> Git</span></p>
             
             <div className = 'modalButtonBox'>
-            <a href="https://github.com/hlpires/CsgoNews"><div className = 'modalButtonCode'><p className ='modalEcommerceTextP'>Codigo</p></div></a>
+            <a href="https://github.com/hlpires/ecommercemongodb"><div className = 'modalButtonCode'><p className ='modalEcommerceTextP'>Codigo</p></div></a>
             
             </div>
             
