@@ -389,6 +389,7 @@ h3{
     float: left;
     font-family: regular2;
 }
+
 .curriculo{
 
 width: 40%;
@@ -1069,6 +1070,11 @@ color: white;
     z-index: 99;
     
     }
+    .modalEcommerceTextP1{
+        color: white;
+        font-size: 20px;
+        padding-top: 10px;
+        }
     .modalEcommerceText{
     width: 50%;
     height: 100%;
@@ -1080,10 +1086,9 @@ color: white;
     .modalEcommerceTextP{
         margin-top: 10%;
         width: 80%;
-        height: 70%;
         margin-left: 10%;
         align-self: center;
-        font-size: 2.5vw;
+        font-size: 14px;
         color: white;
         font-family: regular1;
         float: left;
@@ -1096,10 +1101,13 @@ color: white;
     }
     .modalButtonBox{
       width: 80%;
-      height: 10%;
+      height: 50px;
       display: flex;
       justify-content: center;
       z-index: 99;
+     
+      margin-left: 10%;
+     
     }
     .modalButtonCode{
         cursor: pointer;
@@ -1107,12 +1115,12 @@ color: white;
         min-width: 120px;
         height: 80%;
         background-color: #c75329;
-        margin-left: 80px;
+        margin-right: 20%;
         border-radius: 10px;
         text-align: center;
         z-index: 99;
     }
-    
+
     .modalButtonCode:hover{
         transform: scale(1.1);
         transition: 0.5s;
@@ -1121,7 +1129,7 @@ color: white;
         width: 120px;
         height: 80%;
         background-color: #c75329;
-        margin-left: 80px;
+        margin-left: 20%;
         min-width: 120px;
         cursor: pointer;
         border-radius: 10px;
@@ -1584,7 +1592,11 @@ color: white;
         display: flex;
         
     }
-    
+    #projetosBoxArt{
+      
+        display: none;
+       
+    }
     .projetosPosition{
         margin-top: 20%;
         display: block;
@@ -1841,7 +1853,7 @@ color: white;
 
     
     .modalEcommerce{
-        display: flex;
+        display: none;
         justify-content: center;
         position: absolute;
         width: 100vw;
@@ -1873,16 +1885,17 @@ color: white;
     .modalEcommerceImg{
     width: 100%;
     height: 50%;
-   
+   display: none;
     z-index: 99;
     
     }
     .modalEcommerceText{
+        
     width: 100%;
-    height: 50%;
+    height: 100%;
     background-color: #2c2b2b;
     float: left;
-    display: block;
+    display: flex;
     z-index: 99;
     }
     .modalEcommerceTextP{
@@ -1896,9 +1909,16 @@ color: white;
         font-family: regular1;
         float: left;
         z-index: 99;
+        display: none;
+    }
+    .modalEcommerceTextP1{
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
     }
     
     .EcommerceImgSize {
+     
         width: 100%;
         height: 100%;
         z-index: 99;
@@ -1908,6 +1928,7 @@ color: white;
       width: 100%;
       height: 10%;
       display: flex;
+      margin-top: 20%;
       justify-content: center;
       z-index: 99;
     
@@ -1916,7 +1937,7 @@ color: white;
         cursor: pointer;
         width: 120px;
         min-width: 120px;
-        height: 100%;
+        height: 40px;
         background-color: #c75329;
        
         border-radius: 10px;
@@ -1930,7 +1951,8 @@ color: white;
     }
     .modalButtonDemo{
         width: 120px;
-        height: 100%;
+        height: 40px;
+        
         background-color: #c75329;
         margin-left: 40px;
         min-width: 120px;
@@ -1957,6 +1979,7 @@ color: white;
         display: flex;
       
     }
+    
     .menuPosition{
         display: flex;
         
@@ -1982,7 +2005,7 @@ color: white;
         
         cursor: pointer;
     }
-    
+
     
     .button{
         
@@ -2387,13 +2410,17 @@ color: white;
     .projetos{
        
         width: 100vw;
-        height: 1400px;
+        height: 1100px;
         background-color: rgb(31, 29, 29);
         justify-content: center;
         display: flex;
         
     }
-    
+    #projetosBoxArt{
+      
+        display: none;
+       
+    }
     .projetosPosition{
         margin-top: 30%;
         display: block;
@@ -2442,7 +2469,7 @@ color: white;
         height: 70%;
         margin-top: 5%;
         margin-left: 10%;
-        
+      
     }
 
     .projetosText{
@@ -2459,6 +2486,7 @@ color: white;
     width: 100%;
     height: 100%;
     filter: brightness(70%);
+   
     }
     .imgButtonBox{
         width: 100%;
