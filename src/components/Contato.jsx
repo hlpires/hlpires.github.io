@@ -59,11 +59,11 @@ const Contato = () => {
           <div data-aos = 'fade-right' className = 'email'>
             <form ref={form} onSubmit={sendEmail}>
       
-             <input className='nomeInput' type="text" placeholder= 'Nome'name="user_name" />
+             <input className='nomeInput' type="text" placeholder= ' Nome'name="user_name" />
      
-             <input className='emailInput' onChange = {event => setEmail(event.target.value)} type="email" placeholder= 'Seu Email' name="user_email" />
+             <input className='emailInput' onChange = {event => setEmail(event.target.value)} type="email" placeholder= ' Seu Email' name="user_email" />
       
-             <textarea className='messageInput' name="message" placeholder= 'Menssagem' />
+             <textarea className='messageInput' name="message" placeholder= ' Menssagem' />
              <input className='buttonInput' type="submit" value="Enviar" />
              </form>
            </div>

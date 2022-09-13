@@ -1,5 +1,5 @@
 import React from 'react'
-import ecommerceImg from '../img/cslogobc.png'
+import ecommerceImg from '../img/modalTecno.png'
 
 const ModalEsports = ({open,onClose}) =>  {
 
@@ -10,15 +10,19 @@ const ModalEsports = ({open,onClose}) =>  {
     <div className ='modalEcommerce'>
         <div className = 'modalBox'>
             <div className = 'modalEcommerceImg'><img className ='EcommerceImgSize' src= {ecommerceImg}></img></div>
-            <div className = 'modalEcommerceText'><p className ='modalEcommerceTextP'> <span className = 'spanEco'> Em Desenvolvimento </span>Ecommerce de venda de Joías utilizando
-            <span className = 'spanEco'> MongoDb</span> como banco de dados,<span className = 'spanEco'> React</span> e <span className = 'spanEco'>NodeJS</span>, para o Front-End, website consome a API do banco de dados
-            para prencher os produtos, sistema de login para a inserção de novos produtos pelo usuario utilizando Request de <span className = 'spanEco'>API REST</span>, demais tecnologias usadas: 
-             <span className = 'spanEco'> CSS</span>, <span className = 'spanEco'> JS</span>,<span className = 'spanEco'> Git</span></p>
+            <div className = 'modalEcommerceText'><p className ='modalEcommerceTextP'>
+              <p className ='modalEcommerceTextP'>•		HTML, CSS, JavaScript, Componentes Estilizados e React</p>
+              <p className ='modalEcommerceTextP'>•	Interações REST API com o Banco de dados para consulta de produtos</p>
+              <p className ='modalEcommerceTextP'>•	Sistema de pagamentos utilizando a API do Stripe</p>
+              <p className ='modalEcommerceTextP'>•	Multi-Page</p>
+              <p className ='modalEcommerceTextP'>•	Local Storage para armezenamento de dados do carrinho de compras</p>
+            </p>
             
             <div className = 'modalButtonBox'>
             <a href="https://github.com/hlpires/ecommercemongodb"><div className = 'modalButtonCode'><p className ='modalEcommerceTextP'>Codigo</p></div></a>
-            
+            <a href="https://hlpires.github.io/reinoAnimalProject/" ><div className = 'modalButtonDemo'><p className ='modalEcommerceTextP'>Demo</p></div></a>
             </div>
+            
             
             </div>
 

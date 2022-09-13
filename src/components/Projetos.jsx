@@ -3,7 +3,7 @@ import animal from '../img/animal.png'
 import code from '../img/code.png'
 import play from '../img/play.png'
 import esports from '../img/cslogo.png'
-import comercio from '../img/comercio.png'
+import comercio from '../img/banner1.png'
 import ModalEcommerce from './ModalEcommerce'
 import ModalReino from './ModalReino'
 import ModalEsports from './ModalEsports'
@@ -29,20 +29,19 @@ const Projetos = () => {
         <div className = 'position'>
         <div className = 'sobreTitle'><h6>Projetos</h6></div>
            <div className = 'projetosPosition'>
-           <div data-aos = 'fade-right' className = 'projetosBox1'>
+           <div data-aos = 'fade-right' className = 'projetosBox' id ='projetosBox1'>
            
              
              <div className = 'imgButtonBox'>
              <img src={comercio} onClick = {() =>{setModalEcommerce(true)}} alt="" className='projetosImg' alt=""/>      
              </div>
            </div>
-           <div  data-aos = 'fade-right' className = 'projetosBox'>
+           <div data-aos = 'fade-right' className = 'projetosBox' id ='projetosBoxArt'>
+           
              
-             <div  className = 'imgButtonBox'>
-               <img src={animal} onClick = {() =>{setModalReino(true)}} className='projetosImg' alt=""  alt=""/>
-             
-             </div>
-           </div> 
+           
+         </div>
+           
             
            <div  data-aos = 'fade-right' className = 'projetosBox' id = 'projetosbox'>            
              <div className = 'imgButtonBox'>
@@ -52,6 +51,13 @@ const Projetos = () => {
              </div>
              
            </div>
+           <div  data-aos = 'fade-right' className = 'projetosBox'>
+             
+             <div  className = 'imgButtonBox'>
+               <img src={animal} onClick = {() =>{setModalReino(true)}} className='projetosImg' alt=""  alt=""/>
+             
+             </div>
+           </div> 
            </div>         
         </div>
         <ModalEcommerce open={modalEcommerce} onClose={() => setModalEcommerce(false)}/>

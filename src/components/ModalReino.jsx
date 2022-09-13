@@ -13,9 +13,12 @@ const ModalReino = ({open,onClose}) =>  {
     <div className ='modalEcommerce'>
         <div className = 'modalBox'>
             <div className = 'modalEcommerceImg'><img className ='EcommerceImgSize' src= {ecommerceImg}></img></div>
-            <div className = 'modalEcommerceText'><p className ='modalEcommerceTextP'>Website estático para divulgação de serviços, mostrar resultados 
-            tecnologias usadas <span className = 'spanReino'> Javascript</span>, <span className = 'spanReino'>HTML</span>, <span className = 'spanReino'>CSS</span> e <span className = 'spanReino'>Jquery</span> 
-          </p>
+            <div className = 'modalEcommerceText'><p className ='modalEcommerceTextP'>
+              <p className ='modalEcommerceTextP'>•		HTML, CSS, JavaScript, Componentes Estilizados e React</p>
+              <p className ='modalEcommerceTextP'>•	Interações REST API com o Banco de dados para consulta de produtos</p>
+              <p className ='modalEcommerceTextP'>•	Sistema de pagamentos utilizando a API do Stripe</p>
+              <p className ='modalEcommerceTextP'>•	Multi-Page</p>
+              <p className ='modalEcommerceTextP'>•	Local Storage para armezenamento de dados do carrinho de compras</p></p>
             
             <div className = 'modalButtonBox'>
               <a href="https://github.com/hlpires/reinoAnimalProject" ><div className = 'modalButtonCode'><p className ='modalEcommerceTextP'>Codigo</p></div></a>
