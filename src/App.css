@@ -1100,8 +1100,9 @@ color: white;
         z-index: 99;
     }
     .modalButtonBox{
+     
       width: 80%;
-      height: 50px;
+      height: 100px;
       display: flex;
       justify-content: center;
       z-index: 99;
@@ -1110,10 +1111,11 @@ color: white;
      
     }
     .modalButtonCode{
+        margin-top: 25%;
         cursor: pointer;
         width: 120px;
         min-width: 120px;
-        height: 80%;
+        height: 40%;
         background-color: #c75329;
         margin-right: 20%;
         border-radius: 10px;
@@ -1126,8 +1128,9 @@ color: white;
         transition: 0.5s;
     }
     .modalButtonDemo{
+        margin-top: 25%;
         width: 120px;
-        height: 80%;
+        height: 40%;
         background-color: #c75329;
         margin-left: 20%;
         min-width: 120px;
