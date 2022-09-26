@@ -1,6 +1,7 @@
 import React,{useState,useEffect}from 'react'
 import animal from '../img/animal.png'
-import bitcoin from '../img/bitcoin.png'
+import code from '../img/code.png'
+import play from '../img/play.png'
 import esports from '../img/cslogo.png'
 import comercio from '../img/banner1.png'
 import ModalEcommerce from './ModalEcommerce'
@@ -26,22 +27,20 @@ const Projetos = () => {
     <div  className = 'projetos'>
       
         <div className = 'position'>
-        <div className =  'projetosPosition1' data-aos = 'fade-right'>
-
-        <a href="https://fastcrypto-nu.vercel.app/"><img src={bitcoin}  alt="" className='projetosImg' alt=""/></a>
-
-        </div>
+        <div className = 'sobreTitle'><h6>Projetos</h6></div>
            <div className = 'projetosPosition'>
            <div data-aos = 'fade-right' className = 'projetosBox' id ='projetosBox1'>
            
              
              <div className = 'imgButtonBox'>
-            <img src={comercio} onClick = {() =>{setModalEcommerce(true)}} alt="" className='projetosImg' alt=""/>
+             <img src={comercio} onClick = {() =>{setModalEcommerce(true)}} alt="" className='projetosImg' alt=""/>      
              </div>
            </div>
-
-
-    
+           <div data-aos = 'fade-right' className = 'projetosBox' id ='projetosBoxArt'>
+           
+             
+           
+         </div>
            
             
            <div  data-aos = 'fade-right' className = 'projetosBox' id = 'projetosbox'>            
