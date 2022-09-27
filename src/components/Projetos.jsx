@@ -26,9 +26,11 @@ const Projetos = () => {
     <div  className = 'projetos'>
       
         <div className = 'position'>
+        
         <div className =  'projetosPosition1' data-aos = 'fade-right'>
 
-        <a href="https://fastcrypto-nu.vercel.app/"><img src={bitcoin}  alt="" className='projetosImg' alt=""/></a>
+        <a href="https://fastcrypto-nu.vercel.app/"><img src={bitcoin}  alt="" className='projetosImg2' alt=""/></a>
+       <div   alt="" className='projetosImg1' alt=""/>
 
         </div>
            <div className = 'projetosPosition'>

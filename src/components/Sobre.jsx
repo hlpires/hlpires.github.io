@@ -68,9 +68,10 @@ const Sobre = () => {
      </div>
     
  
-
+     <div data-aos = 'fade-right' className = 'sobreTitle'><h6>Projetos</h6></div>
      </div>
   </div>
+  
   )
 }
 
