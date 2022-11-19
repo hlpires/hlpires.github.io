@@ -23,7 +23,7 @@ const Projetos = () => {
   },[])
 
   return (
-    
+    <div>
     <div  className = 'projetos'>
       
         <div className = 'position'>
@@ -60,9 +60,32 @@ const Projetos = () => {
            </div> 
            </div>         
         </div>
+        
         <ModalEcommerce open={modalEcommerce} onClose={() => setModalEcommerce(false)}/>
         <ModalReino open={modalReino} onClose={() => setModalReino(false)}/>
         <ModalEsports open={modalEsports} onClose={() => setModalEsports(false)}/>
+    </div>
+
+    <div  className = 'projetos'>
+      
+      <div className = 'position'>
+      <div className = 'sobreTitle'><h6>Projetos</h6></div>
+         <div className = 'projetosPosition'>
+         <div data-aos = 'fade-right' className = 'projetosBox' id ='projetosBox1'>
+         
+           
+         </div>
+         <div data-aos = 'fade-right' className = 'projetosBox' id ='projetosBoxArt'>
+                
+         </div>
+         
+         </div>         
+      </div>
+      
+      <ModalEcommerce open={modalEcommerce} onClose={() => setModalEcommerce(false)}/>
+      <ModalReino open={modalReino} onClose={() => setModalReino(false)}/>
+      <ModalEsports open={modalEsports} onClose={() => setModalEsports(false)}/>
+  </div>
     </div>
   )
 }

@@ -612,7 +612,6 @@ font-weight: bolder;
 .projetos{
    
     width: 100vw;
-    height: 700px;
     background-color: rgb(31, 29, 29);
     justify-content: center;
     display: flex;
@@ -622,12 +621,12 @@ font-weight: bolder;
 
 .projetosPosition{
     margin-top: 4%;
-  
+   border: 2px solid white;
     display: block;
     justify-content: center;
-    margin-left: 15%;
+    margin-left: 5%;
     height: 75%;
-    width: 70%;
+    width: 90%;
 
 }
 .projetosBox{
@@ -649,9 +648,9 @@ font-weight: bolder;
 
 
 #projetosBox1{
-    
-    width: 70%;
-    height: 45%;
+    border: 1px solid red;
+    width: 55%;
+    height: 500px;
     margin-bottom: 2%;
     align-self: center;
     
@@ -659,7 +658,8 @@ font-weight: bolder;
 }
 #projetosBoxArt{
     margin-left: 2%;
-    width: 28%;
+    width: 43%;
+    height: 500px;
 background-color: black;
 }
 
@@ -1604,7 +1604,6 @@ color: white;
         margin-top: 20%;
         display: block;
         justify-content: center;
-        
         height: 75%;
         
     }
