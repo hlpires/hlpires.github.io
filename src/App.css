@@ -17,7 +17,7 @@
 }
 @font-face {
     font-family: regular;
-    src: url(./font/Montserrat-Thin.ttf)
+    src: url(./font/PressStart2P-Regular.ttf)
   }
   @font-face {
     font-family: regular1;
@@ -36,7 +36,7 @@
 .header{
     width: 100vw;
     height: 100vh;
-    background-image: url(./img/background.png);
+    background-image: url(./img/jungle.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     display: inline-block;
@@ -319,7 +319,7 @@ margin-top:-5%
     display: flex;
     align-self: center;
     justify-content: center;
-    background-color: #302f2f;
+    background-color: #2c2e2b;
     padding-bottom: 1%;
 }
 .spanReino{
@@ -612,7 +612,7 @@ font-weight: bolder;
 .projetos{
    
     width: 100vw;
-    background-color: rgb(31, 29, 29);
+    background-color: #2c2e2b;
     justify-content: center;
     display: flex;
     padding-bottom: 5%;
@@ -823,7 +823,7 @@ filter: brightness(60%);
 .contato{
     display: flex;
     justify-content: center;
-    background-color: #302f2f;
+    background-color: #2c2e2b;
     height: 600px;
 }
 .email{
@@ -1335,7 +1335,7 @@ color: white;
     .sobreall{
         width: 100vw;
         padding-top: 06%;
-        background-color: #302f2f;
+        background-color: rgb(31, 29, 29);
         display: flex;
         align-self: center;
         justify-content: center;
