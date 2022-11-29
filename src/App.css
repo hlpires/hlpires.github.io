@@ -41,6 +41,7 @@
     background-repeat: no-repeat;
     display: inline-block;
     justify-content: center;
+  
    
 }
 .modalEcommerce{
@@ -319,7 +320,7 @@ margin-top:-5%
     display: flex;
     align-self: center;
     justify-content: center;
-    background-color: #2c2e2b;
+    background-color: #161616;
     padding-bottom: 1%;
 }
 .spanReino{
@@ -359,8 +360,7 @@ margin-top: 15%;
     display: inline-block;
     width: 90%;
     height: 30%;
-    box-shadow: 0 10px 10px 0 rgb(41, 41, 41), 0 0 0 1px #2e2e2e;
-    background-color: rgb(31, 29, 29);
+    background-color: #303036;
     margin-top: 05%;
   
 }
@@ -402,7 +402,7 @@ font-weight: bolder;
 color: white;
 border: 2px solid black;
 cursor: pointer;
-background-color: rgb(31, 29, 29);
+background-color: #303036;
 
 
 }
@@ -415,25 +415,12 @@ background-color: rgb(31, 29, 29);
     margin-top: 8%;
     height: 25%;
     display:inline-block;
-    box-shadow: 0 10px 10px 0 rgb(41, 41, 41), 0 0 0 1px #2e2e2e;
     justify-content: center;
     font-size: 15px;
     font-family: regular;
-    background-color: rgb(31, 29, 29);
+    background-color: #303036;
 }
 
-
-#conteudo1{
-    border-top:2px solid rgb(197, 97, 14);
-
-}
-#conteudo2{
-    border-top:2px solid rgb(197, 97, 14);
-}
-
-#conteudo3{
-    border-top:2px solid rgb(197, 97, 14);
-}
 
 
 
@@ -612,7 +599,7 @@ font-weight: bolder;
 .projetos{
    
     width: 100vw;
-    background-color: #2c2e2b;
+    background-color: #161616;
     justify-content: center;
     display: flex;
     padding-bottom: 5%;
@@ -625,17 +612,17 @@ font-weight: bolder;
     margin-left: 5%;
     height: 400px;
     width: 90%;
-
+  
 }
 .projetosBox{
- 
+
     width: 30%; 
     align-self: center;
     float: left;
     display: flex;
     background-size: cover;
     background-repeat: no-repeat;
-   
+   background-color: #303036;
 }
 #projetosbox{
     margin-right: 2%;
@@ -653,6 +640,7 @@ font-weight: bolder;
 }
 
 .projetosTextContent{
+    margin: 5%;
     color: white;
     font-size: 26px;
     font-family: regular2;
@@ -661,7 +649,7 @@ font-weight: bolder;
    
 }
 .projetosTextContent2{
-    margin-top: 5%;
+    margin: 5%;
     color: white;
     font-size: 24px;
     font-family: regular2;
@@ -679,7 +667,7 @@ font-weight: bolder;
 #projetosBoxArt{
     margin-left: 2%;
     width: 43%;
-    margin-top: -2.4%;
+
     height: 100%;
 background-color: black;
 }
@@ -823,7 +811,7 @@ filter: brightness(60%);
 .contato{
     display: flex;
     justify-content: center;
-    background-color: #2c2e2b;
+    background-color: #161616;
     height: 600px;
 }
 .email{
@@ -840,8 +828,7 @@ margin-right: 8%;
     width: 48%;
     border: 1px solid black;
     height: 30px;
-    background-color: rgb(31, 29, 29);
-    box-shadow: 0 10px 10px 0 rgb(41, 41, 41), 0 0 0 1px #2e2e2e;
+    background-color: #303036;
     color: white;
 }
 .emailInput{
@@ -849,22 +836,20 @@ margin-right: 8%;
     height: 30px;
     margin-left: 5%;
     margin-top: 04%;
-    background-color: rgb(31, 29, 29);
-    box-shadow: 0 10px 10px 0 rgb(41, 41, 41), 0 0 0 1px #2e2e2e;
+    background-color: #303036;
     border: 1px solid black;
     color: white;
 }
 .messageInput{
-box-shadow: 0 10px 10px 0 rgb(41, 41, 41), 0 0 0 1px #2e2e2e;
 border: 1px solid black;
 width: 100%;
 height: 200px;
 margin-top: 04%;
-background-color: rgb(31, 29, 29);
+background-color: #303036;
 color: white;
 }
 .buttonInput{
-    background-color: rgb(31, 29, 29);
+    background-color: #303036;
  height: 35px;
  width: 30%;
  margin-top: 2%;
@@ -879,13 +864,12 @@ color: white;
 .telefones{
 border-radius: 15px;
 margin-top: 6%;
-width: 30%;
+width: 37%;
 display: block;
 height: 60%;
 float: left;
-margin-left: 12%;
-background-color: rgb(31, 29, 29);
-box-shadow: 0 10px 10px 0 rgb(41, 41, 41), 0 0 0 1px #2e2e2e;
+margin-left: 5%;
+background-color: #303036;
 font-family: regular;
 color: white;
 }
