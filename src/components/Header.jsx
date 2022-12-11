@@ -38,8 +38,9 @@ const Header = () => {
          {/* <Link spy={true} smooth={true} offset={50} duration={500}><div className = 'socialMedia' id = 'socialMedia3'></div></Link> */}
 
           </div>   
- 
+          <div className='headerArt'></div>
         </div>
+     
  
         </div>
     </div>
