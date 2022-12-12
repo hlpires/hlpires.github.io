@@ -31,6 +31,26 @@
  
 @media (min-width: 1100px){
 
+.buttonHeader{
+    width: 10vw;
+    margin-top: 1.6vw;
+    height: 2.3vw;
+    margin-right: 7vw;
+    background-color:  rgba(8, 81, 165, 0.952);
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.buttonHeader:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+}
 .headerArt{
     width: 40%;
     height: 100%;
@@ -802,10 +822,10 @@ font-size: 22px;
 font-weight: bolder;
 }
 .rodape{
-margin-top: 06%;
-width: 100vw;
+background-color: #161616;
 height: 300px;
-background-color: black;
+display: flex;
+justify-content: center;
 }
 .projetosImg{
 width: 100%;

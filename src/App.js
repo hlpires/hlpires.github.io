@@ -7,6 +7,7 @@ import Projetos from './components/Projetos'
 import Contato from './components/Contato'
 import ReactGa from 'react-ga'
 import ModalEcommerce from './components/ModalEcommerce'
+import Rodape from './components/Rodape'
 
 
 ReactGa.initialize('G-LEXL8NFTK2')
@@ -27,6 +28,7 @@ function App () {
       <Sobre/>
       <Projetos/>
       <Contato/>
+      <Rodape/>
       </div>
       )
   

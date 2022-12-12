@@ -40,7 +40,9 @@ const Header = () => {
           <Link to="contato" spy={true} smooth={true} offset={500} duration={1100}> <div className = 'socialMedia' id = 'socialMedia2'> </div></Link>
          {/* <Link spy={true} smooth={true} offset={50} duration={500}><div className = 'socialMedia' id = 'socialMedia3'></div></Link> */}
           </div>   
-         <div className = 'buttonHeader'></div>
+         <div className = 'buttonHeader'>
+          <p style ={{alignSelf:'center'}}> <Link to="contato" spy={true} smooth={true} offset={50} duration={1200}>Ver mais</Link></p>
+         </div>
         </div>
      
  
