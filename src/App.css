@@ -397,6 +397,7 @@ margin-top: 15%;
     background-color: #323336;
     margin-top: 05%;
     border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 h2{
     width: 90%;
@@ -439,6 +440,7 @@ cursor: pointer;
 background-color: #323336;
 border-radius: 5px;
 margin-bottom: 100px;
+box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 .curriculo:hover{
     transform: scale(1.05);
@@ -454,6 +456,7 @@ margin-bottom: 100px;
     font-family: regular;
     background-color: #323336;
     border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 
@@ -650,7 +653,7 @@ font-weight: bolder;
     margin-bottom: 100px;
 }
 .projetosBox{
-
+   
     width: 30%; 
     align-self: center;
     float: left;
@@ -659,6 +662,7 @@ font-weight: bolder;
     background-repeat: no-repeat;
    background-color: #323336;
    border-radius: 5px;
+   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 #projetosbox{
     margin-right: 2%;
@@ -845,11 +849,12 @@ filter: brightness(60%);
     filter: brightness(105%);
 }
 .contato{
-    padding-left:16px;
+    
     display: flex;
     justify-content: center;
     background-color: #161616;
-    height: 700px;  
+    height: 700px;
+    padding-left: 0.8vw;
     padding-bottom: 100px;
 }
 .email{
@@ -869,6 +874,7 @@ margin-right: 8%;
     background-color: #323336;
     color: white;
     border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 .emailInput{
     width: 47%;
@@ -879,6 +885,7 @@ margin-right: 8%;
     border: 1px solid black;
     color: white;
     border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 .messageInput{
 border: 1px solid black;
@@ -888,6 +895,7 @@ margin-top: 04%;
 background-color: #323336;
 color: white;
 border-radius: 5px;
+box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 .buttonInput{
     border:0.5px solid black;
@@ -917,7 +925,7 @@ background-color: #323336;
 font-family: regular;
 color: white;
 border-radius: 5px;
-
+box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 .telefoneText{
     font-size: 18px;
