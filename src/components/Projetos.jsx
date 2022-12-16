@@ -74,6 +74,17 @@ const Projetos = () => {
          <div className = 'projetosPosition'  onClick = {() =>{setModalEcommerce(true)}}>
          <div data-aos = 'fade-right' className = 'projetosBox' id ='projetosBox1'>
          <p className = 'projetosTextContent'>Safire</p>
+         <div style={{border:'1px solid red',width:'90%',height:'60px',marginLeft:'5%',display:'flex'}}>
+           <p style = {{alignSelf:'center',fontSize:'30px',fontFamily:'fantasy',color:'white'}}>Técnologia:</p>
+           <div id = 'reactIcon' style = {{width:'60px',height:'100%',border:'1px solid red',alignSelf:'center',
+          marginLeft:'2%'}}></div>
+            <div id = 'mongoIcon' style = {{width:'60px',height:'100%',border:'1px solid red',alignSelf:'center',
+          marginLeft:'2%'}}></div>
+            <div id = 'nextIcon' style = {{width:'60px',height:'100%',border:'1px solid red',alignSelf:'center',
+          marginLeft:'2%'}}></div>
+            <div id= 'javascriptIcon' style = {{width:'60px',height:'100%',border:'1px solid red',alignSelf:'center',
+          marginLeft:'2%'}}></div>
+         </div>
          <p className = 'projetosTextContent2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -114,6 +125,17 @@ const Projetos = () => {
          <div className = 'projetosPosition' onClick = {() =>{setModalReino(true)}}>
          <div data-aos = 'fade-right' className = 'projetosBox' id ='projetosBox1'>
          <p className = 'projetosTextContent'>Safire</p>
+         <div style={{border:'1px solid red',width:'90%',height:'60px',marginLeft:'5%',display:'flex'}}>
+           <p style = {{alignSelf:'center',fontSize:'30px',fontFamily:'fantasy',color:'white'}}>Técnologia:</p>
+           <div style = {{width:'60px',height:'100%',border:'1px solid red',alignSelf:'center',
+          marginLeft:'2%'}}></div>
+            <div style = {{width:'60px',height:'100%',border:'1px solid red',alignSelf:'center',
+          marginLeft:'2%'}}></div>
+            <div style = {{width:'60px',height:'100%',border:'1px solid red',alignSelf:'center',
+          marginLeft:'2%'}}></div>
+            <div style = {{width:'60px',height:'100%',border:'1px solid red',alignSelf:'center',
+          marginLeft:'2%'}}></div>
+         </div>
          <p className = 'projetosTextContent2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
