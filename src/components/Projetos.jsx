@@ -25,53 +25,15 @@ const Projetos = () => {
 
   return (
     <div>
-   {/* <div  className = 'projetos'>
-      
-        <div className = 'position'>
-        <div className = 'sobreTitle'><h6>Projetos</h6></div>
-           <div className = 'projetosPosition'>
-           <div data-aos = 'fade-right' className = 'projetosBox' id ='projetosBox1'>
-           
-             
-             <div className = 'imgButtonBox'>
-             <img src={comercio} onClick = {() =>{setModalEcommerce(true)}} alt="" className='projetosImg' alt=""/>      
-             </div>
-           </div>
-           <div data-aos = 'fade-right' className = 'projetosBox' id ='projetosBoxArt'>
-           
-             
-           
-         </div>
-           
-            
-           <div  data-aos = 'fade-right' className = 'projetosBox' id = 'projetosbox'>            
-             <div className = 'imgButtonBox'>
-               <img src={esports} onClick = {() =>{setModalEsports(true)}} className='projetosImg' alt=""  alt=""/>
-          
-
-             </div>
-             
-           </div>
-           <div  data-aos = 'fade-right' className = 'projetosBox'>
-             
-             <div  className = 'imgButtonBox'>
-               <img src={animal} onClick = {() =>{setModalReino(true)}} className='projetosImg' alt=""  alt=""/>
-             
-             </div>
-           </div> 
-           </div>         
-        </div>
-        
-        <ModalEcommerce open={modalEcommerce} onClose={() => setModalEcommerce(false)}/>
-        <ModalReino open={modalReino} onClose={() => setModalReino(false)}/>
-        <ModalEsports open={modalEsports} onClose={() => setModalEsports(false)}/>
-  </div> */}
-
+   {/* onClick = {() =>{setModalEsports(true)}} 
+   () =>{setModalEcommerce(true)}
+   () =>{setModalReino(true)} */}
+  
     <div  className = 'projetos'>
       
       <div className = 'position'>
       <div className = 'sobreTitle'><h6>Projetos</h6></div>
-         <div className = 'projetosPosition'  onClick = {() =>{setModalEcommerce(true)}}>
+         <div className = 'projetosPosition'  >
          <div data-aos = 'fade-right' className = 'projetosBox' id ='projetosBox1'>
          <p className = 'projetosTextContent'>Safire</p>
          <div style={{width:'90%',height:'60px',marginLeft:'5%',display:'flex'}}>
@@ -96,11 +58,11 @@ const Projetos = () => {
              </div>
          </div>
          <div data-aos = 'fade-right' className = 'projetosBox' id ='projetosBoxArt'>
-         <div className = 'imageContent' ></div>
+         <div id = 'imageContent' ></div>
          </div>
          
          </div>
-         <div className = 'projetosPosition' onClick = {() =>{setModalEsports(true)}}>
+         <div className = 'projetosPosition' >
          <div data-aos = 'fade-right' className = 'projetosBox' id ='projetosBox1'>
          <p className = 'projetosTextContent'>Safire</p>
          <div style={{width:'90%',height:'60px',marginLeft:'5%',display:'flex'}}>
@@ -126,12 +88,12 @@ const Projetos = () => {
          </div>
    
          <div data-aos = 'fade-right' className = 'projetosBox' id ='projetosBoxArt'>
-         <div className = 'imageContent'></div>
+         <div id = 'imageContent2'></div>
          </div>
          
          </div>
    
-         <div className = 'projetosPosition' onClick = {() =>{setModalReino(true)}}>
+         <div className = 'projetosPosition' >
          <div data-aos = 'fade-right' className = 'projetosBox' id ='projetosBox1'>
          <p className = 'projetosTextContent'>Safire</p>
          <div style={{width:'90%',height:'60px',marginLeft:'5%',display:'flex'}}>
