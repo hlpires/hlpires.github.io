@@ -763,12 +763,13 @@
         margin-top: 5%;
         justify-content: center;
         margin-left: 5%;
-        height: 500px;
+        min-height: 350px;
         width: 90%;
     }
 
     .projetosBox {
         width: 30%;
+        min-height: 350px;
         height: 100%;
         align-self: center;
         float: left;
@@ -820,7 +821,10 @@
         height: 100%;
         background-color: red;
         background-image: url(./img/modalsafire.png);
-        background-size: 100% 100%;
+        background-size: 350px 350px;
+        background-color: white;
+        background-position-x: center;
+        background-position-y: center;
         background-repeat: no-repeat;
     }
 
@@ -829,16 +833,32 @@
         height: 100%;
         background-color: red;
         background-image: url(./img/modalsafire.png);
-        background-size: 100% 100%;
+        background-size: 350px 350px;
+        background-color: white;
+        background-position-x: center;
+        background-position-y: center;
         background-repeat: no-repeat;
     }
 
     #imageContent2 {
         width: 100%;
         height: 100%;
-        background-color: red;
+        background-color: #6f40dd;
         background-image: url(./img/cslogobc.png);
-        background-size: 100% 100%;
+        background-size: 350px 350px;
+        background-position-x: center;
+        background-position-y: center;
+        background-repeat: no-repeat;
+    }
+
+    #imageContent3 {
+        width: 100%;
+        height: 100%;
+        background-color: #537fee;
+        background-image: url(./img/icons/Ethereum.png);
+        background-size: 150px 150px;
+        background-position-x: center;
+        background-position-y: center;
         background-repeat: no-repeat;
     }
 
