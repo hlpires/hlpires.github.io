@@ -73,9 +73,7 @@ const Contato = () => {
           <div className='celular'>11970127930</div>
           <div className='telefoneText'>Email:</div>
           <div className='endereço'>higorlpires2@gmail.com</div>
-          <div className='wppButton'>
-            <a href='https://api.whatsapp.com/send?phone=5511970127930'><img className='contatowpp' src={wpp} alt="" /></a>
-          </div>
+    
         </div>
       </div>
       <Toaster />
