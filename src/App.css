@@ -35,6 +35,24 @@
 
 @media (min-width: 1100px) {
 
+    .buttonExibir {
+        height: 60px;
+        background-color: #121211;
+        color: white;
+        font-family: regular2;
+        width: 30%;
+        margin-top: 100px;
+        margin-bottom: 50px;
+        cursor: pointer;
+        margin-left: 35%;
+        display: flex;
+        justify-content: center;
+        transition: 0.5s;
+    }
+
+    .buttonExibir:hover {
+        transform: scale(1.05);
+    }
 
     #reactIcon {
         background-image: url(/src/img/icons/react.png);
@@ -538,13 +556,14 @@
         height: 5%;
         margin-top: 2%;
         text-align: center;
-        font-size: 26px;
+        font-size: 22px;
         font-family: regular2;
         font-weight: bolder;
         color: white;
-        border: 2px solid black;
+        display: flex;
+        justify-content: center;
         cursor: pointer;
-        background-color: #323336;
+        background-color: #121211;
         border-radius: 5px;
         margin-bottom: 100px;
         box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
@@ -696,7 +715,7 @@
     }
 
     .position {
-        width: 80vw;
+        width: 86vw;
         max-width: 2000px;
         display: inline-block;
         background-color: rgb(41, 41, 41);
@@ -862,7 +881,7 @@
         background-repeat: no-repeat;
     }
 
-    
+
     #imageContent4 {
         width: 100%;
         height: 100%;
@@ -873,7 +892,7 @@
         background-position-y: center;
         background-repeat: no-repeat;
     }
-    
+
     #imageContent5 {
         width: 100%;
         height: 100%;
@@ -884,6 +903,7 @@
         background-position-y: center;
         background-repeat: no-repeat;
     }
+
     #projetosBoxArt {
         margin-left: 2%;
         width: 43%;
@@ -1681,7 +1701,7 @@
         color: white;
         border: 2px solid black;
         cursor: pointer;
-        background-color: rgb(31, 29, 29);
+        background-color: #121211;
 
     }
 
