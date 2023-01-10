@@ -44,19 +44,19 @@ const Sobre = () => {
 
 
           <div className='posicionarConteudo'>
-            <div data-aos='fade-right' className='conteudo' id='conteudo1'>
+            <div data-aos='fade-right' className='conteudo' id='conteudo1' style = {{marginTop:'0.5%'}}>
               <img className='conteudoimage' src={frontend}></img>
               <h4>Front-End</h4>
               <h5>HTML, CSS, Javascript, React, Next.JS </h5>
             </div>
-            <div data-aos='fade-right' className='conteudo' id='conteudo2'>
+            <div data-aos='fade-right' className='conteudo' id='conteudo2'  style = {{marginTop:'3%'}}>
               <img className='conteudoimage' src={backend}></img>
               <h4>Back-End</h4>
               <h5>Node Js, MongoDB</h5>
 
 
             </div>
-            <div data-aos='fade-right' className='conteudo' id='conteudo3'>
+            <div data-aos='fade-right' className='conteudo' id='conteudo3'  style = {{marginTop:'3%'}}>
               <img className='conteudoimage' src={ferramentas}></img>
               <h4>Ferramentas</h4>
               <h5>Figma, Photoshop, Git, Github</h5>
