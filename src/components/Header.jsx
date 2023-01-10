@@ -33,8 +33,8 @@ const Header = () => {
       
          <div className = 'headerText'>
          <div className='headerArt'></div>
-         <h1 className= 'animate__animated animate__lightSpeedInLeft'>Higor Pires</h1>
-         <h1 id='h1S' className= 'animate__animated animate__lightSpeedInLeft'>Full stack Devoloper</h1>
+         <h1>Higor Pires</h1>
+         <h1 id='h1S'>Full stack Devoloper</h1>
          <div className = 'socialMediaBox'>
          <a href = 'https://github.com/hlpires'><div className = 'socialMedia' id = 'socialMedia1'></div></a>
          <a href = 'https://github.com/hlpires'><div className = 'socialMedia' id = 'socialMedia3'></div></a>

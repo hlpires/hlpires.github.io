@@ -423,10 +423,9 @@
     }
 
     #h1S {
-
         color: white !important;
         font-size: 1.0vw !important;
-        margin-top: -2vw;
+        margin-top: 0.4vw;
         height: 2vw;
         font-weight: lighter;
 
