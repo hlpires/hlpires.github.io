@@ -1328,6 +1328,50 @@
         width: 40%;
         margin-left: 10%;
         padding: 2%;
-        
     }
+    .projetos {
+
+        width: 100vw;
+        background-color: #161616;
+        justify-content: center;
+        display: block;
+        padding-bottom: 20px;
+
+    }
+    .projetosPosition {
+        margin-top: 5%;
+        justify-content: center;
+        margin-left: 5%;
+        min-height: 350px;
+        width: 90%; border: 1px solid red;
+    }
+    .projetosBox {
+        width: 40;
+        min-height: 350px;
+        height: 100%;
+        align-self: center;
+        float:none;
+        display: flex;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: #323336;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    }
+        #projetosBoxArt {
+        margin-left: 2%;
+        width: 43%;
+        display: none;
+        height: 100%;
+        background-color: black;
+    }
+
+    #projetosBox1 {
+        width: 100%;
+        margin-bottom: 2%;
+        align-self: center;
+        display: block;
+
+    }
+
 }

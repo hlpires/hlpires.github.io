@@ -81,7 +81,7 @@ const Projetos = () => {
           <div className='sobreTitle'><h6>Projetos</h6></div>
           {projetos.slice(0, more).map(({ nome, tecnologia, texto, codigo, demo, image }) => {
             return (
-              <div><div className='projetosPosition'>
+              <div className='projetosPosition'>
                 <div data-aos='fade-right' className='projetosBox' id='projetosBox1'>
                   <p className='projetosTextContent'>{nome}</p>
                   <div style={{ width: '90%', height: '50px', marginLeft: '5%', display: 'flex' }}>
@@ -115,7 +115,7 @@ const Projetos = () => {
                   <div id={image} style={{ minHeight: '350px' }} ></div>
                 </div>
               </div>
-              </div>
+           
             )
           })}
           <div style={{ display: show }} onClick={
