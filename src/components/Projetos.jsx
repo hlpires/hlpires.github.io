@@ -38,7 +38,7 @@ const Projetos = () => {
       demo: 'https://fastcrypto-nu.vercel.app/'
     },
     {
-      nome: 'Web 3 project',
+      nome: 'Web 3 project (Development)',
       image: 'imageContent3',
       tecnologia: ['solidityIcon', 'metamaskIcon', 'reactIcon', 'ethereumIcon'],
       texto: 'Mercado de compra e vendas de NFTS, utlizando a rede Ethereum.',
