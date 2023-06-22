@@ -25,7 +25,7 @@ const Projetos = () => {
       nome: 'Safire',
       image: 'imageContent',
       tecnologia: ['reactIcon', 'mongoIcon', 'nextIcon', 'javascriptIcon'],
-      texto: 'Comercio online completo, com sistema de carrinho de compras, pagamentos, login, banco de dados proprio e area de registro de novos produtos.',
+      texto: 'Loja online de vendas de produtos, com sistema de carrinho de compras, pagamentos, login, banco de dados proprio e área de admin para registro de novos produtos.',
       codigo: 'https://github.com/hlpires/ecommercemongodb',
       demo: 'https://ecommercemongodb.vercel.app/'
     },
@@ -49,7 +49,7 @@ const Projetos = () => {
       nome: 'Tecno Center',
       image: 'imageContent4',
       tecnologia: ['reactIcon', 'javascriptIcon', 'apiIcon', ''],
-      texto: 'Comercio online que utiliza uma api para fazer o banco de dados',
+      texto: 'Comercio online que utiliza uma api para fazer o banco de dados, sistema de pagamentos',
       codigo: 'https://github.com/hlpires/ecommercemongodb',
       demo: 'https://ecommerceapp-self.vercel.app/'
     },

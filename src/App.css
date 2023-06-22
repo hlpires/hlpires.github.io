@@ -299,12 +299,11 @@
         font-family: regular;
         color: white;
         font-size: 2vw;
+        cursor: pointer;
     }
 
     .menuText:hover {
-        border-bottom: 1px solid #ca6642;
-        cursor: pointer;
-        color: #ca6642;
+        transform: scale(1.05);
     }
 
 
@@ -384,7 +383,7 @@
     }
 
     .socialMedia:hover {
-        border: 1px solid #ca6642;
+        border: 1px solid white;
     }
 
     #socialMedia1 {
@@ -1201,7 +1200,7 @@
     }
 
     .socialMedia1:hover {
-        border: 1px solid #ca6642;
+        border: 1px solid white;
     }
 
 
@@ -1439,7 +1438,7 @@
     }
 
     .socialMedia:hover {
-        border: 1px solid #ca6642;
+        border: 1px solid white;
     }
 
     #socialMedia1 {

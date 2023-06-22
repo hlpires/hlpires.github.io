@@ -11,7 +11,7 @@ const ModalEsports = ({open,onClose}) =>  {
         <div className = 'modalBox'>
             <div className = 'modalEcommerceImg'><img className ='EcommerceImgSize' src= {ecommerceImg}></img></div>
             <div className = 'modalEcommerceText'><p className ='modalEcommerceTextP'>
-              <p className ='modalEcommerceTextP'>•		HTML, CSS, JavaScript, Componentes Estilizados e React</p>
+              <p className ='modalEcommerceTextP'>•	HTML, CSS, JavaScript, Componentes Estilizados e React</p>
               <p className ='modalEcommerceTextP'>•	Interações REST API com o Banco de dados para consulta de produtos</p>
               <p className ='modalEcommerceTextP'>•	Sistema de pagamentos utilizando a API do Stripe</p>
               <p className ='modalEcommerceTextP'>•	Multi-Page</p>

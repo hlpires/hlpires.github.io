@@ -19,8 +19,6 @@ const Contato = () => {
   const [email, setEmail] = useState('');
 
 
-
-
   const sendEmail = (e) => {
     e.preventDefault();
     if (email.length === 0) {
@@ -32,6 +30,7 @@ const Contato = () => {
     }
 
     emailjs.sendForm('service_n2gylsj', 'template_d05z4jm', form.current, 'MTKoAO6h6Sg8k4bQP')
+    console.log(form)
       .then((result) => {
         console.log(result.text);
 
@@ -73,7 +72,7 @@ const Contato = () => {
           <div className='celular'>11970127930</div>
           <div className='telefoneText'>Email:</div>
           <div className='endereço'>higorlpires2@gmail.com</div>
-    
+
         </div>
       </div>
       <Toaster />
