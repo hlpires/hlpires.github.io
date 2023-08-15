@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from 'react'
+import React, { useState, useEffect } from 'react'
 import './App.css'
 import Modal from './components/Modal'
 import Header from './components/Header'
@@ -13,7 +13,7 @@ import Rodape from './components/Rodape'
 ReactGa.initialize('G-LEXL8NFTK2')
 
 
-function App () {
+function App() {
 
 
 
@@ -21,17 +21,17 @@ function App () {
     ReactGa.pageview(window.location.pathname)
   })
 
-    
-    return (
-      <div>
-      <Header/>
-      <Sobre/>
-      <Projetos/>
-      <Contato/>
-      <Rodape/>
-      </div>
-      )
-  
+
+  return (
+    <div>
+      <Header />
+      <Sobre />
+      <Projetos />
+      <Contato />
+      <Rodape />
+    </div>
+  )
+
 
 
 }
