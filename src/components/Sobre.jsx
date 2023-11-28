@@ -64,7 +64,7 @@ const Sobre = () => {
         this.frame = 0;
         this.flapSpeed = Math.floor(Math.random() * 16 + 10);
         this.angle = Math.random() * 300
-        this.angleSpeed = Math.random() * 0.05 + 0.1
+        this.angleSpeed = 0.03
         this.curve = Math.random() * 300 + 20
       }
       update() {
