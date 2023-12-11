@@ -1,25 +1,18 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import './App.css'
 // import Modal from './components/Modal'
-import Header from './components/Header'
-import Sobre from './components/Sobre'
-import Projetos from './components/Projetos'
-import Contato from './components/Contato'
-import Rodape from './components/Rodape'
-
-
+import Index from './components/Index'
+import './App.css'
 
 
 
 function App() {
 
+
+
   return (
     <div >
-      <Header />
-      <Sobre />
-      <Projetos />
-      <Contato />
-      <Rodape />
+      <Index />
     </div>
   )
 

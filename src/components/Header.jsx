@@ -3,9 +3,13 @@ import { Link } from 'react-scroll'
 import firefly from './vagalume.png'
 import firefly1 from './maior.png'
 import arbust from './arbust.png'
-const Header = () => {
+import eua from "../img/eua.png"
+import brasil from "../img/brasil.png"
+
+const Header = (props) => {
 
   const [visivel, setVisivel] = useState('none')
+  const [nativeLanguage, setNativeLanguage] = useState(true)
   const canvasRef = useRef();
   const canvasRef1 = useRef();
   const canvasRef2 = useRef();
@@ -187,8 +191,11 @@ const Header = () => {
     animate()
   }, [])
 
+  useEffect(() => {
+    setNativeLanguage(props.location)
+  }, [props.location]);
 
-
+  console.log(props.location)
 
   return (
     <div className='header' style={{ position: 'relative', minHeight: '790px', minWidth: '1540px' }}>
@@ -213,9 +220,20 @@ const Header = () => {
         <canvas ref={canvasRef3} style={{ position: 'absolute', width: '25%', height: '23%', bottom: '5%', right: '25%', zIndex: 7 }} id="canvas1"></canvas>
         <div className='menuPosition'>
           <div className='menuHeader'>
-            <div className='menuText'><Link to="sobre" spy={true} smooth={true} offset={50} duration={500}>Sobre</Link></div>
-            <div className='menuText'><Link to="projetos" spy={true} smooth={true} offset={50} duration={500}>Projetos</Link></div>
-            <div className='menuText'><Link to="contato" spy={true} smooth={true} offset={50} duration={500}>Contato</Link></div>
+            <div className='menuText'><Link to="sobre" spy={true} smooth={true} offset={50} duration={500}> {nativeLanguage ? "Sobre" : "About"}</Link></div>
+            <div className='menuText'><Link to="projetos" spy={true} smooth={true} offset={50} duration={500}>{nativeLanguage ? "Projetos" : "Projects"}</Link></div>
+            <div className='menuText'><Link to="contato" spy={true} smooth={true} offset={50} duration={500}>{nativeLanguage ? "Contato" : "Contact"}</Link></div>
+          </div>
+          <div onClick={() => props.handleLocation()}
+            style={{ height: "35px", cursor: "pointer", width: "80px", border: "1px solid white", alignSelf: "center", position: "absolute", right: "320px", top: "35px", display: "flex" }}>
+            <div style={{ width: "50%", display: "flex", justifyContent: "center", alignItems: "center" }}>
+              {nativeLanguage && <img style={{ width: "100%", height: "100%" }} src={eua}></img>}
+              {!nativeLanguage && <p style={{ color: "white", textAlign: "center" }}>BR</p>}
+            </div>
+            <div style={{ width: "50%", display: "flex", justifyContent: "center", alignItems: "center" }}>
+              {!nativeLanguage && <img style={{ width: "100%", height: "100%" }} src={brasil}></img>}
+              {nativeLanguage && <p style={{ color: "white", textAlign: "center" }}>EN</p>}
+            </div>
           </div>
         </div>
       </div>
@@ -232,13 +250,13 @@ const Header = () => {
             {/* <Link spy={true} smooth={true} offset={50} duration={500}><div className = 'socialMedia' id = 'socialMedia3'></div></Link> */}
           </div>
           <div className='buttonHeader'>
-            <p style={{ alignSelf: 'center' }}> <Link to="projetos" spy={true} smooth={true} offset={50} duration={1200}>Ver mais</Link></p>
+            <p style={{ alignSelf: 'center' }}> <Link to="projetos" spy={true} smooth={true} offset={50} duration={1200}>{nativeLanguage ? "Ver projetos" : "See projects"}</Link></p>
           </div>
         </div>
 
 
       </div>
-    </div>
+    </div >
   )
 }
 

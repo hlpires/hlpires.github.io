@@ -10,7 +10,7 @@ import firefly from './vagalume.png'
 import { Link } from 'react-scroll'
 import 'aos/dist/aos.css'
 
-const Sobre = () => {
+const Sobre = (props) => {
   const canvasRef = useRef();
   const canvasRef1 = useRef();
   const fireFlyArr = []
@@ -108,6 +108,13 @@ const Sobre = () => {
     Aos.init({ duration: 1000 })
   }, [])
 
+  const [nativeLanguage, setNativeLanguage] = useState(true)
+
+  useEffect(() => {
+    setNativeLanguage(props.location)
+  }, [props.location]);
+
+
   const [openModal, setOpenModal] = useState(false)
 
   return (
@@ -127,35 +134,38 @@ const Sobre = () => {
             {/* <Link spy={true} smooth={true} offset={50} duration={500}><div className = 'socialMedia' id = 'socialMedia3'></div></Link> */}
           </div>
         </div>
-        <div data-aos='fade-right' className='sobreTitle'><h6>Sobre</h6></div>
+        <div data-aos='fade-right' className='sobreTitle'><h6>{nativeLanguage ? "Sobre" : "About"}</h6></div>
         <div className='sobre'>
           <canvas className='fireflyShow' ref={canvasRef} style={{ position: 'absolute', width: '180px', height: '23%', top: '10px', right: '20px', zIndex: 7 }} id="canvas1"></canvas>
           <canvas className='fireflyShow' ref={canvasRef1} style={{ position: 'absolute', width: '180px', height: '23%', top: '10px', right: '20px', zIndex: 7 }} id="canvas2"></canvas>
-          <img className='fireflyShow' src={lamp} style={{ position: 'absolute', right: '20px', top: '20px', width: '170px', filter: 'drop-shadow(0 20px 40px rgba(0, 0, 0, 1.1))', zIndex: 7 }} />
+          <img className='fireflyShow' src={lamp} style={{ position: 'absolute', right: '20px', top: '20px', width: '170px', filter: 'drop-shadow(0 20px 40px rgba(0, 0, 0, 1.1))', zIndex: 6 }} />
           <div className='sobreText' style={{ zIndex: 4 }}>
             <img src={art} data-aos='fade-right' className='art' alt="" />
             <div data-aos='fade-right' className='text'>
-              <h3>Olá eu sou Higor</h3>
-              <h2>Sou um Full Stack Devoloper, atuo no desenvolvimento web desde 2019. Sempre estou aprendendo tecnologias novas e aplicando em meus projetos </h2>
+              <h3 style={{ fontSize: "24px", color: "rgb(7, 176, 255)" }}> {nativeLanguage ? "Olá eu sou Higor" : "About"}</h3>
+              <h2 style={{ fontWeight: "bold", lineHeight: '1.2' }}>
+                {nativeLanguage ? " desenvolvedor Full Stack com 5 anos de experiência em desenvolvimento web desde 2019. Busco superar expectativas, desafiando-me a aprender e crescer continuamente. Estou pronto para contribuir com dedicação e criatividade para o sucesso do seu próximo projeto."
+                  : "Full Stack developer with 5 years of experience in web development since 2019. I strive to exceed expectations, challenging myself to learn and grow continuously. I am ready to contribute with dedication and creativity to the success of your next project."}
+              </h2>
             </div>
-            <div className='curriculo' onClick={() => setOpenModal(true)}><p style={{ alignSelf: 'center', marginBottom: '5px' }}>Curriculo</p></div>
+            {/* <div className='curriculo' onClick={() => setOpenModal(true)}><p style={{ alignSelf: 'center', marginBottom: '5px' }}>Curriculo</p></div> */}
           </div>
           <div className='posicionarConteudo' style={{ zIndex: 4 }}>
             <div data-aos='fade-right' className='conteudo' id='conteudo1' style={{ marginTop: '0.5%' }}>
               <img className='conteudoimage' src={frontend}></img>
-              <h4>Front-End</h4>
+              <h4 style={{ color: "rgb(7, 176, 255)" }}>Front-End</h4>
               <h5>HTML, CSS, Javascript, React, Next.JS </h5>
             </div>
             <div data-aos='fade-right' className='conteudo' id='conteudo2' style={{ marginTop: '3%' }}>
               <img className='conteudoimage' src={backend}></img>
-              <h4>Back-End</h4>
+              <h4 style={{ color: "rgb(7, 176, 255)" }}>Back-End</h4>
               <h5>Node Js, MongoDB</h5>
 
 
             </div>
             <div data-aos='fade-right' className='conteudo' id='conteudo3' style={{ marginTop: '3%' }}>
               <img className='conteudoimage' src={ferramentas}></img>
-              <h4>Ferramentas</h4>
+              <h4 style={{ color: "rgb(7, 176, 255)" }}>{nativeLanguage ? "Ferramentas" : "Tools"}</h4>
               <h5>Figma, Photoshop, Git, Github</h5>
             </div>
 

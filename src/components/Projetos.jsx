@@ -8,7 +8,7 @@ import lamp from '../img/lamp.png'
 import firefly from './vagalume.png'
 import player from "../img/player.png"
 
-const Projetos = () => {
+const Projetos = (props) => {
 
   const [modalEcommerce, setModalEcommerce] = useState(false)
   const [modalEsports, setModalEsports] = useState(false)
@@ -123,12 +123,23 @@ const Projetos = () => {
     Aos.init({ duration: 1000 })
   }, [])
 
+
+  const [nativeLanguage, setNativeLanguage] = useState(true)
+
+
+
+  useEffect(() => {
+    setNativeLanguage(props.location)
+  }, [props.location]);
+
+
   const projetos = [
     {
       nome: 'Safire',
       image: 'imageContent',
       tecnologia: ['reactIcon', 'mongoIcon', 'nextIcon', 'javascriptIcon'],
-      texto: 'Loja online de vendas de produtos, com sistema de carrinho de compras, pagamentos, login, banco de dados proprio e área de admin para registro de novos produtos.',
+      texto: nativeLanguage ? "Loja online de vendas de produtos, com sistema de carrinho de compras, pagamentos, login, banco de dados proprio e área de admin para registro de novos produtos."
+        : "Online store for the sale of products, with a shopping cart system, payment processing, login functionality, a proprietary database, and an admin area for registering new products.",
       codigo: 'https://github.com/hlpires/ecommercemongodb',
       demo: 'https://ecommercemongodb.vercel.app/',
       video: true
@@ -137,7 +148,8 @@ const Projetos = () => {
       nome: 'Fast Crypto',
       image: 'imageContent2',
       tecnologia: ['reactIcon', 'mongoIcon', 'apiIcon', 'javascriptIcon'],
-      texto: 'Aplicação web para consulta de dados de crypto moedas, para analises de mercado utilizando gráficos',
+      texto: nativeLanguage ? 'Aplicação web para consulta de dados de crypto moedas, para analises de mercado utilizando gráficos'
+        : "Web application for querying cryptocurrency data for market analysis using charts",
       codigo: 'https://github.com/hlpires/fastcrypto',
       demo: 'https://fastcrypto-nu.vercel.app/'
     },
@@ -145,7 +157,8 @@ const Projetos = () => {
       nome: 'Web 3 project (Development)',
       image: 'imageContent3',
       tecnologia: ['solidityIcon', 'metamaskIcon', 'reactIcon', 'ethereumIcon'],
-      texto: 'Mercado de compra e vendas de NFTS, utlizando a rede Ethereum.',
+      texto: nativeLanguage ? 'Mercado de compra e vendas de NFTS, utlizando a rede Ethereum.'
+        : "Marketplace for buying and selling NFTs using the Ethereum network.",
       codigo: '',
       demo: ''
     },
@@ -153,7 +166,8 @@ const Projetos = () => {
       nome: 'Tecno Center',
       image: 'imageContent4',
       tecnologia: ['reactIcon', 'javascriptIcon', 'apiIcon', ''],
-      texto: 'Comercio online que utiliza uma api para fazer o banco de dados, sistema de pagamentos',
+      texto: nativeLanguage ? 'Comercio online que utiliza uma api para fazer o banco de dados, sistema de pagamentos'
+        : "Marketplace for buying and selling NFTs using the Ethereum network",
       codigo: 'https://github.com/hlpires/ecommercemongodb',
       demo: 'https://ecommerceapp-self.vercel.app/'
     },
@@ -182,8 +196,8 @@ const Projetos = () => {
         <div className='position' style={{ position: 'relative', paddingBottom: "70px" }}>
           <canvas className='fireflyShow' ref={canvasRef} style={{ position: 'absolute', width: '180px', height: '220px', top: '10px', right: '20px', zIndex: 7 }} id="canvas1"></canvas>
           <canvas className='fireflyShow' ref={canvasRef1} style={{ position: 'absolute', width: '180px', height: '23%', top: '10px', right: '20px', zIndex: 7 }} id="canvas2"></canvas>
-          <img className='fireflyShow' src={lamp} style={{ position: 'absolute', right: '20px', top: '20px', width: '170px', filter: 'drop-shadow(0 20px 40px rgba(0, 0, 0, 1.1))', zIndex: 7 }} />
-          <div className='sobreTitle fireflyShow'><h6>Projetos</h6></div>
+          <img className='fireflyShow' src={lamp} style={{ position: 'absolute', right: '20px', top: '20px', width: '170px', filter: 'drop-shadow(0 20px 40px rgba(0, 0, 0, 1.1))', zIndex: 6 }} />
+          <div className='sobreTitle fireflyShow'><h6>{nativeLanguage ? "Projetos" : "Projects"}</h6></div>
           {projetos.slice(0, more).map(({ nome, tecnologia, texto, codigo, demo, image, video }) => {
             return (
               <div className='projetosPosition'  >
@@ -191,7 +205,7 @@ const Projetos = () => {
                   <div style={{ position: "absolute", width: "100%", zIndex: 4 }}>
                     <p className='projetosTextContent'>{nome}</p>
                     <div style={{ width: '90%', height: '50px', marginLeft: '5%', display: 'flex' }}>
-                      <p style={{ alignSelf: 'center', fontSize: '26px', fontFamily: 'fantasy', color: 'white' }}>Técnologia:</p>
+                      <p style={{ alignSelf: 'center', fontSize: '26px', fontFamily: 'fantasy', color: 'white' }}>{nativeLanguage ? "Técnologia" : "Technology"}</p>
                       <div id={tecnologia[0]} style={{
                         width: '50px', height: '100%', alignSelf: 'center',
                         marginLeft: '2%'
@@ -213,7 +227,7 @@ const Projetos = () => {
                       <p className='projetosTextContent2'>{texto}</p>
                     </div>
                     {codigo && <div style={{ width: '90%', height: '50px', marginLeft: '5%', display: 'flex', marginTop: '20px', marginBottom: '20px' }}>
-                      <a href={codigo}><div className='buttonProject'><p style={{ alignSelf: 'center' }} >Codigo</p></div></a>
+                      <a href={codigo}><div className='buttonProject'><p style={{ alignSelf: 'center' }} > {nativeLanguage ? "Codigo" : "Code"}</p></div></a>
                       <a href={demo} style={{ marginLeft: '5%' }}><div className='buttonProject' ><p style={{ alignSelf: 'center' }} >Demo</p></div></a>
                     </div>}
                   </div>
@@ -249,7 +263,7 @@ const Projetos = () => {
               setShow('none')
             }
           } className='buttonExibir'>
-            <p style={{ alignSelf: 'center', }}>Exibir mais</p>
+            <p style={{ alignSelf: 'center', }}> {nativeLanguage ? "Exibir mais" : "Show more"}</p>
           </div>
         </div>
         <div className="modal1" ></div>
