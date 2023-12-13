@@ -156,9 +156,9 @@ const Contato = (props) => {
         {/* <canvas className='fireflyShow' ref={canvasRef} style={{ position: 'absolute', width: '180px', height: '220px', top: '10px', right: '20px', zIndex: 7 }} id="canvas1"></canvas>
         <canvas className='fireflyShow' ref={canvasRef1} style={{ position: 'absolute', width: '180px', height: '23%', top: '10px', right: '20px', zIndex: 7 }} id="canvas2"></canvas>
         <img className='fireflyShow' src={lamp} style={{ position: 'absolute', right: '20px', top: '-10px', width: '170px', zIndex: 6, filter: 'drop-shadow(0 20px 40px rgba(0, 0, 0, 1.1))' }} /> */}
-        <div style={{ zIndex: 4, position: "relative" }} className='sobreTitle'><h6> {nativeLanguage ? "Contato" : "Contact"}</h6></div>
+        <div style={{ zIndex: 4, position: "relative" }} className='sobreTitle'><h6> {nativeLanguage ? "Me envie um e-mail!" : "Get in touch!"}</h6></div>
 
-        <div data-aos='fade-right' className='email' style={{ zIndex: 4, position: "relative" }}>
+        <div className='email' style={{ zIndex: 4, position: "relative" }}>
           <form ref={form} onSubmit={sendEmail} >
 
             <input className='nomeInput' type="text" placeholder={nativeLanguage ? 'Nome' : "Name"} name="user_name" />
@@ -170,7 +170,7 @@ const Contato = (props) => {
           </form>
         </div>
 
-        <div data-aos='fade-right' className='telefones' style={{ zIndex: 4, position: "relative" }}>
+        <div className='telefones' style={{ zIndex: 4, position: "relative" }}>
           <div className='telefoneText'>{nativeLanguage ? "Celular:" : "mobile phone:"}</div>
           <div className='celular'>11970127930</div>
           <div className='telefoneText'>Email:</div>

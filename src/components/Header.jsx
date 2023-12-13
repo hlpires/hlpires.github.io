@@ -225,10 +225,10 @@ const Header = (props) => {
             <div className='menuText'><Link to="contato" spy={true} smooth={true} offset={50} duration={500}>{nativeLanguage ? "Contato" : "Contact"}</Link></div>
           </div>
           <div onClick={() => props.handleLocation()}
-            style={{ height: "35px", cursor: "pointer", width: "80px", border: "1px solid white", alignSelf: "center", position: "absolute", right: "320px", top: "35px", display: "flex" }}>
+            style={{ height: "35px", cursor: "pointer", width: "80px", border: "1px solid white", borderRadius: "5px", alignSelf: "center", position: "absolute", right: "320px", top: "35px", display: "flex" }}>
             <div style={{ width: "50%", display: "flex", justifyContent: "center", alignItems: "center" }}>
               {nativeLanguage && <img style={{ width: "100%", height: "100%" }} src={eua}></img>}
-              {!nativeLanguage && <p style={{ color: "white", textAlign: "center" }}>BR</p>}
+              {!nativeLanguage && <p style={{ color: "white", textAlign: "center" }}>PT</p>}
             </div>
             <div style={{ width: "50%", display: "flex", justifyContent: "center", alignItems: "center" }}>
               {!nativeLanguage && <img style={{ width: "100%", height: "100%" }} src={brasil}></img>}
