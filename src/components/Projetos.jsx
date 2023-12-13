@@ -152,8 +152,8 @@ const Projetos = (props) => {
       nome: 'Fast Crypto',
       image: 'imageContent2',
       tecnologia: ['reactIcon', 'mongoIcon', 'apiIcon', 'javascriptIcon'],
-      texto: nativeLanguage ? 'Aplicação web para consulta de dados de crypto moedas, para analises de mercado utilizando gráficos'
-        : "Web application for querying cryptocurrency data for market analysis using charts",
+      texto: nativeLanguage ? 'Aplicação web para consulta de dados de crypto moedas, para analises de mercado utilizando gráficos.'
+        : "Web application for querying cryptocurrency data for market analysis using charts.",
       codigo: 'https://github.com/hlpires/fastcrypto',
       demo: 'https://fastcrypto-nu.vercel.app/',
       animation: animationCrypto,
@@ -174,8 +174,8 @@ const Projetos = (props) => {
       nome: 'Tecno Center',
       image: 'imageContent4',
       tecnologia: ['reactIcon', 'javascriptIcon', 'apiIcon', ''],
-      texto: nativeLanguage ? 'Comercio online que utiliza uma api para fazer o banco de dados, sistema de pagamentos'
-        : "Marketplace for buying and selling NFTs using the Ethereum network",
+      texto: nativeLanguage ? 'Comercio online que utiliza uma api para fazer o banco de dados, sistema de pagamentos.'
+        : "Online commerce that utilizes an API to manage the database and payment system.",
       codigo: 'https://github.com/hlpires/ecommercemongodb',
       demo: 'https://ecommerceapp-self.vercel.app/',
       animation: animationEcomerce2,
@@ -252,7 +252,7 @@ const Projetos = (props) => {
                     <div style={{ position: "absolute", width: "100%", zIndex: 4 }}>
                       <p className='projetosTextContent'>{nome}</p>
                       <div style={{ width: '90%', height: '50px', marginLeft: '5%', display: 'flex' }}>
-                        <p style={{ alignSelf: 'center', fontSize: '26px', fontFamily: 'fantasy', color: 'white' }}>{nativeLanguage ? "Técnologia" : "Technology"}</p>
+                        <p style={{ alignSelf: 'center', fontSize: '26px', fontFamily: 'fantasy', color: 'white' }}>{nativeLanguage ? "Tecnologia" : "Technology"}</p>
                         <div id={tecnologia[0]} style={{
                           width: '50px', height: '100%', alignSelf: 'center',
                           marginLeft: '2%'

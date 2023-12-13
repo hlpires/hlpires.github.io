@@ -218,21 +218,23 @@ const Header = (props) => {
         </div>
         <canvas ref={canvasRef2} style={{ position: 'absolute', width: '25%', height: '23%', bottom: '5%', left: '0%', zIndex: 7 }} id="canvas1"></canvas>
         <canvas ref={canvasRef3} style={{ position: 'absolute', width: '25%', height: '23%', bottom: '5%', right: '25%', zIndex: 7 }} id="canvas1"></canvas>
-        <div className='menuPosition'>
-          <div className='menuHeader'>
-            <div className='menuText'><Link to="sobre" spy={true} smooth={true} offset={50} duration={500}> {nativeLanguage ? "Sobre" : "About"}</Link></div>
-            <div className='menuText'><Link to="projetos" spy={true} smooth={true} offset={50} duration={500}>{nativeLanguage ? "Projetos" : "Projects"}</Link></div>
-            <div className='menuText'><Link to="contato" spy={true} smooth={true} offset={50} duration={500}>{nativeLanguage ? "Contato" : "Contact"}</Link></div>
-          </div>
-          <div onClick={() => props.handleLocation()}
-            style={{ height: "35px", cursor: "pointer", width: "80px", border: "1px solid white", borderRadius: "5px", alignSelf: "center", position: "absolute", right: "320px", top: "35px", display: "flex" }}>
-            <div style={{ width: "50%", display: "flex", justifyContent: "center", alignItems: "center" }}>
-              {nativeLanguage && <img style={{ width: "100%", height: "100%" }} src={eua}></img>}
-              {!nativeLanguage && <p style={{ color: "white", textAlign: "center" }}>PT</p>}
+        <div className='menuPosition'  >
+          <div style={{ position: "relative", display: "flex", width: "100%", justifyContent: "center" }}>
+            <div className='menuHeader' style={{ alignSelf: "center" }}>
+              <div className='menuText'><Link to="sobre" spy={true} smooth={true} offset={50} duration={500}> {nativeLanguage ? "Sobre" : "About"}</Link></div>
+              <div className='menuText'><Link to="projetos" spy={true} smooth={true} offset={50} duration={500}>{nativeLanguage ? "Projetos" : "Projects"}</Link></div>
+              <div className='menuText'><Link to="contato" spy={true} smooth={true} offset={50} duration={500}>{nativeLanguage ? "Contato" : "Contact"}</Link></div>
             </div>
-            <div style={{ width: "50%", display: "flex", justifyContent: "center", alignItems: "center" }}>
-              {!nativeLanguage && <img style={{ width: "100%", height: "100%" }} src={brasil}></img>}
-              {nativeLanguage && <p style={{ color: "white", textAlign: "center" }}>EN</p>}
+            <div onClick={() => props.handleLocation()}
+              style={{ height: "35px", cursor: "pointer", width: "80px", border: "1px solid white", borderRadius: "5px", alignSelf: "center", position: "absolute", right: "250px", top: "35px", display: "flex", }}>
+              <div style={{ width: "50%", display: "flex", justifyContent: "center", alignItems: "center" }}>
+                {!nativeLanguage && <img style={{ width: "100%", height: "100%" }} src={eua}></img>}
+                {nativeLanguage && <p style={{ color: "white", textAlign: "center" }}>PT</p>}
+              </div>
+              <div style={{ width: "50%", display: "flex", justifyContent: "center", alignItems: "center" }}>
+                {nativeLanguage && <img style={{ width: "100%", height: "100%" }} src={brasil}></img>}
+                {!nativeLanguage && <p style={{ color: "white", textAlign: "center" }}>EN</p>}
+              </div>
             </div>
           </div>
         </div>

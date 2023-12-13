@@ -289,7 +289,7 @@
     background-color: black;
     opacity: 60%;
     position: fixed;
-    height: 10%;
+    height: 100px;
     z-index: 9;
     justify-content: center;
 }

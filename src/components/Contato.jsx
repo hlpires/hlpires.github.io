@@ -172,7 +172,7 @@ const Contato = (props) => {
 
         <div className='telefones' style={{ zIndex: 4, position: "relative" }}>
           <div className='telefoneText'>{nativeLanguage ? "Celular:" : "mobile phone:"}</div>
-          <div className='celular'>11970127930</div>
+          <div className='celular'>{nativeLanguage ? "11970127930" : "+5511970127930"}</div>
           <div className='telefoneText'>Email:</div>
           <div className='endereço'>higorlpires@gmail.com</div>
 
