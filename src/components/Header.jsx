@@ -5,6 +5,7 @@ import firefly1 from './maior.png'
 import arbust from './arbust.png'
 import eua from "../img/eua.png"
 import brasil from "../img/brasil.png"
+import GTranslateIcon from '@mui/icons-material/GTranslate';
 
 const Header = (props) => {
 
@@ -226,21 +227,22 @@ const Header = (props) => {
               <div className='menuText'><Link to="contato" spy={true} smooth={true} offset={50} duration={500}>{nativeLanguage ? "Contato" : "Contact"}</Link></div>
             </div>
             <div onClick={() => props.handleLocation()}
-              style={{ height: "35px", cursor: "pointer", width: "80px", border: "1px solid white", borderRadius: "5px", alignSelf: "center", position: "absolute", right: "250px", top: "35px", display: "flex", }}>
+              className='buttonHeaderArt'
+              style={{ height: "35px", cursor: "pointer", position: "relative", width: "80px", border: "1px solid white", borderRadius: "5px", alignSelf: "center", position: "absolute", right: "250px", top: "35px", display: "flex", }}>
+              <GTranslateIcon style={{ right: "90px", position: "absolute", color: "white", top: "2px", fontSize: "28px" }} />
               <div style={{ width: "50%", display: "flex", justifyContent: "center", alignItems: "center" }}>
-                {!nativeLanguage && <img style={{ width: "100%", height: "100%" }} src={eua}></img>}
-                {nativeLanguage && <p style={{ color: "white", textAlign: "center" }}>PT</p>}
+                {!nativeLanguage && <img style={{ width: "28px", height: "28px", borderRadius: "50%" }} src={eua}></img>}
+                {nativeLanguage && <p style={{ color: "black", fontWeight: "bold", textAlign: "center" }}>PT</p>}
               </div>
               <div style={{ width: "50%", display: "flex", justifyContent: "center", alignItems: "center" }}>
-                {nativeLanguage && <img style={{ width: "100%", height: "100%" }} src={brasil}></img>}
-                {!nativeLanguage && <p style={{ color: "white", textAlign: "center" }}>EN</p>}
+                {nativeLanguage && <img style={{ width: "30px", height: "28px", borderRadius: "50%" }} src={brasil}></img>}
+                {!nativeLanguage && <p style={{ color: "black", fontWeight: "bold", textAlign: "center" }}>EN</p>}
               </div>
             </div>
           </div>
         </div>
       </div>
       <div style={style} className='set'>
-
         <div className='headerText'>
           <div className='headerArt'></div>
           <h1>Higor Pires</h1>
