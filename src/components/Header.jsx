@@ -9,17 +9,13 @@ import GTranslateIcon from '@mui/icons-material/GTranslate';
 
 const Header = (props) => {
 
-  const [visivel, setVisivel] = useState('none')
   const [nativeLanguage, setNativeLanguage] = useState(true)
   const canvasRef = useRef();
   const canvasRef1 = useRef();
   const canvasRef2 = useRef();
   const canvasRef3 = useRef();
-  const canvasRef4 = useRef();
-  const style = {
-    display: visivel,
 
-  }
+
   const fireFlyArr = []
   const enemyImage = new Image();
   enemyImage.src = firefly
@@ -35,9 +31,7 @@ const Header = (props) => {
     const ctx3 = canvasRef3.current.getContext("2d");
     const ctx4 = canvasRef3.current.getContext("2d");
 
-    setTimeout(() => {
-      setVisivel('flex')
-    }, 1500)
+
 
     class Enemy {
       constructor() {
@@ -201,7 +195,7 @@ const Header = (props) => {
   return (
     <div className='header' style={{ position: 'relative', minHeight: '790px', minWidth: '1540px' }}>
 
-      <div style={{ ...style }} className='menu'>
+      <div className='menu'>
         <canvas ref={canvasRef} style={{ position: 'absolute', width: '25%', height: '23%', zIndex: 7, bottom: '5%', right: '0' }} id="canvas1"></canvas>
         <div style={{ position: 'absolute', width: '25%', height: '23%', bottom: '2.6vh', left: '25%' }}>
           <div style={{ position: 'relative', overflow: 'hidden', height: '100%', bottom: '10px', overflow: 'hidden', zIndex: 7 }}>
@@ -242,22 +236,23 @@ const Header = (props) => {
           </div>
         </div>
       </div>
-      <div style={style} className='set'>
-        <div className='headerText'>
-          <div className='headerArt'></div>
-          <h1>Higor Pires</h1>
-          <h1 id='h1S'>Full stack Developer</h1>
-          <div className='socialMediaBox'>
-            <a href='https://github.com/hlpires'><div className='socialMedia' id='socialMedia1'></div></a>
-            <a href='https://www.linkedin.com/in/higor-piresdev/'><div className='socialMedia' id='socialMedia3'></div></a>
-            <Link to="contato" spy={true} smooth={true} offset={500} duration={1100}> <div className='socialMedia' id='socialMedia2'> </div></Link>
-            {/* <Link spy={true} smooth={true} offset={50} duration={500}><div className = 'socialMedia' id = 'socialMedia3'></div></Link> */}
-          </div>
-          <div className='buttonHeader'>
-            <p style={{ alignSelf: 'center' }}> <Link to="projetos" spy={true} smooth={true} offset={50} duration={1200}>{nativeLanguage ? "Ver projetos" : "See projects"}</Link></p>
+      <div style={{ width: "100vw", height: "100vh", display: "flex", justifyContent: "center" }}>
+        <div className='set' >
+          <div className='headerText'>
+            <div className='headerArt'></div>
+            <h1 style={{ paddingTop: "20px", fontSize: "40px" }}>Higor Pires</h1>
+            <h1 id='h1S' style={{ fontSize: "20px" }} >Full stack Developer</h1>
+            <div className='socialMediaBox'>
+              <a href='https://github.com/hlpires'><div className='socialMedia' id='socialMedia1'></div></a>
+              <a href='https://www.linkedin.com/in/higor-piresdev/'><div className='socialMedia' id='socialMedia3'></div></a>
+              <Link to="contato" spy={true} smooth={true} offset={500} duration={1100}> <div className='socialMedia' id='socialMedia2'> </div></Link>
+              {/* <Link spy={true} smooth={true} offset={50} duration={500}><div className = 'socialMedia' id = 'socialMedia3'></div></Link> */}
+            </div>
+            <div className='buttonHeader'>
+              <p style={{ alignSelf: 'center' }}> <Link to="projetos" spy={true} smooth={true} offset={50} duration={1200}>{nativeLanguage ? "Ver projetos" : "See projects"}</Link></p>
+            </div>
           </div>
         </div>
-
 
       </div>
     </div >
