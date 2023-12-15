@@ -240,8 +240,8 @@ const Header = (props) => {
         <div className='set' >
           <div className='headerText'>
             <div className='headerArt'></div>
-            <h1 style={{ paddingTop: "20px", fontSize: "40px" }}>Higor Pires</h1>
-            <h1 id='h1S' style={{ fontSize: "20px" }} >Full stack Developer</h1>
+            <h1 style={{ paddingTop: "20px", fontSize: "2.5vw" }}>Higor Pires</h1>
+            <h1 id='h1S' style={{ fontSize: "20px", fontSize: "1vw" }} >Full stack Developer</h1>
             <div className='socialMediaBox'>
               <a href='https://github.com/hlpires'><div className='socialMedia' id='socialMedia1'></div></a>
               <a href='https://www.linkedin.com/in/higor-piresdev/'><div className='socialMedia' id='socialMedia3'></div></a>
