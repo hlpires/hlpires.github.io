@@ -239,23 +239,21 @@ const Header = (props) => {
       <div style={{ width: "100vw", height: "100vh", display: "flex", justifyContent: "center" }}>
         <div className='set' >
           <div className='headerText'>
-
             <div className='headerArt'></div>
-            <div style={{ width: "36%" }}>
-              <h1 style={{ paddingTop: "1%", fontSize: "2.5vw", whiteSpace: "nowrap" }}>Higor Pires</h1>
-              <h1 id='h1S' style={{ fontSize: "20px", fontSize: "1vw" }} >Full stack Developer</h1>
-              <div className='socialMediaBox'>
-                <a href='https://github.com/hlpires'><div className='socialMedia' id='socialMedia1'></div></a>
-                <a href='https://www.linkedin.com/in/higor-piresdev/'><div className='socialMedia' id='socialMedia3'></div></a>
-                <Link to="contato" spy={true} smooth={true} offset={500} duration={1100}> <div className='socialMedia' id='socialMedia2'> </div></Link>
-                {/* <Link spy={true} smooth={true} offset={50} duration={500}><div className = 'socialMedia' id = 'socialMedia3'></div></Link> */}
-              </div>
-              <div className='buttonHeader'>
-                <p style={{ alignSelf: 'center' }}> <Link to="projetos" spy={true} smooth={true} offset={50} duration={1200}>{nativeLanguage ? "Ver projetos" : "See projects"}</Link></p>
-              </div>
+            <h1 style={{ paddingTop: "20px", fontSize: "2.5vw" }}>Higor Pires</h1>
+            <h1 id='h1S' style={{ fontSize: "20px", fontSize: "1vw" }} >Full stack Developer</h1>
+            <div className='socialMediaBox'>
+              <a href='https://github.com/hlpires'><div className='socialMedia' id='socialMedia1'></div></a>
+              <a href='https://www.linkedin.com/in/higor-piresdev/'><div className='socialMedia' id='socialMedia3'></div></a>
+              <Link to="contato" spy={true} smooth={true} offset={500} duration={1100}> <div className='socialMedia' id='socialMedia2'> </div></Link>
+              {/* <Link spy={true} smooth={true} offset={50} duration={500}><div className = 'socialMedia' id = 'socialMedia3'></div></Link> */}
+            </div>
+            <div className='buttonHeader'>
+              <p style={{ alignSelf: 'center' }}> <Link to="projetos" spy={true} smooth={true} offset={50} duration={1200}>{nativeLanguage ? "Ver projetos" : "See projects"}</Link></p>
             </div>
           </div>
         </div>
+
       </div>
     </div >
   )
