@@ -14,7 +14,7 @@ const Contato = (props) => {
   // const fireFlyArr = []
   // const enemyImage = new Image();
 
-  // enemyImage.src = firefly
+  // enemyImage.src = fireflya
 
   // useEffect(() => {
 
