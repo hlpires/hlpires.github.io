@@ -106,10 +106,9 @@
 }
 
 .buttonHeader {
-    width: 25%;
-    margin-top: 30px;
+    width: 100%;
+    margin-top: 10%;
     height: 14%;
-    margin-right: 30px;
     background-color: rgba(8, 81, 165, 0.952);
     float: left;
     display: flex;
@@ -133,7 +132,7 @@
     background-image: url(./img/pxArt.png);
     background-size: 100% 100%;
     float: left;
-    margin-right: 2vw;
+    margin-right: 10%;
 }
 
 .header {
@@ -343,7 +342,7 @@
     font-size: 1.5vw;
     align-content: center;
     color: white;
-    display: block;
+    display: flex;
 }
 
 .headerTextMobile {
@@ -1502,12 +1501,7 @@ h4 {
         margin-bottom: 70px;
     }
 
-    .headerArt {
-        width: 400px;
-        height: 400px;
-        background-image: url(./img/pxArt.png);
-        background-size: 100% 100%;
-    }
+
 
     .socialMedia {
         min-width: calc(10px + 2vw);
