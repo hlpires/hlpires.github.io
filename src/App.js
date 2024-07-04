@@ -6,18 +6,17 @@ import './App.css'
 
 
 
-function App() {
-
-
-
+function App () {
+  //main
   return (
-    <div >
-      <Index />
-    </div>
-  )
-
-
-
+    <div>
+      <Header/>
+      <Sobre />
+      <Modal />
+      <Conhecimentos/>
+      <Projetos/>
+      <Contato/>
+    </div> )
 }
 
 export default App
