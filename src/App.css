@@ -117,7 +117,7 @@
     align-content: center;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1vw;
+    font-size: 20px;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -133,7 +133,6 @@
     background-image: url(./img/pxArt.png);
     background-size: 100% 100%;
     float: left;
-    margin-right: 2vw;
 }
 
 .header {
@@ -385,9 +384,7 @@ a {
 }
 
 .socialMedia {
-
-    margin-left: 1vw;
-    min-width: calc(10px + 2vw);
+    margin-left: 20px;
     border: 2px solid rgba(93, 164, 245, 0.952);
     float: left;
     height: 100%;
@@ -405,19 +402,19 @@ a {
 
 #socialMedia1 {
     margin-left: -0vw;
-    width: 3vw;
+    width: 50px;
     background-image: url(./img/socialmediagit.png);
 }
 
 #socialMedia2 {
 
-    width: 3vw;
+    width: 50px;
     background-size: 100% 100%;
     background-image: url(./img/socialmediasend.png);
 }
 
 #socialMedia3 {
-    width: 3vw;
+    width: 50px;
     background-image: url(./img/socialmediain.png);
 }
 
@@ -430,8 +427,7 @@ h1 {
 
     width: 100%;
     text-align: left;
-    font-size: 2.5vw;
-    margin-top: 1vw;
+    margin-top: 10px;
     color: rgb(7, 176, 255);
     align-content: center;
     align-self: center;
@@ -440,9 +436,8 @@ h1 {
 
 #h1S {
     color: white !important;
-    font-size: 1.0vw;
-    margin-top: 0.4vw;
-    height: 2vw;
+    margin-top: 10px;
+    margin-bottom: 20px;
     font-weight: lighter;
 
 }
@@ -462,13 +457,11 @@ h6 {
 
 .set {
     height: 300px;
-    min-height: 25%;
     font-weight: bolder;
     display: block;
     margin-top: 10%;
     position: absolute;
-    width: 730px;
-    min-width: 30%;
+    width: 700px;
 }
 
 .sobre {
