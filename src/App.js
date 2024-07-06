@@ -12,7 +12,7 @@ import './App.css'
 
 
 function App() {
-  //main
+  //maints
   return (
     <div>
       <Header />
