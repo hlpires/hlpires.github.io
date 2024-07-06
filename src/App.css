@@ -106,7 +106,7 @@
 }
 
 .buttonHeader {
-    width: 25%;
+    width: 100%;
     margin-top: 30px;
     height: 14%;
     margin-right: 30px;
@@ -343,7 +343,7 @@
     font-size: 1.5vw;
     align-content: center;
     color: white;
-    display: block;
+    display: flex;
 }
 
 .headerTextMobile {
