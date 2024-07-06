@@ -12,15 +12,17 @@ import './App.css'
 
 
 function App() {
+
+  const [translate, setTranslate] = useState(true)
   //maints
   return (
     <div>
-      <Header />
-      <Sobre />
-      <Modal />
+      <Header location={translate} handleLocation={() => setTranslate(prev => !prev)} />
+      <Sobre location={translate} />
+      <Modal location={translate} />
       {/* <Conhecimentos/> */}
-      <Projetos />
-      <Contato />
+      <Projetos location={translate} />
+      <Contato location={translate} />
     </div>)
 }
 
